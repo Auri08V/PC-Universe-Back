@@ -1,0 +1,703 @@
+{
+  "gabinetes": [
+    {
+      "modelo": "Fractal Design Meshify C",
+      "caracteristicas": "Diseño de malla para un excelente flujo de aire y refrigeración. Panel lateral de vidrio templado para mostrar los componentes internos.Soporte para radiadores de hasta 280 mm en la parte frontal y superior.Espacio para GPU de hasta 315 mm de longitud.Filtros de polvo extraíbles para facilitar la limpieza.",
+      "img": "https://www.fractal-design.com/app/uploads/2019/06/Meshify-C_1.jpg",
+      "dimensiones": "41.2 x 23.5 x 39.5 cm"
+    },
+    {
+      "modelo": "Lian Li PC-O11 Dynamic",
+      "caracteristicas": "Elegante diseño con paneles de vidrio templado en el frente, laterales y techo.Amplio espacio interior para sistemas de refrigeración personalizados y componentes de alto rendimiento. Soporte para radiadores de hasta 360 mm en la parte superior y lateral.Iluminación RGB opcional con controlador incluido. Espacio para GPU de hasta 420 mm de longitud",
+      "img": "https://lian-li.com/wp-content/uploads/2020/11/O11D-black-side.jpg",
+      "dimensiones": "45.5 x 27 x 47 cm"
+    },
+    {
+      "modelo": "Phanteks Enthoo Pro II",
+      "caracteristicas": "Diseño modular con múltiples opciones de configuración.Espacio para hasta 9 ventiladores para un rendimiento de enfriamiento excepcional.Compatibilidad con placas base de tamaño E-ATX y tarjetas gráficas de hasta 503 mm de longitud.Amplio espacio para sistemas de enfriamiento líquido personalizados.Paneles de vidrio templado en el lateral y frontal.",
+      "img": "https://www.profesionalreview.com/wp-content/uploads/2020/07/Phanteks-Enthoo-Pro-2-caja-de-alta-gama-con-High-Performance-Fabric_3.jpg",
+      "dimensiones": "55 x 24.7 x 55.8 cm"
+    },
+    {
+      "modelo": "Dark Base 700",
+      "caracteristicas": "Panel frontal de aluminio cepillado y panel lateral de vidrio tintado.Sistema de aislamiento de ruido para un funcionamiento silencioso.Soporte para hasta 7 ventiladores y múltiples radiadores.Sistema modular para una fácil personalización del interior.Espacio para GPU de hasta 430 mm de longitud.",
+      "img": "https://www.bequiet.com/admin/ImageServer.php?ID=ef21ea11153@be-quiet.net&omitPreview=true&.jpg",
+      "dimensiones": "53.8 x 24.2 x 57.3 cm"
+    },
+    {
+      "modelo": "Cooler Master MasterCase H500",
+      "caracteristicas": "Frontal de malla para un flujo de aire óptimo y una mejor refrigeración.Iluminación RGB en el frente y en la parte superior del chasis.Soporte para radiadores de hasta 360 mm en la parte frontal y superior.Espacio para tarjetas gráficas de hasta 410 mm de longitud.Asa de transporte para facilitar el transporte.",
+      "img": "https://lanware.com.ar/assets/files/abm_productos_imagenes/MCMH500IGNN.jpg",
+      "dimensiones": "52.6 x 24.2 x 55.6 cm"
+    },
+    {
+      "modelo": "NZXT H710i",
+      "caracteristicas": "Panel frontal y laterales de vidrio templado para una visualización clara del interior.Sistema de gestión de cables inteligente para un montaje limpio y ordenado.Soporte para hasta 7 ventiladores y radiadores de hasta 360 mm para una excelente refrigeración.Espacio para GPU de hasta 413 mm de longitud.Controlador de iluminación RGB integrado y tiras LED incluidas.",
+      "img": "https://mcegamer.com/wp-content/uploads/2020/12/CA-H710I-W1-1.jpg",
+      "dimensiones": "49.8 x 23.5 x 51.7 cm"
+    },
+    {
+      "modelo": "Corsair Obsidian 500D RGB SE",
+      "caracteristicas": "Diseño elegante con paneles de vidrio templado en el frente y ambos lados.Iluminación RGB personalizable con ventiladores LED incluidos.Amplio espacio interior para una fácil instalación y gestión de cables.Soporte para refrigeración líquida y hasta 6 ventiladores.Filtros de polvo extraíbles para un mantenimiento sencillo.",
+      "img": "https://app.contabilium.com/files/explorer/7026/Productos-Servicios/concepto-4492157.jpg",
+      "dimensiones": "50.2 x 23.0 x 50.7 cm"
+    },
+    {
+      "modelo": "Cooler Master MasterBox MB530P",
+      "caracteristicas": "Frontal de malla para un flujo de aire óptimo y un mejor enfriamiento. Tres ventiladores RGB direccionables preinstalados para una iluminación impresionante. Soporte para radiadores de hasta 360 mm en la parte frontal y superior. Espacio para tarjetas gráficas de hasta 410 mm de longitud.Cubierta de PSU y sistema de gestión de cables para un aspecto limpio.",
+      "img": "https://www.fullh4rd.com.ar/img/productos/6/gabinete-colermaster-masterbox--mb530p--argb-0.jpg",
+      "dimensiones": "49.6 x 23.8 x 52.8 cm"
+    }
+  ],
+
+  "memorias ram": [
+    {
+      "modelo": "Corsair Vengeance LPX",
+      "img": "https://www.fullh4rd.com.ar/img/productos/4/memoria-8gb-ddr4-2666-corsair-vengeance-lpx-0.jpg",
+      "Generación DDR": "DDR4",
+      "Capacidad": "16GB (2x8GB)",
+      "Velocidad": "3200MHz",
+      "Latencia": "CL16",
+      "Tipo de módulo": "UDIMM (Unbuffered DIMM)",
+      "Detalle": "Disipador de calor de aluminio para una mejor disipación del calor y mayor rendimiento."
+    },
+    {
+      "modelo": "G.Skill Trident Z RGB",
+      "img": "https://www.fullh4rd.com.ar/img/productos/4/memoria-16gb-2x8gb-ddr4-3600-gskill-trident-z-rgb-cl19-0.jpg",
+      "Generación DDR": "DDR4",
+      "Capacidad": "32GB (2x16GB)",
+      "Velocidad": "3600MHz",
+      "Latencia": "CL16",
+      "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
+      "Detalle": "Iluminación RGB personalizable con sincronización de efectos a través de software."
+    },
+    {
+      "modelo": "Kingston HyperX Fury",
+      "img": "https://media.kingston.com/kingston/features/ktc-features-memory-beast-ddr4.jpg",
+      "Generación DDR": "DDR4",
+      "Capacidad": "8GB",
+      "Velocidad": "2666MHz",
+      "Latencia": "CL16",
+      "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
+      "Detalle": "Diseño de perfil bajo ideal para sistemas con espacio limitado."
+    },
+    {
+      "modelo": "Crucial Ballistix RGB",
+      "img": "https://www.deffo.com.ar/wp-content/uploads/2021/05/BL8GxxC16U4BL-1.jpg",
+      "Generación DDR": "DDR4",
+      "Capacidad": "32GB (2x16GB)",
+      "Velocidad": "3200MHz",
+      "Latencia": "CL16",
+      "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
+      "Detalle": "Iluminación RGB personalizable y compatible con software de control RGB."
+    },
+    {
+      "modelo": "Team T-Force Vulcan Z",
+      "img": "https://shiny-core.com/wp-content/uploads/2022/05/RAM-DDR4-TEAMGROUP-T-FORCE-VULCAN-Z-GRAY.jpg",
+      "Generación DDR": "DDR4",
+      "Capacidad": "16GB (2x8GB)",
+      "Velocidad": "3000MHz",
+      "Latencia": "CL16",
+      "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
+      "Detalle": "Disipador de calor de aluminio para una mejor gestión térmica."
+    },
+    {
+      "modelo": "Patriot Viper Steel Series",
+      "img": "https://www.deffo.com.ar/wp-content/uploads/2020/08/Viper-Steel-2.jpg",
+      "Generación DDR": "DDR4",
+      "Capacidad": "16GB (2x8GB)",
+      "Velocidad": "3600MHz",
+      "Latencia": "CL18",
+      "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
+      "Detalle": "Diseño elegante con disipador de calor para un rendimiento confiable."
+    },
+    {
+      "modelo": "Adata XPG Spectrix D41",
+      "img": "https://www.deffo.com.ar/wp-content/uploads/2021/04/XPG-Spectrix-D41-1.jpg",
+      "Generación DDR": "DDR4",
+      "Capacidad": "32GB (2x16GB)",
+      "Velocidad": "3200MHz",
+      "Latencia": "CL16",
+      "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
+      "Detalle": "Iluminación RGB configurable con software del fabricante."
+    },
+    {
+      "modelo": "Corsair Dominator Platinum RGB",
+      "img": "https://app.contabilium.com/files/explorer/7026/Productos-Servicios/concepto-7515670.jpg",
+      "Generación DDR": "DDR4",
+      "Capacidad": "64GB (4x16GB)",
+      "Velocidad": "3200MHz",
+      "Latencia": "CL16",
+      "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
+      "Detalle": "Disipador de calor de aluminio de alta calidad con iluminación RGB personalizable."
+    }
+  ],
+  "placas graficas": [
+    {
+      "Modelo": "NVIDIA GeForce RTX 3090",
+      "img": "https://m.media-amazon.com/images/I/61wbV8oqAbL.jpg",
+      "Arquitectura": "Ampere",
+      "VRAM": "24GB GDDR6X",
+      "Interfaz de Memoria": "384 bits",
+      "Núcleos CUDA": "10496",
+      "Ray Tracing y DLSS": "Sí",
+      "Soporte de Resolución": "8K",
+      "Conexiones": "HDMI 2.1, DisplayPort 1.4a"
+    },
+
+    {
+      "Modelo": "AMD Radeon RX 6900 XT",
+      "img": "https://m.media-amazon.com/images/I/4178P0YUeJL._AC_SX355_.jpg",
+      "Arquitectura": "RDNA 2",
+      "VRAM": "16GB GDDR6",
+      "Interfaz de Memoria": "256 bits",
+      "Núcleos de Cálculo": "5120",
+      "Ray Tracing y FidelityFX Super Resolution": "Sí",
+      "Soporte de Resolución": "4K",
+      "Conexiones": "HDMI 2.1, DisplayPort 1.4"
+    },
+
+    {
+      "Modelo": "NVIDIA GeForce RTX 3080 Ti",
+      "img": "https://ae04.alicdn.com/kf/S9da4ae1d57164da6aa85a838ec225ad2N.jpg",
+      "Arquitectura": "Ampere",
+      "VRAM": "10GB GDDR6X",
+      "Interfaz de Memoria": "320 bits",
+      "Núcleos CUDA": "8704",
+      "Ray Tracing y DLSS": "Sí",
+      "Soporte de Resolución": "4K",
+      "Conexiones": "HDMI 2.1, DisplayPort 1.4a"
+    },
+
+    {
+      "Modelo": "AMD Radeon RX 6800 XT",
+      "img": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/1664/innergigabyteimages/kf-img.png",
+      "Arquitectura": "RDNA 2",
+      "VRAM": "16GB GDDR6",
+      "Interfaz de Memoria": "256 bits",
+      "Núcleos de Cálculo": "4608",
+      "Ray Tracing y FidelityFX Super Resolution": "Sí",
+      "Soporte de Resolución": "4K",
+      "Conexiones": "HDMI 2.1, DisplayPort 1.4"
+    },
+
+    {
+      "Modelo": "NVIDIA GeForce RTX 3060 Ti",
+      "img": "https://www.fullh4rd.com.ar/img/productos/3/video-geforce-rtx-3060-ti-8gb-pny-uprising-dual-lhr-2.jpg",
+      "Arquitectura": "Ampere",
+      "VRAM": "8GB GDDR6",
+      "Interfaz de Memoria": "256 bits",
+      "Núcleos CUDA": "4864",
+      "Ray Tracing y DLSS": "Sí",
+      "Soporte de Resolución": "1440p",
+      "Conexiones": "HDMI 2.1, DisplayPort 1.4a"
+    },
+
+    {
+      "Modelo": "AMD Radeon RX 6700 XT",
+      "img": "https://tpucdn.com/gpu-specs/images/c/3695-bottom.jpg",
+      "Arquitectura": "RDNA 2",
+      "VRAM": "12GB GDDR6",
+      "Interfaz de Memoria": "192 bits",
+      "Núcleos de Cálculo": "2560",
+      "Ray Tracing y FidelityFX Super Resolution": " Sí",
+      "Soporte de Resolución": "1440p",
+      "Conexiones": "HDMI 2.1, DisplayPort 1.4"
+    },
+
+    {
+      "Modelo": "NVIDIA GeForce RTX 3060",
+      "img": "https://images.hothardware.com/contentimages/article/3074/content/small_nvidia-geforce-rtx-3060-angle-1.JPG",
+      "Arquitectura": "Ampere",
+      "VRAM": "12GB GDDR6",
+      "Interfaz de Memoria": "192 bits",
+      "Núcleos CUDA": "3584",
+      "Ray Tracing y DLSS": "Sí",
+      "Soporte de Resolución": "1080p",
+      "Conexiones": "HDMI 2.1, DisplayPort 1.4a"
+    },
+
+    {
+      "Modelo": "AMD Radeon RX 6600 XT",
+      "img": "https://www.amd.com/system/files/2021-07/910022-amd-radeon-6600XT-angle1260x709_0.png",
+      "Arquitectura": "RDNA 2",
+      "VRAM": "8GB GDDR6",
+      "Interfaz de Memoria": "128 bits",
+      "Núcleos de Cálculo": "2048",
+      "Ray Tracing y FidelityFX Super Resolution": "Sí",
+      "Soporte de Resolución": "1080p",
+      "Conexiones": "HDMI 2.1, DisplayPort 1.4"
+    }
+  ],
+
+  "monitores": [
+    {
+      "modelo": "Dell UltraSharp U2419H",
+      "tamaño_pantalla": "24 pulgadas",
+      "resolucion": "1920x1080 Full HD",
+      "tipo_panel": "IPS",
+      "frecuencia_actualizacion": "60Hz",
+      "tiempo_respuesta": "5ms",
+      "conectividad": ["HDMI", "DisplayPort", "USB 3.0"],
+      "hdr_compatible": "no",
+      "precio": 200,
+      "imagen": "https://dojiw2m9tvv09.cloudfront.net/39394/product/210-arcf_v36412.png"
+    },
+    {
+      "modelo": "ASUS VG279Q",
+      "tamaño_pantalla": "27 pulgadas",
+      "resolucion": "1920x1080 Full HD",
+      "tipo_panel": "IPS",
+      "frecuencia_actualizacion": "144Hz",
+      "tiempo_respuesta": "1ms",
+      "conectividad": ["HDMI", "DisplayPort", "DVI-D"],
+      "hdr_compatible": "no",
+      "precio": 300,
+      "imagen": "https://oechsle.vteximg.com.br/arquivos/ids/9847058-1000-1000/imageUrl_2.jpg?v=637937211002570000"
+    },
+    {
+      "modelo": "LG 34WK95U-W",
+      "tamaño_pantalla": "34 pulgadas",
+      "resolucion": "5120x2160 5K UltraWide",
+      "tipo_panel": "Nano IPS",
+      "frecuencia_actualizacion": "60Hz",
+      "tiempo_respuesta": "5ms",
+      "conectividad": ["HDMI", "DisplayPort", "USB-C"],
+      "hdr_compatible": "si",
+      "precio": 1000,
+      "imagen": "https://i.rtings.com/assets/products/fHegYHmI/lg-34wk95u-w/design-medium.jpg"
+    },
+    {
+      "modelo": "AOC CQ32G1",
+      "tamaño_pantalla": "32 pulgadas",
+      "resolucion": "2560x1440 QHD",
+      "tipo_panel": "VA",
+      "frecuencia_actualizacion": "144Hz",
+      "tiempo_respuesta": "4ms",
+      "conectividad": ["HDMI", "DisplayPort"],
+      "hdr_compatible": "no",
+      "precio": 350,
+      "imagen": "https://m.media-amazon.com/images/I/81awCv2BspL._AC_SL1500_.jpg"
+    },
+    {
+      "modelo": "Samsung Odyssey G7",
+      "tamaño_pantalla": "27 pulgadas",
+      "resolucion": "2560x1440 QHD",
+      "tipo_panel": "VA",
+      "frecuencia_actualizacion": "240Hz",
+      "tiempo_respuesta": "1ms",
+      "conectividad": ["HDMI", "DisplayPort", "USB 3.0"],
+      "hdr_compatible": "si",
+      "precio": 700,
+      "imagen": "https://promart.vteximg.com.br/arquivos/ids/7222373-1000-1000/image-1.jpg?v=638234772286400000"
+    },
+    {
+      "modelo": "BenQ PD2700U",
+      "tamaño_pantalla": "27 pulgadas",
+      "resolucion": "3840x2160 4K UHD",
+      "tipo_panel": "IPS",
+      "frecuencia_actualizacion": "60Hz",
+      "tiempo_respuesta": "5ms",
+      "conectividad": ["HDMI", "DisplayPort", "USB-C"],
+      "hdr_compatible": "no",
+      "precio": 500,
+      "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/25966806-300-300/image-f495101d7422430e9bacb8250eb50c8e.jpg?v=638149522312300000"
+    },
+    {
+      "modelo": "ViewSonic VX2458-MHD",
+      "tamaño_pantalla": "24 pulgadas",
+      "resolucion": "1920x1080 Full HD",
+      "tipo_panel": "TN",
+      "frecuencia_actualizacion": "144Hz",
+      "tiempo_respuesta": "1ms",
+      "conectividad": ["HDMI", "DisplayPort", "VGA"],
+      "hdr_compatible": "no",
+      "precio": 250,
+      "imagen": "https://oechsle.vteximg.com.br/arquivos/ids/15423777-1500-1500/image-0.jpg?v=638237333114600000"
+    },
+    {
+      "modelo": "Acer Predator X34",
+      "tamaño_pantalla": "34 pulgadas",
+      "resolucion": "3440x1440 QHD UltraWide",
+      "tipo_panel": "IPS",
+      "frecuencia_actualizacion": "120Hz",
+      "tiempo_respuesta": "4ms",
+      "conectividad": ["HDMI", "DisplayPort", "USB 3.0"],
+      "hdr_compatible": "si",
+      "precio": 900,
+      "imagen": "https://m.media-amazon.com/images/I/612yBrnxozL._AC_UF894,1000_QL80_.jpg"
+    }
+  ],
+  "almacenamiento": [
+    {
+      "modelo": "Samsung 970 EVO",
+      "tipo": "SSD",
+      "capacidad": "1TB",
+      "interfaz": "M.2 NVMe",
+      "velocidad_lectura": "3500 MB/s",
+      "velocidad_escritura": "2500 MB/s",
+      "precio": 189.99,
+      "imagen": "https://promart.vteximg.com.br/arquivos/ids/6634255-1000-1000/image-6b45bae7780e4b55ad8b3db564fa30a2.jpg?v=638050077146000000"
+    },
+    {
+      "modelo": "Western Digital Blue",
+      "tipo": "HDD",
+      "capacidad": "2TB",
+      "interfaz": "SATA 6Gb/s",
+      "velocidad_rotacion": "5400 RPM",
+      "precio": 64.99,
+      "imagen": "https://devercomp.pe/wp-content/uploads/2020/12/1-121.jpg"
+    },
+    {
+      "modelo": "Crucial MX500",
+      "tipo": "SSD",
+      "capacidad": "500GB",
+      "interfaz": "SATA 6Gb/s",
+      "velocidad_lectura": "560 MB/s",
+      "velocidad_escritura": "510 MB/s",
+      "precio": 69.99,
+      "imagen": "https://falabella.scene7.com/is/image/FalabellaPE/113971024_1?wid=800&hei=800&qlt=70"
+    },
+    {
+      "modelo": "Seagate BarraCuda",
+      "tipo": "HDD",
+      "capacidad": "4TB",
+      "interfaz": "SATA 6Gb/s",
+      "velocidad_rotacion": "5400 RPM",
+      "precio": 92.99,
+      "imagen": "https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F1715%2FELECTROHOGAR%2FDISCO-DURO-SEAGATE-BARRACUDA-4TB-5400-RPM_184533555928_52.jpeg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=a6de7e8d68a86359b2f0f148644b5e4e"
+    },
+    {
+      "modelo": "ADATA XPG SX8200 Pro",
+      "tipo": "SSD",
+      "capacidad": "1TB",
+      "interfaz": "M.2 NVMe",
+      "velocidad_lectura": "3500 MB/s",
+      "velocidad_escritura": "3000 MB/s",
+      "precio": 138.99,
+      "imagen": "https://m.media-amazon.com/images/I/71Q4ukBjtRL._AC_SL1500_.jpg"
+    },
+    {
+      "modelo": "Toshiba X300",
+      "tipo": "HDD",
+      "capacidad": "6TB",
+      "interfaz": "SATA 6Gb/s",
+      "velocidad_rotacion": "7200 RPM",
+      "precio": 171.99,
+      "imagen": "https://images-na.ssl-images-amazon.com/images/I/71Mh0J8FoeL._AC_UL600_SR600,600_.jpg"
+    },
+    {
+      "modelo": "Kingston A2000",
+      "tipo": "SSD",
+      "capacidad": "250GB",
+      "interfaz": "M.2 NVMe",
+      "velocidad_lectura": "2000 MB/s",
+      "velocidad_escritura": "1100 MB/s",
+      "precio": 49.99,
+      "imagen": "https://media.kingston.com/kingston/press/A2000_press_release_455x284.jpg"
+    },
+    {
+      "modelo": "Seagate FireCuda",
+      "tipo": "SSHD",
+      "capacidad": "2TB",
+      "interfaz": "SATA 6Gb/s",
+      "velocidad_rotacion": "5400 RPM",
+      "precio": 97.99,
+      "imagen": "https://m.media-amazon.com/images/I/517Q8c6M9NL._AC_.jpg"
+    }
+  ],
+  "fuentes_de_poder": [
+    {
+      "modelo": "EVGA Supernova 750 G5",
+      "potencia": "750W",
+      "certificacion": "80 Plus Gold",
+      "modular": "si",
+      "ventilador": "135mm",
+      "conectores": {
+        "cpu": "1 x ATX 4+4 pines",
+        "gpu": "4 x PCIe 8/6 pines",
+        "sata": "9 x SATA",
+        "peripheral": "4 x 4 pines"
+      },
+      "precio": 129.99,
+      "imagen": "https://images.evga.com/products/gallery/png/220-G5-0750-X1_XL_1.png"
+    },
+    {
+      "modelo": "Corsair RM750x",
+      "potencia": "750W",
+      "certificacion": "80 Plus Gold",
+      "modular": "si",
+      "ventilador": "135mm",
+      "conectores": {
+        "cpu": "1 x ATX 4+4 pines",
+        "gpu": "4 x PCIe 8/6 pines",
+        "sata": "8 x SATA",
+        "peripheral": "4 x 4 pines"
+      },
+      "precio": 129.99,
+      "imagen": "https://cdn.mos.cms.futurecdn.net/9xcZipTCuEsjcmtE5kcpP7.jpg"
+    },
+    {
+      "modelo": "Seasonic Focus GX-650",
+      "potencia": "650W",
+      "certificacion": "80 Plus Gold",
+      "modular": "si",
+      "ventilador": "120mm",
+      "conectores": {
+        "cpu": "1 x ATX 4+4 pines",
+        "gpu": "4 x PCIe 8/6 pines",
+        "sata": "8 x SATA",
+        "peripheral": "3 x 4 pines"
+      },
+      "precio": 109.99,
+      "imagen": "https://seasonic.com/pub/media/catalog/product/cache/3cbda8e892dc62fc02660815c2a4b231/f/o/focus-gx-650-box_1.jpg"
+    },
+    {
+      "modelo": "Thermaltake Toughpower GF1 750W",
+      "potencia": "750W",
+      "certificacion": "80 Plus Gold",
+      "modular": "si",
+      "ventilador": "140mm",
+      "conectores": {
+        "cpu": "2 x ATX 4+4 pines",
+        "gpu": "4 x PCIe 8/6 pines",
+        "sata": "9 x SATA",
+        "peripheral": "4 x 4 pines"
+      },
+      "precio": 119.99,
+      "imagen": "https://m.media-amazon.com/images/I/71DDgVE794L.jpg"
+    },
+    {
+      "modelo": "NZXT C850",
+      "potencia": "850W",
+      "certificacion": "80 Plus Gold",
+      "modular": "si",
+      "ventilador": "120mm",
+      "conectores": {
+        "cpu": "2 x ATX 4+4 pines",
+        "gpu": "6 x PCIe 8/6 pines",
+        "sata": "10 x SATA",
+        "peripheral": "4 x 4 pines"
+      },
+      "precio": 129.99,
+      "imagen": "https://nzxt.com/assets/cms/34299/1652147035-power_c_series_gold_c850-vents-up-right.png?auto=format&fit=crop&h=1000&w=1000"
+    }
+  ],
+
+  "procesadores": [
+    {
+      "nombre": "Intel Core i9-11900K",
+      "nucleos": "8 / 16",
+      "frecuencia_base": "3.5 GHz",
+      "frecuencia_maxima": "5.3 GHz (Turbo Boost)",
+      "cache": "16 MB",
+      "tdp": "125W",
+      "socket": "LGA1200",
+      "fabricante": "Intel",
+      "img:": "https://s3-sa-east-1.amazonaws.com/saasargentina/Uz8Y5a3wWp9aQfPfHyjW/imagen"
+    },
+    {
+      "nombre": "Intel Core i7-11700K",
+      "nucleos": "8 / 16",
+      "frecuencia_base": "3.6 GHz",
+      "frecuencia_maxima": "5.0 GHz (Turbo Boost)",
+      "cache": "16 MB",
+      "tdp": "125W",
+      "socket": "LGA1200",
+      "fabricante": "Intel",
+      "img:": "https://d3ugyf2ht6aenh.cloudfront.net/stores/599/423/products/71p3chrzgnl11-947bf647ae6fd33d7816673303367512-640-0.jpg"
+    },
+    {
+      "nombre": "Intel Core i5-11600K",
+      "nucleos": "6 / 12",
+      "frecuencia_base": "3.9 GHz",
+      "frecuencia_maxima": "4.9 GHz (Turbo Boost)",
+      "cache": "12 MB",
+      "tdp": "125W",
+      "socket": "LGA1200",
+      "fabricante": "Intel",
+      "img:": "https://www.fullh4rd.com.ar/img/productos/1/micro-intel-core-i5-11600k-11-gen-0.jpg"
+    },
+    {
+      "nombre": "Intel Core i9-12900K",
+      "nucleos": "8 / 24",
+      "frecuencia_base": "3.2 GHz",
+      "frecuencia_maxima": "5.3 GHz (Turbo Boost)",
+      "cache": "30 MB",
+      "tdp": "125W",
+      "socket": "LGA1700",
+      "fabricante": "Intel",
+      "img": "https://www.fullh4rd.com.ar/img/productos/1/micro-intel-core-i9-12900-s1700-0.jpg"
+    },
+    {
+      "nombre": "Intel Core i7-12700K",
+      "nucleos": "8 / 20",
+      "frecuencia_base": "3.6 GHz",
+      "frecuencia_maxima": "5.0 GHz (Turbo Boost)",
+      "cache": "25 MB",
+      "tdp": "125W",
+      "socket": "LGA1700",
+      "fabricante": "Intel",
+      "img": "https://www.fullh4rd.com.ar/img/productos/1/micro-intel-core-i7-12700k-scooler-s1700--barato-q-12700kf-0.jpg"
+    },
+    {
+      "nombre": "AMD Ryzen 9 5950X",
+      "nucleos": "16 / 32",
+      "frecuencia_base": "3.4 GHz",
+      "frecuencia_maxima": "4.9 GHz (Max Boost)",
+      "cache": "72 MB",
+      "tdp": "105W",
+      "socket": "AM4",
+      "fabricante": "AMD",
+      "img": "https://www.fullh4rd.com.ar/img/productos/1/micro-amd-ryzen-9-5950x-scooler-svideo-0.jpg"
+    },
+    {
+      "nombre": "AMD Ryzen 9 5900X",
+      "nucleos": "12 / 24",
+      "frecuencia_base": "3.7 GHz",
+      "frecuencia_maxima": "4.8 GHz (Max Boost)",
+      "cache": "70 MB",
+      "tdp": "105W",
+      "socket": "AM4",
+      "fabricante": "AMD",
+      "img": "https://www.fullh4rd.com.ar/img/productos/1/micro-amd-ryzen-9-5900x-scooler-svideo-0.jpg"
+    },
+    {
+      "nombre": "AMD Ryzen 7 5800X",
+      "nucleos": "8 / 16",
+      "frecuencia_base": "3.8 GHz",
+      "frecuencia_maxima": "4.7 GHz (Max Boost)",
+      "cache": "36 MB",
+      "tdp": "105W",
+      "socket": "AM4",
+      "fabricante": "AMD",
+      "img": "https://www.venex.com.ar/products_images/1605015858_microprocesadoramdryzen75800x.jpg"
+    },
+    {
+      "nombre": "AMD Ryzen 9 5900HS",
+      "nucleos": "8 / 16",
+      "frecuencia_base": "3.3 GHz",
+      "frecuencia_maxima": "4.6 GHz (Max Boost)",
+      "cache": "16 MB",
+      "tdp": "35W",
+      "socket": "FP6",
+      "fabricante": "AMD",
+      "img": "https://www.xt-pc.com.ar/img/productos/Pics_Prod/CPU572.jpg"
+    }
+  ],
+  "placas_base_amd": [
+    {
+      "nombre": "ASUS ROG Crosshair VIII Formula",
+      "socket": "AM4",
+      "chipset": "AMD X570",
+      "memoria_ram": "DDR4",
+      "pci_express": "PCIe 4.0",
+      "red": "Wi-Fi 6, Bluetooth 5.0",
+      "usb": "USB 3.2 Gen 2",
+      "formato": "ATX",
+      "img": "https://elchapuzasinformatico.com/wp-content/uploads/2019/07/Asus-ROG-Crosshair-VIII-Formula-Oficial.jpg"
+    },
+    {
+      "nombre": "Gigabyte B550 AORUS Pro",
+      "socket": "AM4",
+      "chipset": "AMD B550",
+      "memoria_ram": "DDR4",
+      "pci_express": "PCIe 4.0",
+      "red": "No",
+      "usb": "USB 3.2 Gen 2",
+      "formato": "ATX",
+      "img": "https://www.deffo.com.ar/wp-content/uploads/2022/03/B550-AORUS-PRO-AX-1.webp"
+    },
+    {
+      "nombre": "MSI MPG B550 GAMING EDGE WIFI",
+      "socket": "AM4",
+      "chipset": "AMD B550",
+
+      "memoria_ram": "DDR4",
+      "pci_express": "PCIe 4.0",
+      "red": "Wi-Fi 6, Bluetooth 5.1",
+      "usb": "USB 3.2 Gen 2",
+      "formato": "ATX",
+      "img": "https://www.impacto.com.pe/storage/products/16138436583.jpg"
+    },
+    {
+      "nombre": "ASRock B550M PRO4",
+      "socket": "AM4",
+      "chipset": "AMD B550",
+      "memoria_ram": "DDR4",
+      "pci_express": "PCIe 4.0",
+      "red": "No",
+      "usb": "USB 3.2 Gen 2",
+      "formato": "mATX",
+      "img": "https://images10.newegg.com/BizIntell/item/13/157/13-157-939/B550-PG-Velocita_062420.jpg"
+    },
+    {
+      "nombre": "Gigabyte B550I AORUS PRO AX",
+      "socket": "AM4",
+      "chipset": "AMD B550",
+      "memoria_ram": "DDR4",
+      "pci_express": "PCIe 4.0",
+      "red": "Wi-Fi 6, Bluetooth 5.0",
+      "usb": "USB 3.2 Gen 2",
+      "formato": "mITX",
+      "img": "https://www.techbuy.com.au/images/large/47/P476721.jpg"
+    }
+  ],
+  "placas_base_intel": [
+    {
+      "nombre": "ASUS ROG Maximus XIII Hero",
+      "socket": "LGA1200",
+      "chipset": "Intel Z590",
+      "memoria_ram": "DDR4",
+      "pci_express": "PCIe 4.0",
+      "red": "Wi-Fi 6E, Bluetooth 5.2",
+      "usb": "USB 3.2 Gen 2",
+      "formato": "ATX",
+      "img": "https://www.example.com/imagen_asus_rog_maximus_xiii_hero.jpg"
+    },
+    {
+      "nombre": "Gigabyte Z590 AORUS Master",
+      "socket": "LGA1200",
+      "chipset": "Intel Z590",
+      "memoria_ram": "DDR4",
+      "pci_express": "PCIe 4.0",
+      "red": "10GbE LAN, Wi-Fi 6E, Bluetooth 5.2",
+      "usb": "USB 3.2 Gen 2",
+      "formato": "ATX",
+      "img": "https://www.example.com/imagen_gigabyte_z590_aorus_master.jpg"
+    },
+    {
+      "nombre": "MSI MPG Z590 GAMING EDGE WIFI",
+      "socket": "LGA1200",
+      "chipset": "Intel Z590",
+      "memoria_ram": "DDR4",
+      "pci_express": "PCIe 4.0",
+      "red": "Wi-Fi 6, Bluetooth 5.1",
+      "usb": "USB 3.2 Gen 2",
+      "formato": "ATX",
+      "img": "https://www.example.com/imagen_msi_mpg_z590_gaming_edge_wifi.jpg"
+    },
+    {
+      "nombre": "ASRock Z590 Extreme",
+      "socket": "LGA1200",
+      "chipset": "Intel Z590",
+      "memoria_ram": "DDR4",
+      "pci_express": "PCIe 4.0",
+      "red": "No",
+      "usb": "USB 3.2 Gen 2",
+      "formato": "ATX",
+      "img": "https://www.example.com/imagen_asrock_z590_extreme.jpg"
+    },
+    {
+      "nombre": "Gigabyte Z690 AORUS Master",
+      "socket": "LGA1700",
+      "chipset": "Intel Z690",
+      "memoria_ram": "DDR5",
+      "pci_express": "PCIe 5.0",
+      "red": "10GbE LAN, Wi-Fi 6E, Bluetooth 5.2",
+      "usb": "USB 3.2 Gen 2",
+      "formato": "ATX",
+      "img": "https://www.example.com/imagen_gigabyte_z690_aorus_master.jpg"
+    }
+  ]
+}
