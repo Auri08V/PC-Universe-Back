@@ -134,7 +134,7 @@
   ],
   "placas graficas": [
     {
-      "Modelo": "NVIDIA GeForce RTX 3090",
+      "modelo": "NVIDIA GeForce RTX 3090",
       "img": "https://m.media-amazon.com/images/I/61wbV8oqAbL.jpg",
       "Arquitectura": "Ampere",
       "VRAM": "24GB GDDR6X",
@@ -146,7 +146,7 @@
     },
 
     {
-      "Modelo": "AMD Radeon RX 6900 XT",
+      "modelo": "AMD Radeon RX 6900 XT",
       "img": "https://m.media-amazon.com/images/I/4178P0YUeJL._AC_SX355_.jpg",
       "Arquitectura": "RDNA 2",
       "VRAM": "16GB GDDR6",
@@ -158,7 +158,7 @@
     },
 
     {
-      "Modelo": "NVIDIA GeForce RTX 3080 Ti",
+      "modelo": "NVIDIA GeForce RTX 3080 Ti",
       "img": "https://ae04.alicdn.com/kf/S9da4ae1d57164da6aa85a838ec225ad2N.jpg",
       "Arquitectura": "Ampere",
       "VRAM": "10GB GDDR6X",
@@ -170,7 +170,7 @@
     },
 
     {
-      "Modelo": "AMD Radeon RX 6800 XT",
+      "modelo": "AMD Radeon RX 6800 XT",
       "img": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/1664/innergigabyteimages/kf-img.png",
       "Arquitectura": "RDNA 2",
       "VRAM": "16GB GDDR6",
@@ -182,7 +182,7 @@
     },
 
     {
-      "Modelo": "NVIDIA GeForce RTX 3060 Ti",
+      "modelo": "NVIDIA GeForce RTX 3060 Ti",
       "img": "https://www.fullh4rd.com.ar/img/productos/3/video-geforce-rtx-3060-ti-8gb-pny-uprising-dual-lhr-2.jpg",
       "Arquitectura": "Ampere",
       "VRAM": "8GB GDDR6",
@@ -194,7 +194,7 @@
     },
 
     {
-      "Modelo": "AMD Radeon RX 6700 XT",
+      "modelo": "AMD Radeon RX 6700 XT",
       "img": "https://tpucdn.com/gpu-specs/images/c/3695-bottom.jpg",
       "Arquitectura": "RDNA 2",
       "VRAM": "12GB GDDR6",
@@ -206,7 +206,7 @@
     },
 
     {
-      "Modelo": "NVIDIA GeForce RTX 3060",
+      "modelo": "NVIDIA GeForce RTX 3060",
       "img": "https://images.hothardware.com/contentimages/article/3074/content/small_nvidia-geforce-rtx-3060-angle-1.JPG",
       "Arquitectura": "Ampere",
       "VRAM": "12GB GDDR6",
@@ -218,7 +218,7 @@
     },
 
     {
-      "Modelo": "AMD Radeon RX 6600 XT",
+      "modelo": "AMD Radeon RX 6600 XT",
       "img": "https://www.amd.com/system/files/2021-07/910022-amd-radeon-6600XT-angle1260x709_0.png",
       "Arquitectura": "RDNA 2",
       "VRAM": "8GB GDDR6",
@@ -240,8 +240,7 @@
       "tiempo_respuesta": "5ms",
       "conectividad": ["HDMI", "DisplayPort", "USB 3.0"],
       "hdr_compatible": "no",
-      "precio": 200,
-      "imagen": "https://dojiw2m9tvv09.cloudfront.net/39394/product/210-arcf_v36412.png"
+      "img": "https://dojiw2m9tvv09.cloudfront.net/39394/product/210-arcf_v36412.png"
     },
     {
       "modelo": "ASUS VG279Q",
@@ -252,8 +251,8 @@
       "tiempo_respuesta": "1ms",
       "conectividad": ["HDMI", "DisplayPort", "DVI-D"],
       "hdr_compatible": "no",
-      "precio": 300,
-      "imagen": "https://oechsle.vteximg.com.br/arquivos/ids/9847058-1000-1000/imageUrl_2.jpg?v=637937211002570000"
+      
+      "img": "https://oechsle.vteximg.com.br/arquivos/ids/9847058-1000-1000/imageUrl_2.jpg?v=637937211002570000"
     },
     {
       "modelo": "LG 34WK95U-W",
@@ -264,8 +263,7 @@
       "tiempo_respuesta": "5ms",
       "conectividad": ["HDMI", "DisplayPort", "USB-C"],
       "hdr_compatible": "si",
-      "precio": 1000,
-      "imagen": "https://i.rtings.com/assets/products/fHegYHmI/lg-34wk95u-w/design-medium.jpg"
+      "img": "https://i.rtings.com/assets/products/fHegYHmI/lg-34wk95u-w/design-medium.jpg"
     },
     {
       "modelo": "AOC CQ32G1",
@@ -276,8 +274,7 @@
       "tiempo_respuesta": "4ms",
       "conectividad": ["HDMI", "DisplayPort"],
       "hdr_compatible": "no",
-      "precio": 350,
-      "imagen": "https://m.media-amazon.com/images/I/81awCv2BspL._AC_SL1500_.jpg"
+      "img": "https://m.media-amazon.com/images/I/81awCv2BspL._AC_SL1500_.jpg"
     },
     {
       "modelo": "Samsung Odyssey G7",
@@ -288,8 +285,7 @@
       "tiempo_respuesta": "1ms",
       "conectividad": ["HDMI", "DisplayPort", "USB 3.0"],
       "hdr_compatible": "si",
-      "precio": 700,
-      "imagen": "https://promart.vteximg.com.br/arquivos/ids/7222373-1000-1000/image-1.jpg?v=638234772286400000"
+      "img": "https://promart.vteximg.com.br/arquivos/ids/7222373-1000-1000/image-1.jpg?v=638234772286400000"
     },
     {
       "modelo": "BenQ PD2700U",
@@ -300,8 +296,7 @@
       "tiempo_respuesta": "5ms",
       "conectividad": ["HDMI", "DisplayPort", "USB-C"],
       "hdr_compatible": "no",
-      "precio": 500,
-      "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/25966806-300-300/image-f495101d7422430e9bacb8250eb50c8e.jpg?v=638149522312300000"
+      "img": "https://plazavea.vteximg.com.br/arquivos/ids/25966806-300-300/image-f495101d7422430e9bacb8250eb50c8e.jpg?v=638149522312300000"
     },
     {
       "modelo": "ViewSonic VX2458-MHD",
@@ -312,8 +307,7 @@
       "tiempo_respuesta": "1ms",
       "conectividad": ["HDMI", "DisplayPort", "VGA"],
       "hdr_compatible": "no",
-      "precio": 250,
-      "imagen": "https://oechsle.vteximg.com.br/arquivos/ids/15423777-1500-1500/image-0.jpg?v=638237333114600000"
+      "img": "https://oechsle.vteximg.com.br/arquivos/ids/15423777-1500-1500/image-0.jpg?v=638237333114600000"
     },
     {
       "modelo": "Acer Predator X34",
@@ -324,8 +318,7 @@
       "tiempo_respuesta": "4ms",
       "conectividad": ["HDMI", "DisplayPort", "USB 3.0"],
       "hdr_compatible": "si",
-      "precio": 900,
-      "imagen": "https://m.media-amazon.com/images/I/612yBrnxozL._AC_UF894,1000_QL80_.jpg"
+      "img": "https://m.media-amazon.com/images/I/612yBrnxozL._AC_UF894,1000_QL80_.jpg"
     }
   ],
   "almacenamiento": [
@@ -336,8 +329,7 @@
       "interfaz": "M.2 NVMe",
       "velocidad_lectura": "3500 MB/s",
       "velocidad_escritura": "2500 MB/s",
-      "precio": 189.99,
-      "imagen": "https://promart.vteximg.com.br/arquivos/ids/6634255-1000-1000/image-6b45bae7780e4b55ad8b3db564fa30a2.jpg?v=638050077146000000"
+      "img": "https://promart.vteximg.com.br/arquivos/ids/6634255-1000-1000/image-6b45bae7780e4b55ad8b3db564fa30a2.jpg?v=638050077146000000"
     },
     {
       "modelo": "Western Digital Blue",
@@ -345,8 +337,7 @@
       "capacidad": "2TB",
       "interfaz": "SATA 6Gb/s",
       "velocidad_rotacion": "5400 RPM",
-      "precio": 64.99,
-      "imagen": "https://devercomp.pe/wp-content/uploads/2020/12/1-121.jpg"
+      "img": "https://devercomp.pe/wp-content/uploads/2020/12/1-121.jpg"
     },
     {
       "modelo": "Crucial MX500",
@@ -355,8 +346,7 @@
       "interfaz": "SATA 6Gb/s",
       "velocidad_lectura": "560 MB/s",
       "velocidad_escritura": "510 MB/s",
-      "precio": 69.99,
-      "imagen": "https://falabella.scene7.com/is/image/FalabellaPE/113971024_1?wid=800&hei=800&qlt=70"
+      "img": "https://falabella.scene7.com/is/image/FalabellaPE/113971024_1?wid=800&hei=800&qlt=70"
     },
     {
       "modelo": "Seagate BarraCuda",
@@ -364,8 +354,7 @@
       "capacidad": "4TB",
       "interfaz": "SATA 6Gb/s",
       "velocidad_rotacion": "5400 RPM",
-      "precio": 92.99,
-      "imagen": "https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F1715%2FELECTROHOGAR%2FDISCO-DURO-SEAGATE-BARRACUDA-4TB-5400-RPM_184533555928_52.jpeg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=a6de7e8d68a86359b2f0f148644b5e4e"
+      "img": "https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F1715%2FELECTROHOGAR%2FDISCO-DURO-SEAGATE-BARRACUDA-4TB-5400-RPM_184533555928_52.jpeg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=a6de7e8d68a86359b2f0f148644b5e4e"
     },
     {
       "modelo": "ADATA XPG SX8200 Pro",
@@ -374,8 +363,7 @@
       "interfaz": "M.2 NVMe",
       "velocidad_lectura": "3500 MB/s",
       "velocidad_escritura": "3000 MB/s",
-      "precio": 138.99,
-      "imagen": "https://m.media-amazon.com/images/I/71Q4ukBjtRL._AC_SL1500_.jpg"
+      "img": "https://m.media-amazon.com/images/I/71Q4ukBjtRL._AC_SL1500_.jpg"
     },
     {
       "modelo": "Toshiba X300",
@@ -383,8 +371,7 @@
       "capacidad": "6TB",
       "interfaz": "SATA 6Gb/s",
       "velocidad_rotacion": "7200 RPM",
-      "precio": 171.99,
-      "imagen": "https://images-na.ssl-images-amazon.com/images/I/71Mh0J8FoeL._AC_UL600_SR600,600_.jpg"
+      "img": "https://images-na.ssl-images-amazon.com/images/I/71Mh0J8FoeL._AC_UL600_SR600,600_.jpg"
     },
     {
       "modelo": "Kingston A2000",
@@ -393,8 +380,7 @@
       "interfaz": "M.2 NVMe",
       "velocidad_lectura": "2000 MB/s",
       "velocidad_escritura": "1100 MB/s",
-      "precio": 49.99,
-      "imagen": "https://media.kingston.com/kingston/press/A2000_press_release_455x284.jpg"
+      "img": "https://media.kingston.com/kingston/press/A2000_press_release_455x284.jpg"
     },
     {
       "modelo": "Seagate FireCuda",
@@ -402,8 +388,7 @@
       "capacidad": "2TB",
       "interfaz": "SATA 6Gb/s",
       "velocidad_rotacion": "5400 RPM",
-      "precio": 97.99,
-      "imagen": "https://m.media-amazon.com/images/I/517Q8c6M9NL._AC_.jpg"
+      "img": "https://m.media-amazon.com/images/I/517Q8c6M9NL._AC_.jpg"
     }
   ],
   "fuentes_de_poder": [
@@ -419,8 +404,7 @@
         "sata": "9 x SATA",
         "peripheral": "4 x 4 pines"
       },
-      "precio": 129.99,
-      "imagen": "https://images.evga.com/products/gallery/png/220-G5-0750-X1_XL_1.png"
+      "img": "https://images.evga.com/products/gallery/png/220-G5-0750-X1_XL_1.png"
     },
     {
       "modelo": "Corsair RM750x",
@@ -434,8 +418,7 @@
         "sata": "8 x SATA",
         "peripheral": "4 x 4 pines"
       },
-      "precio": 129.99,
-      "imagen": "https://cdn.mos.cms.futurecdn.net/9xcZipTCuEsjcmtE5kcpP7.jpg"
+      "img": "https://cdn.mos.cms.futurecdn.net/9xcZipTCuEsjcmtE5kcpP7.jpg"
     },
     {
       "modelo": "Seasonic Focus GX-650",
@@ -449,8 +432,7 @@
         "sata": "8 x SATA",
         "peripheral": "3 x 4 pines"
       },
-      "precio": 109.99,
-      "imagen": "https://seasonic.com/pub/media/catalog/product/cache/3cbda8e892dc62fc02660815c2a4b231/f/o/focus-gx-650-box_1.jpg"
+      "img": "https://seasonic.com/pub/media/catalog/product/cache/3cbda8e892dc62fc02660815c2a4b231/f/o/focus-gx-650-box_1.jpg"
     },
     {
       "modelo": "Thermaltake Toughpower GF1 750W",
@@ -464,8 +446,7 @@
         "sata": "9 x SATA",
         "peripheral": "4 x 4 pines"
       },
-      "precio": 119.99,
-      "imagen": "https://m.media-amazon.com/images/I/71DDgVE794L.jpg"
+      "img": "https://m.media-amazon.com/images/I/71DDgVE794L.jpg"
     },
     {
       "modelo": "NZXT C850",
@@ -479,91 +460,92 @@
         "sata": "10 x SATA",
         "peripheral": "4 x 4 pines"
       },
-      "precio": 129.99,
-      "imagen": "https://nzxt.com/assets/cms/34299/1652147035-power_c_series_gold_c850-vents-up-right.png?auto=format&fit=crop&h=1000&w=1000"
+      "img": "https://nzxt.com/assets/cms/34299/1652147035-power_c_series_gold_c850-vents-up-right.png?auto=format&fit=crop&h=1000&w=1000"
     }
   ],
 
   "procesadores": [
-    {
-      "nombre": "Intel Core i9-11900K",
-      "nucleos": "8 / 16",
-      "frecuencia_base": "3.5 GHz",
-      "frecuencia_maxima": "5.3 GHz (Turbo Boost)",
-      "cache": "16 MB",
-      "tdp": "125W",
-      "socket": "LGA1200",
-      "fabricante": "Intel",
-      "img:": "https://s3-sa-east-1.amazonaws.com/saasargentina/Uz8Y5a3wWp9aQfPfHyjW/imagen"
+      {
+        "modelo": "Intel Core i9-11900K",
+        "nucleos": "8 / 16",
+        "frecuencia_base": "3.5 GHz",
+        "frecuencia_maxima": "5.3 GHz (Turbo Boost)",
+        "cache": "16 MB",
+        "tdp": "125W",
+        "socket": "LGA1200",
+        "fabricante": "Intel",
+        "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/Uz8Y5a3wWp9aQfPfHyjW/img"
+      },
+      {
+        "modelo": "Intel Core i7-11700K",
+        "nucleos": "8 / 16",
+        "frecuencia_base": "3.6 GHz",
+        "frecuencia_maxima": "5.0 GHz (Turbo Boost)",
+        "cache": "16 MB",
+        "tdp": "125W",
+        "socket": "LGA1200",
+        "fabricante": "Intel",
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/599/423/products/71p3chrzgnl11-947bf647ae6fd33d7816673303367512-640-0.jpg"
+      },
+      {
+        "modelo": "Intel Core i5-11600K",
+        "nucleos": "6 / 12",
+        "frecuencia_base": "3.9 GHz",
+        "frecuencia_maxima": "4.9 GHz (Turbo Boost)",
+        "cache": "12 MB",
+        "tdp": "125W",
+        "socket": "LGA1200",
+        "fabricante": "Intel",
+        "img": "https://www.fullh4rd.com.ar/img/productos/1/micro-intel-core-i5-11600k-11-gen-0.jpg"
+      },
+      {
+        "modelo": "Intel Core i9-12900K",
+        "nucleos": "8 / 24",
+        "frecuencia_base": "3.2 GHz",
+        "frecuencia_maxima": "5.3 GHz (Turbo Boost)",
+        "cache": "30 MB",
+        "tdp": "125W",
+        "socket": "LGA1700",
+        "fabricante": "Intel",
+        "img": "https://www.fullh4rd.com.ar/img/productos/1/micro-intel-core-i9-12900-s1700-0.jpg"
+      },
+      {
+        "modelo": "Intel Core i7-12700K",
+        "nucleos": "8 / 20",
+        "frecuencia_base": "3.6 GHz",
+        "frecuencia_maxima": "5.0 GHz (Turbo Boost)",
+        "cache": "25 MB",
+        "tdp": "125W",
+        "socket": "LGA1700",
+        "fabricante": "Intel",
+        "img": "https://www.fullh4rd.com.ar/img/productos/1/micro-intel-core-i7-12700k-scooler-s1700--barato-q-12700kf-0.jpg"
+      },
+      {
+        "modelo": "AMD Ryzen 9 5950X",
+        "nucleos": "16 / 32",
+        "frecuencia_base": "3.4 GHz",
+        "frecuencia_maxima": "4.9 GHz (Max Boost)",
+        "cache": "72 MB",
+        "tdp": "105W",
+        "socket": "AM4",
+        "fabricante": "AMD",
+        "img": "https://www.fullh4rd.com.ar/img/productos/1/micro-amd-ryzen-9-5950x-scooler-svideo-0.jpg"
+      },
+      {
+        "modelo": "AMD Ryzen 9 5900X",
+        "nucleos": "12 / 24",
+        "frecuencia_base": "3.7 GHz",
+        "frecuencia_maxima": "4.8 GHz (Max Boost)",
+        "cache": "70 MB",
+        "tdp": "105W",
+        "socket": "AM4",
+        "fabricante": "AMD",
+        "img": "https://www.fullh4rd.com.ar/img/productos/1/micro-amd-ryzen-9-5900x-scooler-svideo-0.jpg"
+      },
+      {
     },
     {
-      "nombre": "Intel Core i7-11700K",
-      "nucleos": "8 / 16",
-      "frecuencia_base": "3.6 GHz",
-      "frecuencia_maxima": "5.0 GHz (Turbo Boost)",
-      "cache": "16 MB",
-      "tdp": "125W",
-      "socket": "LGA1200",
-      "fabricante": "Intel",
-      "img:": "https://d3ugyf2ht6aenh.cloudfront.net/stores/599/423/products/71p3chrzgnl11-947bf647ae6fd33d7816673303367512-640-0.jpg"
-    },
-    {
-      "nombre": "Intel Core i5-11600K",
-      "nucleos": "6 / 12",
-      "frecuencia_base": "3.9 GHz",
-      "frecuencia_maxima": "4.9 GHz (Turbo Boost)",
-      "cache": "12 MB",
-      "tdp": "125W",
-      "socket": "LGA1200",
-      "fabricante": "Intel",
-      "img:": "https://www.fullh4rd.com.ar/img/productos/1/micro-intel-core-i5-11600k-11-gen-0.jpg"
-    },
-    {
-      "nombre": "Intel Core i9-12900K",
-      "nucleos": "8 / 24",
-      "frecuencia_base": "3.2 GHz",
-      "frecuencia_maxima": "5.3 GHz (Turbo Boost)",
-      "cache": "30 MB",
-      "tdp": "125W",
-      "socket": "LGA1700",
-      "fabricante": "Intel",
-      "img": "https://www.fullh4rd.com.ar/img/productos/1/micro-intel-core-i9-12900-s1700-0.jpg"
-    },
-    {
-      "nombre": "Intel Core i7-12700K",
-      "nucleos": "8 / 20",
-      "frecuencia_base": "3.6 GHz",
-      "frecuencia_maxima": "5.0 GHz (Turbo Boost)",
-      "cache": "25 MB",
-      "tdp": "125W",
-      "socket": "LGA1700",
-      "fabricante": "Intel",
-      "img": "https://www.fullh4rd.com.ar/img/productos/1/micro-intel-core-i7-12700k-scooler-s1700--barato-q-12700kf-0.jpg"
-    },
-    {
-      "nombre": "AMD Ryzen 9 5950X",
-      "nucleos": "16 / 32",
-      "frecuencia_base": "3.4 GHz",
-      "frecuencia_maxima": "4.9 GHz (Max Boost)",
-      "cache": "72 MB",
-      "tdp": "105W",
-      "socket": "AM4",
-      "fabricante": "AMD",
-      "img": "https://www.fullh4rd.com.ar/img/productos/1/micro-amd-ryzen-9-5950x-scooler-svideo-0.jpg"
-    },
-    {
-      "nombre": "AMD Ryzen 9 5900X",
-      "nucleos": "12 / 24",
-      "frecuencia_base": "3.7 GHz",
-      "frecuencia_maxima": "4.8 GHz (Max Boost)",
-      "cache": "70 MB",
-      "tdp": "105W",
-      "socket": "AM4",
-      "fabricante": "AMD",
-      "img": "https://www.fullh4rd.com.ar/img/productos/1/micro-amd-ryzen-9-5900x-scooler-svideo-0.jpg"
-    },
-    {
-      "nombre": "AMD Ryzen 7 5800X",
+      "modelo": "AMD Ryzen 7 5800X",
       "nucleos": "8 / 16",
       "frecuencia_base": "3.8 GHz",
       "frecuencia_maxima": "4.7 GHz (Max Boost)",
@@ -574,7 +556,7 @@
       "img": "https://www.venex.com.ar/products_images/1605015858_microprocesadoramdryzen75800x.jpg"
     },
     {
-      "nombre": "AMD Ryzen 9 5900HS",
+      "modelo": "AMD Ryzen 9 5900HS",
       "nucleos": "8 / 16",
       "frecuencia_base": "3.3 GHz",
       "frecuencia_maxima": "4.6 GHz (Max Boost)",
@@ -585,9 +567,9 @@
       "img": "https://www.xt-pc.com.ar/img/productos/Pics_Prod/CPU572.jpg"
     }
   ],
-  "placas_base_amd": [
+  "placas_base": [
     {
-      "nombre": "ASUS ROG Crosshair VIII Formula",
+      "modelo": "ASUS ROG Crosshair VIII Formula",
       "socket": "AM4",
       "chipset": "AMD X570",
       "memoria_ram": "DDR4",
@@ -598,7 +580,7 @@
       "img": "https://elchapuzasinformatico.com/wp-content/uploads/2019/07/Asus-ROG-Crosshair-VIII-Formula-Oficial.jpg"
     },
     {
-      "nombre": "Gigabyte B550 AORUS Pro",
+      "modelo": "Gigabyte B550 AORUS Pro",
       "socket": "AM4",
       "chipset": "AMD B550",
       "memoria_ram": "DDR4",
@@ -609,7 +591,7 @@
       "img": "https://www.deffo.com.ar/wp-content/uploads/2022/03/B550-AORUS-PRO-AX-1.webp"
     },
     {
-      "nombre": "MSI MPG B550 GAMING EDGE WIFI",
+      "modelo": "MSI MPG B550 GAMING EDGE WIFI",
       "socket": "AM4",
       "chipset": "AMD B550",
 
@@ -621,7 +603,7 @@
       "img": "https://www.impacto.com.pe/storage/products/16138436583.jpg"
     },
     {
-      "nombre": "ASRock B550M PRO4",
+      "modelo": "ASRock B550M PRO4",
       "socket": "AM4",
       "chipset": "AMD B550",
       "memoria_ram": "DDR4",
@@ -632,7 +614,7 @@
       "img": "https://images10.newegg.com/BizIntell/item/13/157/13-157-939/B550-PG-Velocita_062420.jpg"
     },
     {
-      "nombre": "Gigabyte B550I AORUS PRO AX",
+      "modelo": "Gigabyte B550I AORUS PRO AX",
       "socket": "AM4",
       "chipset": "AMD B550",
       "memoria_ram": "DDR4",
@@ -641,11 +623,9 @@
       "usb": "USB 3.2 Gen 2",
       "formato": "mITX",
       "img": "https://www.techbuy.com.au/images/large/47/P476721.jpg"
-    }
-  ],
-  "placas_base_intel": [
+    },
     {
-      "nombre": "ASUS ROG Maximus XIII Hero",
+      "modelo": "ASUS ROG Maximus XIII Hero",
       "socket": "LGA1200",
       "chipset": "Intel Z590",
       "memoria_ram": "DDR4",
@@ -656,7 +636,7 @@
       "img": "https://www.example.com/imagen_asus_rog_maximus_xiii_hero.jpg"
     },
     {
-      "nombre": "Gigabyte Z590 AORUS Master",
+      "modelo": "Gigabyte Z590 AORUS Master",
       "socket": "LGA1200",
       "chipset": "Intel Z590",
       "memoria_ram": "DDR4",
@@ -667,7 +647,7 @@
       "img": "https://www.example.com/imagen_gigabyte_z590_aorus_master.jpg"
     },
     {
-      "nombre": "MSI MPG Z590 GAMING EDGE WIFI",
+      "modelo": "MSI MPG Z590 GAMING EDGE WIFI",
       "socket": "LGA1200",
       "chipset": "Intel Z590",
       "memoria_ram": "DDR4",
@@ -678,7 +658,7 @@
       "img": "https://www.example.com/imagen_msi_mpg_z590_gaming_edge_wifi.jpg"
     },
     {
-      "nombre": "ASRock Z590 Extreme",
+      "modelo": "ASRock Z590 Extreme",
       "socket": "LGA1200",
       "chipset": "Intel Z590",
       "memoria_ram": "DDR4",
@@ -689,7 +669,7 @@
       "img": "https://www.example.com/imagen_asrock_z590_extreme.jpg"
     },
     {
-      "nombre": "Gigabyte Z690 AORUS Master",
+      "modelo": "Gigabyte Z690 AORUS Master",
       "socket": "LGA1700",
       "chipset": "Intel Z690",
       "memoria_ram": "DDR5",
@@ -710,7 +690,7 @@
       "niveles_velocidad": 3,
       "iluminacion_rgb": "si",
       "precio": 139.99,
-      "imagen": "https://electronicstore.com.pe/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/-/c/-cw-9060039-ww-gallery-h100i-rgb-platinum-01.png"
+      "img": "https://electronicstore.com.pe/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/-/c/-cw-9060039-ww-gallery-h100i-rgb-platinum-01.png"
     },
     {
       "marca": "NZXT Kraken X63",
@@ -721,7 +701,7 @@
       "niveles_velocidad": 4,
       "iluminacion_rgb": "si",
       "precio": 149.99,
-      "imagen": "https://www.impacto.com.pe/storage/products/1618252955RL-KRX63-R1-1.jpg"
+      "img": "https://www.impacto.com.pe/storage/products/1618252955RL-KRX63-R1-1.jpg"
     },
     {
       "marca": "Cooler Master Hyper 212 RGB Black Edition",
@@ -732,7 +712,7 @@
       "niveles_velocidad": 1,
       "iluminacion_rgb": "si",
       "precio": 49.99,
-      "imagen": "https://cdn.coolermaster.com/media/2945/hyper-212-rgb-black-gallery-1-zoom.png"
+      "img": "https://cdn.coolermaster.com/media/2945/hyper-212-rgb-black-gallery-1-zoom.png"
     },
     {
       "marca": "Noctua NH-D15",
@@ -743,7 +723,7 @@
       "niveles_velocidad": 1,
       "iluminacion_rgb": "no",
       "precio": 89.95,
-      "imagen": "https://horsansystem.com/752-large_default/noctua-nh-d15-chromax-black.jpg"
+      "img": "https://horsansystem.com/752-large_default/noctua-nh-d15-chromax-black.jpg"
     },
     {
       "marca": "be quiet! Dark Rock Pro 4",
@@ -754,7 +734,7 @@
       "niveles_velocidad": 1,
       "iluminacion_rgb": "no",
       "precio": 84.9,
-      "imagen": "https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F589%2FMARKETPLACE%20INTERNACIONAL%2F41VulWus2zL_223129648598_12.jpeg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=9be0b71bbf740339fe652b85f6820ad8"
+      "img": "https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F589%2FMARKETPLACE%20INTERNACIONAL%2F41VulWus2zL_223129648598_12.jpeg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=9be0b71bbf740339fe652b85f6820ad8"
     },
     {
       "marca": "ARCTIC Liquid Freezer II 240",
@@ -765,7 +745,7 @@
       "niveles_velocidad": 1,
       "iluminacion_rgb": "no",
       "precio": 89.99,
-      "imagen": "https://m.media-amazon.com/images/I/61Fp9vzL-0L._AC_UF894,1000_QL80_.jpg"
+      "img": "https://m.media-amazon.com/images/I/61Fp9vzL-0L._AC_UF894,1000_QL80_.jpg"
     },
     {
       "marca": "Thermaltake Floe Triple Riing RGB 360",
@@ -776,7 +756,7 @@
       "niveles_velocidad": 4,
       "iluminacion_rgb": "si",
       "precio": 179.99,
-      "imagen": "https://es.thermaltake.com/media/catalog/product/cache/023a745bb14092c479b288481f91a1bd/db/imgs/pdt/angle/CL-W158-PL12SW-A_b0d05e19503a4093bd4c7e98c826320c.jpg"
+      "img": "https://es.thermaltake.com/media/catalog/product/cache/023a745bb14092c479b288481f91a1bd/db/imgs/pdt/angle/CL-W158-PL12SW-A_b0d05e19503a4093bd4c7e98c826320c.jpg"
     },
     {
       "marca": "DeepCool GAMMAXX 400 V2",
@@ -787,7 +767,7 @@
       "niveles_velocidad": 1,
       "iluminacion_rgb": "no",
       "precio": 34.99,
-      "imagen": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPUAirCoolers/GAMMAXX_400_Blue/Overview/01.png?fm=webp&q=60"
+      "img": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPUAirCoolers/GAMMAXX_400_Blue/Overview/01.png?fm=webp&q=60"
     }
   ],
 
@@ -800,7 +780,7 @@
       "iluminacion_rgb": "si",
       "conexion": "USB",
       "precio": 149.99,
-      "imagen": "https://assets.hardwarezone.com/img/2019/10/logitech-g-pro-x-keyboard.jpg"
+      "img": "https://assets.hardwarezone.com/img/2019/10/logitech-g-pro-x-keyboard.jpg"
     },
     {
       "tipo": "Mouse",
@@ -810,7 +790,7 @@
       "iluminacion_rgb": "si",
       "conexion": "USB",
       "precio": 69.99,
-      "imagen": "https://cyccomputer.pe/32517-large_default/mouse-razer-deathadder-v2-focus-chroma-20000-dpi-black-usb-pnrz01-03210100-r3u1.jpg"
+      "img": "https://cyccomputer.pe/32517-large_default/mouse-razer-deathadder-v2-focus-chroma-20000-dpi-black-usb-pnrz01-03210100-r3u1.jpg"
     },
     {
       "tipo": "Audífonos",
@@ -820,7 +800,7 @@
       "microfono_desmontable": "si",
       "conexion": "3.5mm y USB",
       "precio": 99.99,
-      "imagen": "https://cdn.gidat.pe/images/25814edb-4a7a-4c1b-a068-d0d4aba4f5d2/auriculares-hyperx-cloud-ii-micrfono-conector-35mm-negro-rojo.jpg?fm=jpg&q=80&fit=max&crop=800%2C800%2C0%2C0&w=800&h=800"
+      "img": "https://cdn.gidat.pe/images/25814edb-4a7a-4c1b-a068-d0d4aba4f5d2/auriculares-hyperx-cloud-ii-micrfono-conector-35mm-negro-rojo.jpg?fm=jpg&q=80&fit=max&crop=800%2C800%2C0%2C0&w=800&h=800"
     },
     {
       "tipo": "Mousepad",
@@ -829,7 +809,7 @@
       "superficie": "Tela",
       "base_antideslizante": "si",
       "precio": 14.99,
-      "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/929/242/products/d_nq_np_652221-mla43776171808_102020-o1-11d9036b5ac58a6dea16361474947221-1024-1024.jpg"
+      "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/929/242/products/d_nq_np_652221-mla43776171808_102020-o1-11d9036b5ac58a6dea16361474947221-1024-1024.jpg"
     },
     {
       "tipo": "Webcam",
@@ -838,7 +818,7 @@
       "fps": 30,
       "conexion": "USB",
       "precio": 69.99,
-      "imagen": "https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F934%2FCONSUMO%20MASIVO%2FWEBAM%2F920-1.jpeg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=a5d6d3c7ed0f012c067d741d82b78f5b"
+      "img": "https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F934%2FCONSUMO%20MASIVO%2FWEBAM%2F920-1.jpeg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=a5d6d3c7ed0f012c067d741d82b78f5b"
     },
     {
       "tipo": "Altavoces",
@@ -847,7 +827,7 @@
       "subwoofer": "si",
       "conexion": "3.5mm y RCA",
       "precio": 119.99,
-      "imagen": "https://i.blogs.es/f0caae/logitech-z623-thx/1366_2000.jpg"
+      "img": "https://i.blogs.es/f0caae/logitech-z623-thx/1366_2000.jpg"
     },
     {
       "tipo": "Micrófono",
@@ -856,7 +836,7 @@
       "patrones_grabacion": "Cardioide, bidireccional, omnidireccional, estéreo",
       "conexion": "USB",
       "precio": 129.99,
-      "imagen": "https://m.media-amazon.com/images/I/61vI0Zii07L.jpg"
+      "img": "https://m.media-amazon.com/images/I/61vI0Zii07L.jpg"
     },
     {
       "tipo": "Gamepad",
@@ -864,7 +844,7 @@
       "compatibilidad": "Xbox Series X|S, Xbox One, PC",
       "inalambrico": "si",
       "precio": 59.99,
-      "imagen": "https://assets.xboxservices.com/assets/1c/e7/1ce760ed-d588-4976-baa9-cbabe583436b.jpg?n=111101_Gallery-0_29_1350x759.jpg"
+      "img": "https://assets.xboxservices.com/assets/1c/e7/1ce760ed-d588-4976-baa9-cbabe583436b.jpg?n=111101_Gallery-0_29_1350x759.jpg"
     }
   ]
 }
