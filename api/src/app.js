@@ -1,11 +1,14 @@
 const express = require("express");
 const morgan = require("morgan");
 const routes = require("./routes/index");
+const cors = require("cors")
 
 const server = express();
 
-server.use("/", routes);
+server.use(express.json())
+server.use(routes);
 server.use(morgan("dev"));
+server.use(cors())
 
 server.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "http://localhost:3000");
@@ -25,4 +28,4 @@ server.use((err, req, res, next) => {
   res.status(status).send(message);
 });
 
-module.exports = { server };
+module.exports = server;
