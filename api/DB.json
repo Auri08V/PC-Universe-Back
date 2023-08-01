@@ -699,5 +699,172 @@
       "formato": "ATX",
       "img": "https://www.example.com/imagen_gigabyte_z690_aorus_master.jpg"
     }
+  ],
+  "refrigerantes": [
+    {
+      "marca": "Corsair Hydro Series H100i RGB Platinum",
+      "compatibilidad_socket": "Intel LGA 1200, 115x, 1366, 2011, 2066; AMD AM4, sTRX4",
+      "tipo_refrigeracion": "Líquida",
+      "ventiladores_incluidos": 2,
+      "dimension_radiador": "240mm",
+      "niveles_velocidad": 3,
+      "iluminacion_rgb": "si",
+      "precio": 139.99,
+      "imagen": "https://electronicstore.com.pe/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/-/c/-cw-9060039-ww-gallery-h100i-rgb-platinum-01.png"
+    },
+    {
+      "marca": "NZXT Kraken X63",
+      "compatibilidad_socket": "Intel LGA 1200, 1151, 1150, 1155, 1156, 1366, 2011, 2011-3, 2066; AMD AM4, sTR4, sTRX4",
+      "tipo_refrigeracion": "Líquida",
+      "ventiladores_incluidos": 2,
+      "dimension_radiador": "280mm",
+      "niveles_velocidad": 4,
+      "iluminacion_rgb": "si",
+      "precio": 149.99,
+      "imagen": "https://www.impacto.com.pe/storage/products/1618252955RL-KRX63-R1-1.jpg"
+    },
+    {
+      "marca": "Cooler Master Hyper 212 RGB Black Edition",
+      "compatibilidad_socket": "Intel LGA 1200, 1151, 1150, 1155, 1156, 1366, 2011, 2011-v3, 2066; AMD AM4",
+      "tipo_refrigeracion": "Aire",
+      "ventiladores_incluidos": 1,
+      "dimension_radiador": "N/A",
+      "niveles_velocidad": 1,
+      "iluminacion_rgb": "si",
+      "precio": 49.99,
+      "imagen": "https://cdn.coolermaster.com/media/2945/hyper-212-rgb-black-gallery-1-zoom.png"
+    },
+    {
+      "marca": "Noctua NH-D15",
+      "compatibilidad_socket": "Intel LGA 1200, 1150, 1151, 1155, 1156, 1366, 2011, 2011-3, 2066; AMD AM4, AM3(+), AM2(+), FM1, FM2(+), AM5",
+      "tipo_refrigeracion": "Aire",
+      "ventiladores_incluidos": 2,
+      "dimension_radiador": "N/A",
+      "niveles_velocidad": 1,
+      "iluminacion_rgb": "no",
+      "precio": 89.95,
+      "imagen": "https://horsansystem.com/752-large_default/noctua-nh-d15-chromax-black.jpg"
+    },
+    {
+      "marca": "be quiet! Dark Rock Pro 4",
+      "compatibilidad_socket": "Intel LGA 1200, 1150, 1151, 1155, 1156, 1366, 2011, 2011-3, 2066; AMD AM4, AM3(+), AM2(+), FM1, FM2(+), AM5",
+      "tipo_refrigeracion": "Aire",
+      "ventiladores_incluidos": 2,
+      "dimension_radiador": "N/A",
+      "niveles_velocidad": 1,
+      "iluminacion_rgb": "no",
+      "precio": 84.9,
+      "imagen": "https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F589%2FMARKETPLACE%20INTERNACIONAL%2F41VulWus2zL_223129648598_12.jpeg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=9be0b71bbf740339fe652b85f6820ad8"
+    },
+    {
+      "marca": "ARCTIC Liquid Freezer II 240",
+      "compatibilidad_socket": "Intel LGA 115x, 1200, 2011-3, 2066; AMD AM4",
+      "tipo_refrigeracion": "Líquida",
+      "ventiladores_incluidos": 2,
+      "dimension_radiador": "240mm",
+      "niveles_velocidad": 1,
+      "iluminacion_rgb": "no",
+      "precio": 89.99,
+      "imagen": "https://m.media-amazon.com/images/I/61Fp9vzL-0L._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "marca": "Thermaltake Floe Triple Riing RGB 360",
+      "compatibilidad_socket": "Intel LGA 1200, 1150, 1151, 1155, 1156, 1366, 2011, 2011-3, 2066; AMD AM4",
+      "tipo_refrigeracion": "Líquida",
+      "ventiladores_incluidos": 3,
+      "dimension_radiador": "360mm",
+      "niveles_velocidad": 4,
+      "iluminacion_rgb": "si",
+      "precio": 179.99,
+      "imagen": "https://es.thermaltake.com/media/catalog/product/cache/023a745bb14092c479b288481f91a1bd/db/imgs/pdt/angle/CL-W158-PL12SW-A_b0d05e19503a4093bd4c7e98c826320c.jpg"
+    },
+    {
+      "marca": "DeepCool GAMMAXX 400 V2",
+      "compatibilidad_socket": "Intel LGA 1200, 1150, 1151, 1155, 1156, 1366, 2011, 2011-3, 2066; AMD AM4, AM3(+), AM2(+), FM1, FM2(+), AM5",
+      "tipo_refrigeracion": "Aire",
+      "ventiladores_incluidos": 1,
+      "dimension_radiador": "N/A",
+      "niveles_velocidad": 1,
+      "iluminacion_rgb": "no",
+      "precio": 34.99,
+      "imagen": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPUAirCoolers/GAMMAXX_400_Blue/Overview/01.png?fm=webp&q=60"
+    }
+  ],
+
+  "perifericos": [
+    {
+      "tipo": "Teclado",
+      "marca": "Logitech G Pro X Mechanical Gaming Keyboard",
+      "teclas_mecanicas": "si",
+      "teclas_personalizables": "si",
+      "iluminacion_rgb": "si",
+      "conexion": "USB",
+      "precio": 149.99,
+      "imagen": "https://assets.hardwarezone.com/img/2019/10/logitech-g-pro-x-keyboard.jpg"
+    },
+    {
+      "tipo": "Mouse",
+      "marca": "Razer DeathAdder V2",
+      "sensor_optico": "si",
+      "dpi_ajustable": "si",
+      "iluminacion_rgb": "si",
+      "conexion": "USB",
+      "precio": 69.99,
+      "imagen": "https://cyccomputer.pe/32517-large_default/mouse-razer-deathadder-v2-focus-chroma-20000-dpi-black-usb-pnrz01-03210100-r3u1.jpg"
+    },
+    {
+      "tipo": "Audífonos",
+      "marca": "HyperX Cloud II",
+      "tipo_audifonos": "Over-ear",
+      "sonido_71": "no",
+      "microfono_desmontable": "si",
+      "conexion": "3.5mm y USB",
+      "precio": 99.99,
+      "imagen": "https://cdn.gidat.pe/images/25814edb-4a7a-4c1b-a068-d0d4aba4f5d2/auriculares-hyperx-cloud-ii-micrfono-conector-35mm-negro-rojo.jpg?fm=jpg&q=80&fit=max&crop=800%2C800%2C0%2C0&w=800&h=800"
+    },
+    {
+      "tipo": "Mousepad",
+      "marca": "SteelSeries QcK+",
+      "tamaño": "Grande",
+      "superficie": "Tela",
+      "base_antideslizante": "si",
+      "precio": 14.99,
+      "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/929/242/products/d_nq_np_652221-mla43776171808_102020-o1-11d9036b5ac58a6dea16361474947221-1024-1024.jpg"
+    },
+    {
+      "tipo": "Webcam",
+      "marca": "Logitech C920S HD Pro",
+      "resolucion": "1080p",
+      "fps": 30,
+      "conexion": "USB",
+      "precio": 69.99,
+      "imagen": "https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F934%2FCONSUMO%20MASIVO%2FWEBAM%2F920-1.jpeg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=a5d6d3c7ed0f012c067d741d82b78f5b"
+    },
+    {
+      "tipo": "Altavoces",
+      "marca": "Logitech Z623",
+      "potencia_total": "200W",
+      "subwoofer": "si",
+      "conexion": "3.5mm y RCA",
+      "precio": 119.99,
+      "imagen": "https://i.blogs.es/f0caae/logitech-z623-thx/1366_2000.jpg"
+    },
+    {
+      "tipo": "Micrófono",
+      "marca": "Blue Yeti USB Micrófono",
+      "tipo_microfono": "Condensador",
+      "patrones_grabacion": "Cardioide, bidireccional, omnidireccional, estéreo",
+      "conexion": "USB",
+      "precio": 129.99,
+      "imagen": "https://m.media-amazon.com/images/I/61vI0Zii07L.jpg"
+    },
+    {
+      "tipo": "Gamepad",
+      "marca": "Xbox Wireless Controller",
+      "compatibilidad": "Xbox Series X|S, Xbox One, PC",
+      "inalambrico": "si",
+      "precio": 59.99,
+      "imagen": "https://assets.xboxservices.com/assets/1c/e7/1ce760ed-d588-4976-baa9-cbabe583436b.jpg?n=111101_Gallery-0_29_1350x759.jpg"
+    }
   ]
 }
