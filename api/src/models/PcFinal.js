@@ -1,6 +1,6 @@
 const { DataTypes } = require("sequelize");
 module.exports = (sequelize) => {
-  sequelize.define("componentes", {
+  sequelize.define("pcFinal", {
     id: {
       type: DataTypes.INTEGER,
       primaryKey: true,

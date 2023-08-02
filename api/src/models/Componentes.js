@@ -32,4 +32,5 @@ module.exports = (sequelize) => {
       allowNull:false
     }
   });
+
 };

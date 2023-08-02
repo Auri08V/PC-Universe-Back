@@ -1,11 +1,16 @@
-const { Router } = require("express");
-const getAllComponentesController = require("../Controllers/getAllComponentes");
+const {Router} = require ("express");
+const componentesRouter = require('./componentesRouter');
 
-const router = Router();
+const DB = require('../../DB.json')
 
-router.get(
-  "/componentes/all",
-  getAllComponentesController.getAllComponentesController
-);
+const router = Router ()
+
+
+// router.use("/componentes", (req, res)=> {
+//     res.json(DB);
+// });
+
+router.use("/componentes", componentesRouter);
+
 
 module.exports = router;

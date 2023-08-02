@@ -87,7 +87,7 @@
     }
   ],
 
-  "memorias ram": [
+  "memorias_ram": [
     {
       "modelo": "Corsair Vengeance LPX",
       "especificaciones": {
@@ -201,7 +201,7 @@
       "categoria": "memoria ram"
     }
   ],
-  "placa grafica": [
+  "placas_graficas": [
     {
       "modelo": "NVIDIA GeForce RTX 3090",
       "especificaciones": {
@@ -755,7 +755,6 @@
       "precio": 65345,
       "categoria": "procesador"
     },
-    {},
     {
       "modelo": "AMD Ryzen 7 5800X",
       "especificaciones": {
