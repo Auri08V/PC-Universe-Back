@@ -27,5 +27,9 @@ module.exports = (sequelize) => {
       type: DataTypes.TEXT,
       allowNull: false,
     },
+    categoria:{
+      type: DataTypes.STRING,
+      allowNull:false
+    }
   });
 };

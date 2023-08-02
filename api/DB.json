@@ -8,7 +8,8 @@
         "descripcion": "Diseño de malla para un excelente flujo de aire y refrigeración. Panel lateral de vidrio templado para mostrar los componentes internos.Soporte para radiadores de hasta 280 mm en la parte frontal y superior.Espacio para GPU de hasta 315 mm de longitud.Filtros de polvo extraíbles para facilitar la limpieza."
       },
       "img": "https://www.fractal-design.com/app/uploads/2019/06/Meshify-C_1.jpg",
-      "precio": 8000
+      "precio": 8000,
+      "categoria": "gabinete"
     },
     {
       "modelo": "Lian Li PC-O11 Dynamic",
@@ -18,7 +19,8 @@
         "descripcion": "Elegante diseño con paneles de vidrio templado en el frente, laterales y techo.Amplio espacio interior para sistemas de refrigeración personalizados y componentes de alto rendimiento. Soporte para radiadores de hasta 360 mm en la parte superior y lateral.Iluminación RGB opcional con controlador incluido. Espacio para GPU de hasta 420 mm de longitud"
       },
       "img": "https://lian-li.com/wp-content/uploads/2020/11/O11D-black-side.jpg",
-      "precio": 10000
+      "precio": 10000,
+      "categoria": "gabinete"
     },
     {
       "modelo": "Phanteks Enthoo Pro II",
@@ -28,7 +30,8 @@
         "descripcion": "Diseño modular con múltiples opciones de configuración.Espacio para hasta 9 ventiladores para un rendimiento de enfriamiento excepcional.Compatibilidad con placas base de tamaño E-ATX y tarjetas gráficas de hasta 503 mm de longitud.Amplio espacio para sistemas de enfriamiento líquido personalizados.Paneles de vidrio templado en el lateral y frontal."
       },
       "img": "https://www.profesionalreview.com/wp-content/uploads/2020/07/Phanteks-Enthoo-Pro-2-caja-de-alta-gama-con-High-Performance-Fabric_3.jpg",
-      "precio": 15000
+      "precio": 15000,
+      "categoria": "gabinete"
     },
     {
       "modelo": "Dark Base 700",
@@ -38,7 +41,8 @@
         "descripcion": "Panel frontal de aluminio cepillado y panel lateral de vidrio tintado.Sistema de aislamiento de ruido para un funcionamiento silencioso.Soporte para hasta 7 ventiladores y múltiples radiadores.Sistema modular para una fácil personalización del interior.Espacio para GPU de hasta 430 mm de longitud."
       },
       "img": "https://www.bequiet.com/admin/ImageServer.php?ID=ef21ea11153@be-quiet.net&omitPreview=true&.jpg",
-      "precio": 14000
+      "precio": 14000,
+      "categoria": "gabinete"
     },
     {
       "modelo": "Cooler Master MasterCase H500",
@@ -48,7 +52,8 @@
         "descripcion": "Frontal de malla para un flujo de aire óptimo y una mejor refrigeración.Iluminación RGB en el frente y en la parte superior del chasis.Soporte para radiadores de hasta 360 mm en la parte frontal y superior.Espacio para tarjetas gráficas de hasta 410 mm de longitud.Asa de transporte para facilitar el transporte."
       },
       "img": "https://lanware.com.ar/assets/files/abm_productos_imagenes/MCMH500IGNN.jpg",
-      "precio": 11500
+      "precio": 11500,
+      "categoria": "gabinete"
     },
     {
       "modelo": "NZXT H710i",
@@ -58,7 +63,8 @@
         "descripcion": "Panel frontal y laterales de vidrio templado para una visualización clara del interior.Sistema de gestión de cables inteligente para un montaje limpio y ordenado.Soporte para hasta 7 ventiladores y radiadores de hasta 360 mm para una excelente refrigeración.Espacio para GPU de hasta 413 mm de longitud.Controlador de iluminación RGB integrado y tiras LED incluidas."
       },
       "img": "https://mcegamer.com/wp-content/uploads/2020/12/CA-H710I-W1-1.jpg",
-      "precio": 12800
+      "precio": 12800,
+      "categoria": "gabinete"
     },
     {
       "modelo": "Corsair Obsidian 500D RGB SE",
@@ -68,14 +74,16 @@
         "descripcion": "Diseño elegante con paneles de vidrio templado en el frente y ambos lados.Iluminación RGB personalizable con ventiladores LED incluidos.Amplio espacio interior para una fácil instalación y gestión de cables.Soporte para refrigeración líquida y hasta 6 ventiladores.Filtros de polvo extraíbles para un mantenimiento sencillo."
       },
       "img": "https://app.contabilium.com/files/explorer/7026/Productos-Servicios/concepto-4492157.jpg",
-      "precio": 25000
+      "precio": 25000,
+      "categoria": "gabinete"
     },
     {
       "modelo": "Cooler Master MasterBox MB530P",
       "especificaciones": { "dimensiones": "49.6 x 23.8 x 52.8 cm" },
       "descripcion": "Frontal de malla para un flujo de aire óptimo y un mejor enfriamiento. Tres ventiladores RGB direccionables preinstalados para una iluminación impresionante. Soporte para radiadores de hasta 360 mm en la parte frontal y superior. Espacio para tarjetas gráficas de hasta 410 mm de longitud.Cubierta de PSU y sistema de gestión de cables para un aspecto limpio.",
       "img": "https://www.fullh4rd.com.ar/img/productos/6/gabinete-colermaster-masterbox--mb530p--argb-0.jpg",
-      "precio": 16000
+      "precio": 16000,
+      "categoria": "gabinete"
     }
   ],
 
@@ -91,7 +99,8 @@
         "Detalle": "Disipador de calor de aluminio para una mejor disipación del calor y mayor rendimiento."
       },
       "img": "https://www.fullh4rd.com.ar/img/productos/4/memoria-8gb-ddr4-2666-corsair-vengeance-lpx-0.jpg",
-      "precio": 2000
+      "precio": 2000,
+      "categoria": "memoria ram"
     },
     {
       "modelo": "G.Skill Trident Z RGB",
@@ -104,7 +113,8 @@
         "Detalle": "Iluminación RGB personalizable con sincronización de efectos a través de software."
       },
       "img": "https://www.fullh4rd.com.ar/img/productos/4/memoria-16gb-2x8gb-ddr4-3600-gskill-trident-z-rgb-cl19-0.jpg",
-      "precio": 13000
+      "precio": 13000,
+      "categoria": "memoria ram"
     },
     {
       "modelo": "Kingston HyperX Fury",
@@ -117,7 +127,8 @@
         "Detalle": "Diseño de perfil bajo ideal para sistemas con espacio limitado."
       },
       "img": "https://media.kingston.com/kingston/features/ktc-features-memory-beast-ddr4.jpg",
-      "precio": 22000
+      "precio": 22000,
+      "categoria": "memoria ram"
     },
     {
       "modelo": "Crucial Ballistix RGB",
@@ -130,7 +141,8 @@
         "Detalle": "Iluminación RGB personalizable y compatible con software de control RGB."
       },
       "img": "https://www.deffo.com.ar/wp-content/uploads/2021/05/BL8GxxC16U4BL-1.jpg",
-      "precio": 17000
+      "precio": 17000,
+      "categoria": "memoria ram"
     },
     {
       "modelo": "Team T-Force Vulcan Z",
@@ -143,7 +155,8 @@
         "Detalle": "Disipador de calor de aluminio para una mejor gestión térmica."
       },
       "img": "https://shiny-core.com/wp-content/uploads/2022/05/RAM-DDR4-TEAMGROUP-T-FORCE-VULCAN-Z-GRAY.jpg",
-      "precio": 11000
+      "precio": 11000,
+      "categoria": "memoria ram"
     },
     {
       "modelo": "Patriot Viper Steel Series",
@@ -156,7 +169,8 @@
         "Detalle": "Diseño elegante con disipador de calor para un rendimiento confiable."
       },
       "img": "https://www.deffo.com.ar/wp-content/uploads/2020/08/Viper-Steel-2.jpg",
-      "precio": 16600
+      "precio": 16600,
+      "categoria": "memoria ram"
     },
     {
       "modelo": "Adata XPG Spectrix D41",
@@ -169,7 +183,8 @@
         "Detalle": "Iluminación RGB configurable con software del fabricante."
       },
       "img": "https://www.deffo.com.ar/wp-content/uploads/2021/04/XPG-Spectrix-D41-1.jpg",
-      "precio": 23878
+      "precio": 23878,
+      "categoria": "memoria ram"
     },
     {
       "modelo": "Corsair Dominator Platinum RGB",
@@ -182,10 +197,11 @@
         "Detalle": "Disipador de calor de aluminio de alta calidad con iluminación RGB personalizable."
       },
       "img": "https://app.contabilium.com/files/explorer/7026/Productos-Servicios/concepto-7515670.jpg",
-      "precio": 304000
+      "precio": 304000,
+      "categoria": "memoria ram"
     }
   ],
-  "placas graficas": [
+  "placa grafica": [
     {
       "modelo": "NVIDIA GeForce RTX 3090",
       "especificaciones": {
@@ -198,7 +214,8 @@
         "Conexiones": "HDMI 2.1, DisplayPort 1.4a"
       },
       "img": "https://m.media-amazon.com/images/I/61wbV8oqAbL.jpg",
-      "precio": 400000
+      "precio": 400000,
+      "categoria": "placa grafica"
     },
 
     {
@@ -213,7 +230,8 @@
         "Conexiones": "HDMI 2.1, DisplayPort 1.4"
       },
       "img": "https://m.media-amazon.com/images/I/4178P0YUeJL._AC_SX355_.jpg",
-      "precio": 70000
+      "precio": 70000,
+      "categoria": "placa grafica"
     },
 
     {
@@ -228,7 +246,8 @@
         "Conexiones": "HDMI 2.1, DisplayPort 1.4a"
       },
       "img": "https://ae04.alicdn.com/kf/S9da4ae1d57164da6aa85a838ec225ad2N.jpg",
-      "precio": 390000
+      "precio": 390000,
+      "categoria": "placa grafica"
     },
 
     {
@@ -243,7 +262,8 @@
         "Conexiones": "HDMI 2.1, DisplayPort 1.4"
       },
       "img": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/1664/innergigabyteimages/kf-img.png",
-      "precio": 370000
+      "precio": 370000,
+      "categoria": "placa grafica"
     },
 
     {
@@ -258,7 +278,8 @@
         "Conexiones": "HDMI 2.1, DisplayPort 1.4a"
       },
       "img": "https://www.fullh4rd.com.ar/img/productos/3/video-geforce-rtx-3060-ti-8gb-pny-uprising-dual-lhr-2.jpg",
-      "precio": 250000
+      "precio": 250000,
+      "categoria": "placa grafica"
     },
 
     {
@@ -273,7 +294,8 @@
         "Conexiones": "HDMI 2.1, DisplayPort 1.4"
       },
       "img": "https://tpucdn.com/gpu-specs/images/c/3695-bottom.jpg",
-      "precio": 289099
+      "precio": 289099,
+      "categoria": "placa grafica"
     },
 
     {
@@ -288,7 +310,8 @@
         "Conexiones": "HDMI 2.1, DisplayPort 1.4a"
       },
       "img": "https://images.hothardware.com/contentimages/article/3074/content/small_nvidia-geforce-rtx-3060-angle-1.JPG",
-      "precio": 2
+      "precio": 2,
+      "categoria": "placa grafica"
     },
 
     {
@@ -303,7 +326,8 @@
         "Conexiones": "HDMI 2.1, DisplayPort 1.4"
       },
       "img": "https://www.amd.com/system/files/2021-07/910022-amd-radeon-6600XT-angle1260x709_0.png",
-      "precio": 189000
+      "precio": 189000,
+      "categoria": "placa grafica"
     }
   ],
 
@@ -320,7 +344,8 @@
         "hdr_compatible": "no"
       },
       "img": "https://dojiw2m9tvv09.cloudfront.net/39394/product/210-arcf_v36412.png",
-      "precio": 60000
+      "precio": 60000,
+      "categoria": "monitor"
     },
     {
       "modelo": "ASUS VG279Q",
@@ -335,7 +360,8 @@
       },
 
       "img": "https://oechsle.vteximg.com.br/arquivos/ids/9847058-1000-1000/imageUrl_2.jpg?v=637937211002570000",
-      "precio": 90000
+      "precio": 90000,
+      "categoria": "monitor"
     },
     {
       "modelo": "LG 34WK95U-W",
@@ -349,7 +375,8 @@
         "hdr_compatible": "si"
       },
       "img": "https://i.rtings.com/assets/products/fHegYHmI/lg-34wk95u-w/design-medium.jpg",
-      "precio": 79800
+      "precio": 79800,
+      "categoria": "monitor"
     },
     {
       "modelo": "AOC CQ32G1",
@@ -363,7 +390,8 @@
         "hdr_compatible": "no"
       },
       "img": "https://m.media-amazon.com/images/I/81awCv2BspL._AC_SL1500_.jpg",
-      "precio": 57000
+      "precio": 57000,
+      "categoria": "monitor"
     },
     {
       "modelo": "Samsung Odyssey G7",
@@ -377,7 +405,8 @@
         "hdr_compatible": "si"
       },
       "img": "https://promart.vteximg.com.br/arquivos/ids/7222373-1000-1000/image-1.jpg?v=638234772286400000",
-      "precio": 73550
+      "precio": 73550,
+      "categoria": "monitor"
     },
     {
       "modelo": "BenQ PD2700U",
@@ -391,7 +420,8 @@
         "hdr_compatible": "no"
       },
       "img": "https://plazavea.vteximg.com.br/arquivos/ids/25966806-300-300/image-f495101d7422430e9bacb8250eb50c8e.jpg?v=638149522312300000",
-      "precio": 87000
+      "precio": 87000,
+      "categoria": "monitor"
     },
     {
       "modelo": "ViewSonic VX2458-MHD",
@@ -405,7 +435,8 @@
         "hdr_compatible": "no"
       },
       "img": "https://oechsle.vteximg.com.br/arquivos/ids/15423777-1500-1500/image-0.jpg?v=638237333114600000",
-      "precio": 56000
+      "precio": 56000,
+      "categoria": "monitor"
     },
     {
       "modelo": "Acer Predator X34",
@@ -419,10 +450,11 @@
         "hdr_compatible": "si"
       },
       "img": "https://m.media-amazon.com/images/I/612yBrnxozL._AC_UF894,1000_QL80_.jpg",
-      "precio": 38900
+      "precio": 38900,
+      "categoria": "monitor"
     }
   ],
-  "almacenamiento": [
+  "discos": [
     {
       "modelo": "Samsung 970 EVO",
       "especificaciones": {
@@ -433,7 +465,8 @@
         "velocidad_escritura": "2500 MB/s"
       },
       "img": "https://promart.vteximg.com.br/arquivos/ids/6634255-1000-1000/image-6b45bae7780e4b55ad8b3db564fa30a2.jpg?v=638050077146000000",
-      "precio": 41000
+      "precio": 41000,
+      "categoria": "disco"
     },
     {
       "modelo": "Western Digital Blue",
@@ -444,7 +477,8 @@
         "velocidad_rotacion": "5400 RPM"
       },
       "img": "https://devercomp.pe/wp-content/uploads/2020/12/1-121.jpg",
-      "precio": 47677
+      "precio": 47677,
+      "categoria": "disco"
     },
     {
       "modelo": "Crucial MX500",
@@ -456,7 +490,8 @@
         "velocidad_escritura": "510 MB/s"
       },
       "img": "https://falabella.scene7.com/is/image/FalabellaPE/113971024_1?wid=800&hei=800&qlt=70",
-      "precio": 54987
+      "precio": 54987,
+      "categoria": "disco"
     },
     {
       "modelo": "Seagate BarraCuda",
@@ -467,7 +502,8 @@
         "velocidad_rotacion": "5400 RPM"
       },
       "img": "https://ae01.alicdn.com/kf/HTB1bMlxzHGYBuNjy0Foq6AiBFXar/Seagate-disco-duro-para-PC-de-escritorio-BarraCuda-Original-de-4TB-3-5-pulgadas-cach-interno.jpg",
-      "precio": 30000
+      "precio": 30000,
+      "categoria": "disco"
     },
     {
       "modelo": "ADATA XPG SX8200 Pro",
@@ -479,7 +515,8 @@
         "velocidad_escritura": "3000 MB/s"
       },
       "img": "https://m.media-amazon.com/images/I/71Q4ukBjtRL._AC_SL1500_.jpg",
-      "precio": 417645
+      "precio": 417645,
+      "categoria": "disco"
     },
     {
       "modelo": "Toshiba X300",
@@ -490,7 +527,8 @@
         "velocidad_rotacion": "7200 RPM"
       },
       "img": "https://images-na.ssl-images-amazon.com/images/I/71Mh0J8FoeL._AC_UL600_SR600,600_.jpg",
-      "precio": 54345
+      "precio": 54345,
+      "categoria": "disco"
     },
     {
       "modelo": "Kingston A2000",
@@ -502,7 +540,8 @@
         "velocidad_escritura": "1100 MB/s"
       },
       "img": "https://media.kingston.com/kingston/press/A2000_press_release_455x284.jpg",
-      "precio": 76453
+      "precio": 76453,
+      "categoria": "disco"
     },
     {
       "modelo": "Seagate FireCuda",
@@ -513,7 +552,8 @@
         "velocidad_rotacion": "5400 RPM"
       },
       "img": "https://m.media-amazon.com/images/I/517Q8c6M9NL._AC_.jpg",
-      "precio": 43265
+      "precio": 43265,
+      "categoria": "disco"
     }
   ],
   "fuentes_de_poder": [
@@ -532,7 +572,8 @@
         }
       },
       "img": "https://images.evga.com/products/gallery/png/220-G5-0750-X1_XL_1.png",
-      "precio": 32345
+      "precio": 32345,
+      "categoria": "fuente de poder"
     },
     {
       "modelo": "Corsair RM750x",
@@ -549,7 +590,8 @@
         }
       },
       "img": "https://cdn.mos.cms.futurecdn.net/9xcZipTCuEsjcmtE5kcpP7.jpg",
-      "precio": 12432
+      "precio": 12432,
+      "categoria": "fuente de poder"
     },
     {
       "modelo": "Seasonic Focus GX-650",
@@ -566,7 +608,8 @@
         }
       },
       "img": "https://seasonic.com/pub/media/catalog/product/cache/3cbda8e892dc62fc02660815c2a4b231/f/o/focus-gx-650-box_1.jpg",
-      "precio": 23543
+      "precio": 23543,
+      "categoria": "fuente de poder"
     },
     {
       "modelo": "Thermaltake Toughpower GF1 750W",
@@ -583,7 +626,8 @@
         }
       },
       "img": "https://m.media-amazon.com/images/I/71DDgVE794L.jpg",
-      "precio": 53567
+      "precio": 53567,
+      "categoria": "fuente de poder"
     },
     {
       "modelo": "NZXT C850",
@@ -600,7 +644,8 @@
         }
       },
       "img": "https://nzxt.com/assets/cms/34299/1652147035-power_c_series_gold_c850-vents-up-right.png?auto=format&fit=crop&h=1000&w=1000",
-      "precio": 54234
+      "precio": 54234,
+      "categoria": "fuente de poder"
     }
   ],
 
@@ -617,7 +662,8 @@
         "fabricante": "Intel"
       },
       "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/Uz8Y5a3wWp9aQfPfHyjW/img",
-      "precio": 76543
+      "precio": 76543,
+      "categoria": "procesador"
     },
     {
       "modelo": "Intel Core i7-11700K",
@@ -631,7 +677,8 @@
         "fabricante": "Intel"
       },
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/599/423/products/71p3chrzgnl11-947bf647ae6fd33d7816673303367512-640-0.jpg",
-      "precio": 63232
+      "precio": 63232,
+      "categoria": "procesador"
     },
     {
       "modelo": "Intel Core i5-11600K",
@@ -645,7 +692,8 @@
         "fabricante": "Intel"
       },
       "img": "https://www.fullh4rd.com.ar/img/productos/1/micro-intel-core-i5-11600k-11-gen-0.jpg",
-      "precio": 54275
+      "precio": 54275,
+      "categoria": "procesador"
     },
     {
       "modelo": "Intel Core i9-12900K",
@@ -659,7 +707,8 @@
         "fabricante": "Intel"
       },
       "img": "https://www.fullh4rd.com.ar/img/productos/1/micro-intel-core-i9-12900-s1700-0.jpg",
-      "precio": 94765
+      "precio": 94765,
+      "categoria": "procesador"
     },
     {
       "modelo": "Intel Core i7-12700K",
@@ -673,7 +722,8 @@
         "fabricante": "Intel"
       },
       "img": "https://www.fullh4rd.com.ar/img/productos/1/micro-intel-core-i7-12700k-scooler-s1700--barato-q-12700kf-0.jpg",
-      "precio": 76436
+      "precio": 76436,
+      "categoria": "procesador"
     },
     {
       "modelo": "AMD Ryzen 9 5950X",
@@ -687,7 +737,8 @@
         "fabricante": "AMD"
       },
       "img": "https://www.fullh4rd.com.ar/img/productos/1/micro-amd-ryzen-9-5950x-scooler-svideo-0.jpg",
-      "precio": 54678
+      "precio": 54678,
+      "categoria": "procesador"
     },
     {
       "modelo": "AMD Ryzen 9 5900X",
@@ -701,7 +752,8 @@
         "fabricante": "AMD"
       },
       "img": "https://www.fullh4rd.com.ar/img/productos/1/micro-amd-ryzen-9-5900x-scooler-svideo-0.jpg",
-      "precio": 65345
+      "precio": 65345,
+      "categoria": "procesador"
     },
     {},
     {
@@ -716,7 +768,8 @@
         "fabricante": "AMD"
       },
       "img": "https://www.venex.com.ar/products_images/1605015858_microprocesadoramdryzen75800x.jpg",
-      "precio": 65234
+      "precio": 65234,
+      "categoria": "procesador"
     },
     {
       "modelo": "AMD Ryzen 9 5900HS",
@@ -730,10 +783,11 @@
         "fabricante": "AMD"
       },
       "img": "https://www.xt-pc.com.ar/img/productos/Pics_Prod/CPU572.jpg",
-      "precio": 87465
+      "precio": 87465,
+      "categoria": "procesador"
     }
   ],
-  "placas_base": [
+  "placas_madres": [
     {
       "modelo": "ASUS ROG Crosshair VIII Formula",
       "especificaciones": {
@@ -746,7 +800,8 @@
         "formato": "ATX"
       },
       "img": "https://elchapuzasinformatico.com/wp-content/uploads/2019/07/Asus-ROG-Crosshair-VIII-Formula-Oficial.jpg",
-      "precio": 54123
+      "precio": 54123,
+      "categoria": "placa madre"
     },
     {
       "modelo": "Gigabyte B550 AORUS Pro",
@@ -760,7 +815,8 @@
         "formato": "ATX"
       },
       "img": "https://www.deffo.com.ar/wp-content/uploads/2022/03/B550-AORUS-PRO-AX-1.webp",
-      "precio": 123456
+      "precio": 123456,
+      "categoria": "placa madre"
     },
     {
       "modelo": "MSI MPG B550 GAMING EDGE WIFI",
@@ -775,7 +831,8 @@
         "formato": "ATX"
       },
       "img": "https://www.impacto.com.pe/storage/products/16138436583.jpg",
-      "precio": 1254366
+      "precio": 1254366,
+      "categoria": "placa madre"
     },
     {
       "modelo": "ASRock B550M PRO4",
@@ -789,7 +846,8 @@
         "formato": "mATX"
       },
       "img": "https://images10.newegg.com/BizIntell/item/13/157/13-157-939/B550-PG-Velocita_062420.jpg",
-      "precio": 65442
+      "precio": 65442,
+      "categoria": "placa madre"
     },
     {
       "modelo": "Gigabyte B550I AORUS PRO AX",
@@ -803,7 +861,8 @@
         "formato": "mITX"
       },
       "img": "https://www.techbuy.com.au/images/large/47/P476721.jpg",
-      "precio": 23435
+      "precio": 23435,
+      "categoria": "placa madre"
     },
     {
       "modelo": "ASUS ROG Maximus XIII Hero",
@@ -817,7 +876,8 @@
         "formato": "ATX"
       },
       "img": "https://www.example.com/imagen_asus_rog_maximus_xiii_hero.jpg",
-      "precio": 543456
+      "precio": 543456,
+      "categoria": "placa madre"
     },
     {
       "modelo": "Gigabyte Z590 AORUS Master",
@@ -831,7 +891,8 @@
         "formato": "ATX"
       },
       "img": "https://www.example.com/imagen_gigabyte_z590_aorus_master.jpg",
-      "precio": 43567
+      "precio": 43567,
+      "categoria": "placa madre"
     },
     {
       "modelo": "MSI MPG Z590 GAMING EDGE WIFI",
@@ -845,7 +906,8 @@
         "formato": "ATX"
       },
       "img": "https://www.example.com/imagen_msi_mpg_z590_gaming_edge_wifi.jpg",
-      "precio": 54345
+      "precio": 54345,
+      "categoria": "placa madre"
     },
     {
       "modelo": "ASRock Z590 Extreme",
@@ -859,7 +921,8 @@
         "formato": "ATX"
       },
       "img": "https://www.example.com/imagen_asrock_z590_extreme.jpg",
-      "precio": 65445
+      "precio": 65445,
+      "categoria": "placa madre"
     },
     {
       "modelo": "Gigabyte Z690 AORUS Master",
@@ -873,7 +936,8 @@
         "formato": "ATX"
       },
       "img": "https://www.example.com/imagen_gigabyte_z690_aorus_master.jpg",
-      "precio": 43456
+      "precio": 43456,
+      "categoria": "placa madre"
     }
   ],
   "refrigerantes": [
@@ -888,6 +952,7 @@
         "iluminacion_rgb": "si"
       },
       "precio": 13999,
+      "categoria": "refrigeracion",
       "img": "https://electronicstore.com.pe/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/-/c/-cw-9060039-ww-gallery-h100i-rgb-platinum-01.png"
     },
     {
@@ -901,6 +966,7 @@
         "iluminacion_rgb": "si"
       },
       "precio": 14999,
+      "categoria": "refrigeracion",
       "img": "https://www.impacto.com.pe/storage/products/1618252955RL-KRX63-R1-1.jpg"
     },
     {
@@ -914,6 +980,7 @@
         "iluminacion_rgb": "si"
       },
       "precio": 4999,
+      "categoria": "refrigeracion",
       "img": "https://cdn.coolermaster.com/media/2945/hyper-212-rgb-black-gallery-1-zoom.png"
     },
     {
@@ -927,6 +994,7 @@
         "iluminacion_rgb": "no"
       },
       "precio": 8995,
+      "categoria": "refrigeracion",
       "img": "https://horsansystem.com/752-large_default/noctua-nh-d15-chromax-black.jpg"
     },
     {
@@ -940,6 +1008,7 @@
         "iluminacion_rgb": "no"
       },
       "precio": 38469,
+      "categoria": "refrigeracion",
       "img": "https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F589%2FMARKETPLACE%20INTERNACIONAL%2F41VulWus2zL_223129648598_12.jpeg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=9be0b71bbf740339fe652b85f6820ad8"
     },
     {
@@ -953,6 +1022,7 @@
         "iluminacion_rgb": "no"
       },
       "precio": 27999,
+      "categoria": "refrigeracion",
       "img": "https://m.media-amazon.com/images/I/61Fp9vzL-0L._AC_UF894,1000_QL80_.jpg"
     },
     {
@@ -966,6 +1036,7 @@
         "iluminacion_rgb": "si"
       },
       "precio": 17999,
+      "categoria": "refrigeracion",
       "img": "https://es.thermaltake.com/media/catalog/product/cache/023a745bb14092c479b288481f91a1bd/db/imgs/pdt/angle/CL-W158-PL12SW-A_b0d05e19503a4093bd4c7e98c826320c.jpg"
     },
     {
@@ -979,6 +1050,7 @@
         "iluminacion_rgb": "no"
       },
       "precio": 3499,
+      "categoria": "refrigeracion",
       "img": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPUAirCoolers/GAMMAXX_400_Blue/Overview/01.png?fm=webp&q=60"
     }
   ],
@@ -994,6 +1066,7 @@
         "conexion": "USB"
       },
       "precio": 40800,
+      "categoria": "periferico",
       "img": "https://assets.hardwarezone.com/img/2019/10/logitech-g-pro-x-keyboard.jpg"
     },
     {
@@ -1006,6 +1079,7 @@
         "conexion": "USB"
       },
       "precio": 6999,
+      "categoria": "periferico",
       "img": "https://cyccomputer.pe/32517-large_default/mouse-razer-deathadder-v2-focus-chroma-20000-dpi-black-usb-pnrz01-03210100-r3u1.jpg"
     },
     {
@@ -1018,6 +1092,7 @@
         "conexion": "3.5mm y USB"
       },
       "precio": 40000,
+      "categoria": "periferico",
       "img": "https://cdn.gidat.pe/images/25814edb-4a7a-4c1b-a068-d0d4aba4f5d2/auriculares-hyperx-cloud-ii-micrfono-conector-35mm-negro-rojo.jpg?fm=jpg&q=80&fit=max&crop=800%2C800%2C0%2C0&w=800&h=800"
     },
     {
@@ -1029,6 +1104,7 @@
         "base_antideslizante": "si"
       },
       "precio": 5099,
+      "categoria": "periferico",
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/929/242/products/d_nq_np_652221-mla43776171808_102020-o1-11d9036b5ac58a6dea16361474947221-1024-1024.jpg"
     },
     {
@@ -1040,6 +1116,7 @@
         "conexion": "USB"
       },
       "precio": 12000,
+      "categoria": "periferico",
       "img": "https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F934%2FCONSUMO%20MASIVO%2FWEBAM%2F920-1.jpeg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=a5d6d3c7ed0f012c067d741d82b78f5b"
     },
     {
@@ -1051,6 +1128,7 @@
         "conexion": "3.5mm y RCA"
       },
       "precio": 20000,
+      "categoria": "periferico",
       "img": "https://i.blogs.es/f0caae/logitech-z623-thx/1366_2000.jpg"
     },
     {
@@ -1062,6 +1140,7 @@
         "conexion": "USB"
       },
       "precio": 24000,
+      "categoria": "periferico",
       "img": "https://m.media-amazon.com/images/I/61vI0Zii07L.jpg"
     },
     {
@@ -1072,6 +1151,7 @@
         "inalambrico": "si"
       },
       "precio": 10000,
+      "categoria": "periferico",
       "img": "https://assets.xboxservices.com/assets/1c/e7/1ce760ed-d588-4976-baa9-cbabe583436b.jpg?n=111101_Gallery-0_29_1350x759.jpg"
     }
   ]
