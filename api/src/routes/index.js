@@ -1,10 +1,11 @@
-const {Router} = require ("express")
+const { Router } = require("express");
+const getAllComponentesController = require("../Controllers/getAllComponentes");
 
-const router = Router ()
+const router = Router();
 
+router.get(
+  "/componentes/all",
+  getAllComponentesController.getAllComponentesController
+);
 
-
-
-
-
-module.exports = router
+module.exports = router;
