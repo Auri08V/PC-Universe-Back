@@ -1,5 +1,5 @@
 {
-  "gabinetes": [
+  "componentes": [
     {
       "id": 1,
       "modelo": "Fractal Design Meshify C",
@@ -92,10 +92,8 @@
       "img": "https://www.fullh4rd.com.ar/img/productos/6/gabinete-colermaster-masterbox--mb530p--argb-0.jpg",
       "precio": 16000,
       "categoria": "gabinete"
-    }
-  ],
-
-  "memorias_ram": [
+    },
+  
     {
       "id": 9,
       "modelo": "Corsair Vengeance LPX",
@@ -215,9 +213,9 @@
       "img": "https://app.contabilium.com/files/explorer/7026/Productos-Servicios/concepto-7515670.jpg",
       "precio": 304000,
       "categoria": "memoria ram"
-    }
-  ],
-  "placas_graficas": [
+    },
+  
+ 
     {
       "id": 17,
       "modelo": "NVIDIA GeForce RTX 3090",
@@ -352,10 +350,8 @@
       "img": "https://www.amd.com/system/files/2021-07/910022-amd-radeon-6600XT-angle1260x709_0.png",
       "precio": 189000,
       "categoria": "placa grafica"
-    }
-  ],
+    },
 
-  "monitores": [
     {
       "id": 25,
       "modelo": "Dell UltraSharp U2419H",
@@ -484,9 +480,9 @@
       "img": "https://m.media-amazon.com/images/I/612yBrnxozL._AC_UF894,1000_QL80_.jpg",
       "precio": 38900,
       "categoria": "monitor"
-    }
-  ],
-  "discos": [
+    },
+  
+ 
     {
       "id": 33,
       "modelo": "Samsung 970 EVO",
@@ -594,9 +590,8 @@
       "img": "https://m.media-amazon.com/images/I/517Q8c6M9NL._AC_.jpg",
       "precio": 43265,
       "categoria": "disco"
-    }
-  ],
-  "fuentes_de_poder": [
+    },
+  
     {
       "id": 41,
       "modelo": "EVGA Supernova 750 G5",
@@ -691,10 +686,8 @@
       "img": "https://nzxt.com/assets/cms/34299/1652147035-power_c_series_gold_c850-vents-up-right.png?auto=format&fit=crop&h=1000&w=1000",
       "precio": 54234,
       "categoria": "fuente de poder"
-    }
-  ],
+    },
 
-  "procesadores": [
     {
       "id": 46,
       "modelo": "Intel Core i9-11900K",
@@ -838,9 +831,8 @@
       "img": "https://www.xt-pc.com.ar/img/productos/Pics_Prod/CPU572.jpg",
       "precio": 87465,
       "categoria": "procesador"
-    }
-  ],
-  "placas_madres": [
+    },
+ 
     {
       "id": 55,
       "modelo": "ASUS ROG Crosshair VIII Formula",
@@ -1001,9 +993,8 @@
       "img": "https://www.example.com/imagen_gigabyte_z690_aorus_master.jpg",
       "precio": 43456,
       "categoria": "placa madre"
-    }
-  ],
-  "refrigerantes": [
+    },
+ 
     {
       "id": 65,
       "modelo": "Corsair Hydro Series H100i RGB Platinum",
@@ -1125,8 +1116,7 @@
       "img": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPUAirCoolers/GAMMAXX_400_Blue/Overview/01.png?fm=webp&q=60"
     }
   ],
-
-  "perifericos": [
+  "perifericos":[
     {
       "id": 73,
       "tipo": "Teclado",
