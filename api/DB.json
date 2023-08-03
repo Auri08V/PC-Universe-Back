@@ -1,6 +1,7 @@
 {
   "gabinetes": [
     {
+      "id": 1,
       "modelo": "Fractal Design Meshify C",
       "especificaciones": {
         "dimensiones": "41.2 x 23.5 x 39.5 cm",
@@ -12,6 +13,7 @@
       "categoria": "gabinete"
     },
     {
+      "id": 2,
       "modelo": "Lian Li PC-O11 Dynamic",
       "especificaciones": {
         "dimensiones": "45.5 x 27 x 47 cm",
@@ -23,6 +25,7 @@
       "categoria": "gabinete"
     },
     {
+      "id": 3,
       "modelo": "Phanteks Enthoo Pro II",
       "especificaciones": {
         "dimensiones": "55 x 24.7 x 55.8 cm",
@@ -34,6 +37,7 @@
       "categoria": "gabinete"
     },
     {
+      "id": 4,
       "modelo": "Dark Base 700",
       "especificaciones": {
         "dimensiones": "53.8 x 24.2 x 57.3 cm",
@@ -45,6 +49,7 @@
       "categoria": "gabinete"
     },
     {
+      "id": 5,
       "modelo": "Cooler Master MasterCase H500",
       "especificaciones": {
         "dimensiones": "52.6 x 24.2 x 55.6 cm",
@@ -56,6 +61,7 @@
       "categoria": "gabinete"
     },
     {
+      "id": 6,
       "modelo": "NZXT H710i",
       "especificaciones": {
         "dimensiones": "49.8 x 23.5 x 51.7 cm",
@@ -67,6 +73,7 @@
       "categoria": "gabinete"
     },
     {
+      "id": 7,
       "modelo": "Corsair Obsidian 500D RGB SE",
       "especificaciones": {
         "dimensiones": "50.2 x 23.0 x 50.7 cm",
@@ -78,6 +85,7 @@
       "categoria": "gabinete"
     },
     {
+      "id": 8,
       "modelo": "Cooler Master MasterBox MB530P",
       "especificaciones": { "dimensiones": "49.6 x 23.8 x 52.8 cm" },
       "descripcion": "Frontal de malla para un flujo de aire óptimo y un mejor enfriamiento. Tres ventiladores RGB direccionables preinstalados para una iluminación impresionante. Soporte para radiadores de hasta 360 mm en la parte frontal y superior. Espacio para tarjetas gráficas de hasta 410 mm de longitud.Cubierta de PSU y sistema de gestión de cables para un aspecto limpio.",
@@ -89,6 +97,7 @@
 
   "memorias_ram": [
     {
+      "id": 9,
       "modelo": "Corsair Vengeance LPX",
       "especificaciones": {
         "Generación DDR": "DDR4",
@@ -103,6 +112,7 @@
       "categoria": "memoria ram"
     },
     {
+      "id": 10,
       "modelo": "G.Skill Trident Z RGB",
       "especificaciones": {
         "Generación DDR": "DDR4",
@@ -117,6 +127,7 @@
       "categoria": "memoria ram"
     },
     {
+      "id": 11,
       "modelo": "Kingston HyperX Fury",
       "especificaciones": {
         "Generación DDR": "DDR4",
@@ -131,6 +142,7 @@
       "categoria": "memoria ram"
     },
     {
+      "id": 12,
       "modelo": "Crucial Ballistix RGB",
       "especificaciones": {
         "Generación DDR": "DDR4",
@@ -145,6 +157,7 @@
       "categoria": "memoria ram"
     },
     {
+      "id": 13,
       "modelo": "Team T-Force Vulcan Z",
       "especificaciones": {
         "Generación DDR": "DDR4",
@@ -159,6 +172,7 @@
       "categoria": "memoria ram"
     },
     {
+      "id": 14,
       "modelo": "Patriot Viper Steel Series",
       "especificaciones": {
         "Generación DDR": "DDR4",
@@ -173,6 +187,7 @@
       "categoria": "memoria ram"
     },
     {
+      "id": 15,
       "modelo": "Adata XPG Spectrix D41",
       "especificaciones": {
         "Generación DDR": "DDR4",
@@ -187,6 +202,7 @@
       "categoria": "memoria ram"
     },
     {
+      "id": 16,
       "modelo": "Corsair Dominator Platinum RGB",
       "especificaciones": {
         "Generación DDR": "DDR4",
@@ -203,6 +219,7 @@
   ],
   "placas_graficas": [
     {
+      "id": 17,
       "modelo": "NVIDIA GeForce RTX 3090",
       "especificaciones": {
         "Arquitectura": "Ampere",
@@ -219,6 +236,7 @@
     },
 
     {
+      "id": 18,
       "modelo": "AMD Radeon RX 6900 XT",
       "especificaciones": {
         "Arquitectura": "RDNA 2",
@@ -235,6 +253,7 @@
     },
 
     {
+      "id": 19,
       "modelo": "NVIDIA GeForce RTX 3080 Ti",
       "especificaciones": {
         "Arquitectura": "Ampere",
@@ -251,6 +270,7 @@
     },
 
     {
+      "id": 20,
       "modelo": "AMD Radeon RX 6800 XT",
       "especificaciones": {
         "Arquitectura": "RDNA 2",
@@ -267,6 +287,7 @@
     },
 
     {
+      "id": 21,
       "modelo": "NVIDIA GeForce RTX 3060 Ti",
       "especificaciones": {
         "Arquitectura": "Ampere",
@@ -283,6 +304,7 @@
     },
 
     {
+      "id": 22,
       "modelo": "AMD Radeon RX 6700 XT",
       "especificaciones": {
         "Arquitectura": "RDNA 2",
@@ -299,6 +321,7 @@
     },
 
     {
+      "id": 23,
       "modelo": "NVIDIA GeForce RTX 3060",
       "especificaciones": {
         "Arquitectura": "Ampere",
@@ -315,6 +338,7 @@
     },
 
     {
+      "id": 24,
       "modelo": "AMD Radeon RX 6600 XT",
       "especificaciones": {
         "Arquitectura": "RDNA 2",
@@ -333,6 +357,7 @@
 
   "monitores": [
     {
+      "id": 25,
       "modelo": "Dell UltraSharp U2419H",
       "especificaciones": {
         "tamaño_pantalla": "24 pulgadas",
@@ -348,6 +373,7 @@
       "categoria": "monitor"
     },
     {
+      "id": 26,
       "modelo": "ASUS VG279Q",
       "especificaciones": {
         "tamaño_pantalla": "27 pulgadas",
@@ -364,6 +390,7 @@
       "categoria": "monitor"
     },
     {
+      "id": 27,
       "modelo": "LG 34WK95U-W",
       "especificaciones": {
         "tamaño_pantalla": "34 pulgadas",
@@ -379,6 +406,7 @@
       "categoria": "monitor"
     },
     {
+      "id": 28,
       "modelo": "AOC CQ32G1",
       "especificaciones": {
         "tamaño_pantalla": "32 pulgadas",
@@ -394,6 +422,7 @@
       "categoria": "monitor"
     },
     {
+      "id": 29,
       "modelo": "Samsung Odyssey G7",
       "especificaciones": {
         "tamaño_pantalla": "27 pulgadas",
@@ -409,6 +438,7 @@
       "categoria": "monitor"
     },
     {
+      "id": 30,
       "modelo": "BenQ PD2700U",
       "especificaciones": {
         "tamaño_pantalla": "27 pulgadas",
@@ -424,6 +454,7 @@
       "categoria": "monitor"
     },
     {
+      "id": 31,
       "modelo": "ViewSonic VX2458-MHD",
       "especificaciones": {
         "tamaño_pantalla": "24 pulgadas",
@@ -439,6 +470,7 @@
       "categoria": "monitor"
     },
     {
+      "id": 32,
       "modelo": "Acer Predator X34",
       "especificaciones": {
         "tamaño_pantalla": "34 pulgadas",
@@ -456,6 +488,7 @@
   ],
   "discos": [
     {
+      "id": 33,
       "modelo": "Samsung 970 EVO",
       "especificaciones": {
         "tipo": "SSD",
@@ -469,6 +502,7 @@
       "categoria": "disco"
     },
     {
+      "id": 34,
       "modelo": "Western Digital Blue",
       "especificaciones": {
         "tipo": "HDD",
@@ -481,6 +515,7 @@
       "categoria": "disco"
     },
     {
+      "id": 35,
       "modelo": "Crucial MX500",
       "especificaciones": {
         "tipo": "SSD",
@@ -494,6 +529,7 @@
       "categoria": "disco"
     },
     {
+      "id": 36,
       "modelo": "Seagate BarraCuda",
       "especificaciones": {
         "tipo": "HDD",
@@ -506,6 +542,7 @@
       "categoria": "disco"
     },
     {
+      "id": 37,
       "modelo": "ADATA XPG SX8200 Pro",
       "especificaciones": {
         "tipo": "SSD",
@@ -519,6 +556,7 @@
       "categoria": "disco"
     },
     {
+      "id": 38,
       "modelo": "Toshiba X300",
       "especificaciones": {
         "tipo": "HDD",
@@ -531,6 +569,7 @@
       "categoria": "disco"
     },
     {
+      "id": 39,
       "modelo": "Kingston A2000",
       "especificaciones": {
         "tipo": "SSD",
@@ -544,6 +583,7 @@
       "categoria": "disco"
     },
     {
+      "id": 40,
       "modelo": "Seagate FireCuda",
       "especificaciones": {
         "tipo": "SSHD",
@@ -558,6 +598,7 @@
   ],
   "fuentes_de_poder": [
     {
+      "id": 41,
       "modelo": "EVGA Supernova 750 G5",
       "especificaciones": {
         "potencia": "750W",
@@ -576,6 +617,7 @@
       "categoria": "fuente de poder"
     },
     {
+      "id": 42,
       "modelo": "Corsair RM750x",
       "especificaciones": {
         "potencia": "750W",
@@ -594,6 +636,7 @@
       "categoria": "fuente de poder"
     },
     {
+      "id": 43,
       "modelo": "Seasonic Focus GX-650",
       "especificaciones": {
         "potencia": "650W",
@@ -612,6 +655,7 @@
       "categoria": "fuente de poder"
     },
     {
+      "id": 44,
       "modelo": "Thermaltake Toughpower GF1 750W",
       "especificaciones": {
         "potencia": "750W",
@@ -630,6 +674,7 @@
       "categoria": "fuente de poder"
     },
     {
+      "id": 45,
       "modelo": "NZXT C850",
       "especificaciones": {
         "potencia": "850W",
@@ -651,6 +696,7 @@
 
   "procesadores": [
     {
+      "id": 46,
       "modelo": "Intel Core i9-11900K",
       "especificaciones": {
         "nucleos": "8 / 16",
@@ -666,6 +712,7 @@
       "categoria": "procesador"
     },
     {
+      "id": 47,
       "modelo": "Intel Core i7-11700K",
       "especificaciones": {
         "nucleos": "8 / 16",
@@ -681,6 +728,7 @@
       "categoria": "procesador"
     },
     {
+      "id": 48,
       "modelo": "Intel Core i5-11600K",
       "especificaciones": {
         "nucleos": "6 / 12",
@@ -696,6 +744,7 @@
       "categoria": "procesador"
     },
     {
+      "id": 49,
       "modelo": "Intel Core i9-12900K",
       "especificaciones": {
         "nucleos": "8 / 24",
@@ -711,6 +760,7 @@
       "categoria": "procesador"
     },
     {
+      "id": 50,
       "modelo": "Intel Core i7-12700K",
       "especificaciones": {
         "nucleos": "8 / 20",
@@ -726,6 +776,7 @@
       "categoria": "procesador"
     },
     {
+      "id": 51,
       "modelo": "AMD Ryzen 9 5950X",
       "especificaciones": {
         "nucleos": "16 / 32",
@@ -741,6 +792,7 @@
       "categoria": "procesador"
     },
     {
+      "id": 52,
       "modelo": "AMD Ryzen 9 5900X",
       "especificaciones": {
         "nucleos": "12 / 24",
@@ -756,6 +808,7 @@
       "categoria": "procesador"
     },
     {
+      "id": 53,
       "modelo": "AMD Ryzen 7 5800X",
       "especificaciones": {
         "nucleos": "8 / 16",
@@ -771,6 +824,7 @@
       "categoria": "procesador"
     },
     {
+      "id": 54,
       "modelo": "AMD Ryzen 9 5900HS",
       "especificaciones": {
         "nucleos": "8 / 16",
@@ -788,6 +842,7 @@
   ],
   "placas_madres": [
     {
+      "id": 55,
       "modelo": "ASUS ROG Crosshair VIII Formula",
       "especificaciones": {
         "socket": "AM4",
@@ -803,6 +858,7 @@
       "categoria": "placa madre"
     },
     {
+      "id": 56,
       "modelo": "Gigabyte B550 AORUS Pro",
       "especificaciones": {
         "socket": "AM4",
@@ -818,6 +874,7 @@
       "categoria": "placa madre"
     },
     {
+      "id": 57,
       "modelo": "MSI MPG B550 GAMING EDGE WIFI",
       "especificaciones": {
         "socket": "AM4",
@@ -834,6 +891,7 @@
       "categoria": "placa madre"
     },
     {
+      "id": 58,
       "modelo": "ASRock B550M PRO4",
       "especificaciones": {
         "socket": "AM4",
@@ -849,6 +907,7 @@
       "categoria": "placa madre"
     },
     {
+      "id": 59,
       "modelo": "Gigabyte B550I AORUS PRO AX",
       "especificaciones": {
         "socket": "AM4",
@@ -864,6 +923,7 @@
       "categoria": "placa madre"
     },
     {
+      "id": 60,
       "modelo": "ASUS ROG Maximus XIII Hero",
       "especificaciones": {
         "socket": "LGA1200",
@@ -879,6 +939,7 @@
       "categoria": "placa madre"
     },
     {
+      "id": 61,
       "modelo": "Gigabyte Z590 AORUS Master",
       "especificaciones": {
         "socket": "LGA1200",
@@ -894,6 +955,7 @@
       "categoria": "placa madre"
     },
     {
+      "id": 62,
       "modelo": "MSI MPG Z590 GAMING EDGE WIFI",
       "especificaciones": {
         "socket": "LGA1200",
@@ -909,6 +971,7 @@
       "categoria": "placa madre"
     },
     {
+      "id": 63,
       "modelo": "ASRock Z590 Extreme",
       "especificaciones": {
         "socket": "LGA1200",
@@ -924,6 +987,7 @@
       "categoria": "placa madre"
     },
     {
+      "id": 64,
       "modelo": "Gigabyte Z690 AORUS Master",
       "especificaciones": {
         "socket": "LGA1700",
@@ -941,6 +1005,7 @@
   ],
   "refrigerantes": [
     {
+      "id": 65,
       "modelo": "Corsair Hydro Series H100i RGB Platinum",
       "especificaciones": {
         "compatibilidad_socket": "Intel LGA 1200, 115x, 1366, 2011, 2066; AMD AM4, sTRX4",
@@ -955,6 +1020,7 @@
       "img": "https://electronicstore.com.pe/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/-/c/-cw-9060039-ww-gallery-h100i-rgb-platinum-01.png"
     },
     {
+      "id": 66,
       "modelo": "NZXT Kraken X63",
       "especificaciones": {
         "compatibilidad_socket": "Intel LGA 1200, 1151, 1150, 1155, 1156, 1366, 2011, 2011-3, 2066; AMD AM4, sTR4, sTRX4",
@@ -969,6 +1035,7 @@
       "img": "https://www.impacto.com.pe/storage/products/1618252955RL-KRX63-R1-1.jpg"
     },
     {
+      "id": 67,
       "modelo": "Cooler Master Hyper 212 RGB Black Edition",
       "especificaciones": {
         "compatibilidad_socket": "Intel LGA 1200, 1151, 1150, 1155, 1156, 1366, 2011, 2011-v3, 2066; AMD AM4",
@@ -983,6 +1050,7 @@
       "img": "https://cdn.coolermaster.com/media/2945/hyper-212-rgb-black-gallery-1-zoom.png"
     },
     {
+      "id": 68,
       "modelo": "Noctua NH-D15",
       "especificaciones": {
         "compatibilidad_socket": "Intel LGA 1200, 1150, 1151, 1155, 1156, 1366, 2011, 2011-3, 2066; AMD AM4, AM3(+), AM2(+), FM1, FM2(+), AM5",
@@ -997,6 +1065,7 @@
       "img": "https://horsansystem.com/752-large_default/noctua-nh-d15-chromax-black.jpg"
     },
     {
+      "id": 69,
       "modelo": "be quiet! Dark Rock Pro 4",
       "especificaciones": {
         "compatibilidad_socket": "Intel LGA 1200, 1150, 1151, 1155, 1156, 1366, 2011, 2011-3, 2066; AMD AM4, AM3(+), AM2(+), FM1, FM2(+), AM5",
@@ -1011,6 +1080,7 @@
       "img": "https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F589%2FMARKETPLACE%20INTERNACIONAL%2F41VulWus2zL_223129648598_12.jpeg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=9be0b71bbf740339fe652b85f6820ad8"
     },
     {
+      "id": 70,
       "modelo": "ARCTIC Liquid Freezer II 240",
       "especificaciones": {
         "compatibilidad_socket": "Intel LGA 115x, 1200, 2011-3, 2066; AMD AM4",
@@ -1025,6 +1095,7 @@
       "img": "https://m.media-amazon.com/images/I/61Fp9vzL-0L._AC_UF894,1000_QL80_.jpg"
     },
     {
+      "id": 71,
       "modelo": "Thermaltake Floe Triple Riing RGB 360",
       "especificaciones": {
         "compatibilidad_socket": "Intel LGA 1200, 1150, 1151, 1155, 1156, 1366, 2011, 2011-3, 2066; AMD AM4",
@@ -1039,6 +1110,7 @@
       "img": "https://es.thermaltake.com/media/catalog/product/cache/023a745bb14092c479b288481f91a1bd/db/imgs/pdt/angle/CL-W158-PL12SW-A_b0d05e19503a4093bd4c7e98c826320c.jpg"
     },
     {
+      "id": 72,
       "modelo": "DeepCool GAMMAXX 400 V2",
       "especificaciones": {
         "compatibilidad_socket": "Intel LGA 1200, 1150, 1151, 1155, 1156, 1366, 2011, 2011-3, 2066; AMD AM4, AM3(+), AM2(+), FM1, FM2(+), AM5",
@@ -1056,6 +1128,7 @@
 
   "perifericos": [
     {
+      "id": 73,
       "tipo": "Teclado",
       "modelo": "Logitech G Pro X Mechanical Gaming Keyboard",
       "especificaciones": {
@@ -1069,6 +1142,7 @@
       "img": "https://assets.hardwarezone.com/img/2019/10/logitech-g-pro-x-keyboard.jpg"
     },
     {
+      "id": 74,
       "tipo": "Mouse",
       "modelo": "Razer DeathAdder V2",
       "especificaciones": {
@@ -1082,6 +1156,7 @@
       "img": "https://cyccomputer.pe/32517-large_default/mouse-razer-deathadder-v2-focus-chroma-20000-dpi-black-usb-pnrz01-03210100-r3u1.jpg"
     },
     {
+      "id": 75,
       "tipo": "Audífonos",
       "modelo": "HyperX Cloud II",
       "especificaciones": {
@@ -1095,6 +1170,7 @@
       "img": "https://cdn.gidat.pe/images/25814edb-4a7a-4c1b-a068-d0d4aba4f5d2/auriculares-hyperx-cloud-ii-micrfono-conector-35mm-negro-rojo.jpg?fm=jpg&q=80&fit=max&crop=800%2C800%2C0%2C0&w=800&h=800"
     },
     {
+      "id": 76,
       "tipo": "Mousepad",
       "modelo": "SteelSeries QcK+",
       "especificaciones": {
@@ -1107,6 +1183,7 @@
       "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/929/242/products/d_nq_np_652221-mla43776171808_102020-o1-11d9036b5ac58a6dea16361474947221-1024-1024.jpg"
     },
     {
+      "id": 77,
       "tipo": "Webcam",
       "modelo": "Logitech C920S HD Pro",
       "especificaciones": {
@@ -1119,6 +1196,7 @@
       "img": "https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F934%2FCONSUMO%20MASIVO%2FWEBAM%2F920-1.jpeg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=a5d6d3c7ed0f012c067d741d82b78f5b"
     },
     {
+      "id": 78,
       "tipo": "Altavoces",
       "modelo": "Logitech Z623",
       "especificaciones": {
@@ -1131,6 +1209,7 @@
       "img": "https://i.blogs.es/f0caae/logitech-z623-thx/1366_2000.jpg"
     },
     {
+      "id": 79,
       "tipo": "Micrófono",
       "modelo": "Blue Yeti USB Micrófono",
       "especificaciones": {
@@ -1143,6 +1222,7 @@
       "img": "https://m.media-amazon.com/images/I/61vI0Zii07L.jpg"
     },
     {
+      "id": 80,
       "tipo": "Gamepad",
       "modelo": "Xbox Wireless Controller",
       "especificaciones": {
