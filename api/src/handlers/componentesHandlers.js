@@ -7,7 +7,7 @@ const getAllData = async (req, res) => {
  try {
    const allData = await getAllComponentes()
   res.status(200).json(allData)
-  console.log(allData);
+
  } catch (error) {
   error.log("Error al obtener la informacion desde el handler:",error);
   res.status(500).json({error:error.menssage || "Error al obtener la informacion del json"})
