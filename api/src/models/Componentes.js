@@ -4,7 +4,7 @@ module.exports = (sequelize) => {
     id: {
       type: DataTypes.INTEGER,
       primaryKey: true,
-      autoIncrement: true,
+      unique: true,
       allowNull: false,
     },
     modelo: {
@@ -27,9 +27,9 @@ module.exports = (sequelize) => {
       type: DataTypes.TEXT,
       allowNull: false,
     },
-    categoria:{
+    categoria: {
       type: DataTypes.STRING,
-      allowNull:false
+      allowNull: false
     }
   });
 
