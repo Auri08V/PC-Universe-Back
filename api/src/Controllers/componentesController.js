@@ -1,10 +1,10 @@
 const { Op } = require("sequelize");
-// const { getDbAll } = require("./getDbComponentes");
-const { getApiComponentes } = require("./getApiComponentes");
+const {Componentes} = require ("../db")
+const { getAllData } = require("./getApiComponentes");
 
 const getAllComponentes = async () => {
   try {
-    const apiComponentes = await getApiComponentes();
+    const apiComponentes = await getAllData();
     const allComponentes = apiComponentes;
     return allComponentes;
   } catch (error) {
@@ -15,7 +15,7 @@ const getAllComponentes = async () => {
 };
 
 const getDataByNameController = async (name) => {
-  const allData = await getApiComponentes();
+  const allData = await getAllData();
 
   if (name) {
     const lowerCaseName = name.toLowerCase();
@@ -37,35 +37,19 @@ const getDataByNameController = async (name) => {
 };
 
 const getDataByIdController = async (req, res) => {
-  try {
     const { id } = req.params;
-    const allData = await getApiComponentes();
-    const filteredData = allData.filter((data) => data.id === id);
-    if (filteredData.length) {
-      res.status(200).json(filteredData);
-    } else {
-      res.sendStatus(404).send("No se encontro ningun componente o perifericos con ese ID");
+    try {
+      const response = await Componentes.findOne({
+        where:
+          { id: id }
+      });
+      res.status(200).json(response);
+    } catch (error) {
+      res.status(400).json({ error: error.message });
     }
-  } catch (error) {
-    console.error("Error al buscar componentes o perifericos por ID", error);
-    res.status(500).send("Error al buscar por ID");
-  }
-}
-// try {
-//   const {id} = req.params;
-//   const response = await getAllComponentes.findAll({
-//     where : {
-//       name:id
-//     }
-    
-//   })
-//   console.log(response);  
-//   res.status(200).json(response)
-// } catch (error) {
-//   res.status(400).json({error:error.messaje})
-// }
+  };
 
-// };
+
 
 
 module.exports = {
