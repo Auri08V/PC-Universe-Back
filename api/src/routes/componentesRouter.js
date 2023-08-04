@@ -27,11 +27,11 @@ const { getAllData} = require('../handlers/componentesHandlers');
 
 const { getAllComponentes } = require('../Controllers/componentesController');
 
-
+// const { createHandler } = require('../handlers/componentesHandlers');
+const { filterController } = require('../middlewares/filteredProducts');
 const componentesRouter = Router();
 
-componentesRouter.get("/", getAllData);
-
+componentesRouter.get("/",getAllData, filterController);
 
 componentesRouter.get("/:id", async (req, res) => {
     const id  = req.params.id
@@ -45,5 +45,7 @@ componentesRouter.get("/:id", async (req, res) => {
         return res.status(404).send(error.message)
     }
 });
+
+// componentesRouter.post("/", createHandler);
 
 module.exports = componentesRouter;
