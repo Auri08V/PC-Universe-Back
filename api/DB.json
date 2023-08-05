@@ -103,12 +103,12 @@
         "Velocidad": "3200MHz",
         "Latencia": "CL16",
         "Tipo de módulo": "UDIMM (Unbuffered DIMM)",
-        "Detalle": "Disipador de calor de aluminio para una mejor disipación del calor y mayor rendimiento.",
-        "cantidad": 1
+        "Detalle": "Disipador de calor de aluminio para una mejor disipación del calor y mayor rendimiento."
       },
       "img": "https://www.fullh4rd.com.ar/img/productos/4/memoria-8gb-ddr4-2666-corsair-vengeance-lpx-0.jpg",
       "precio": 2000,
-      "categoria": "memoria ram"
+      "categoria": "memoria ram",
+      "cantidad": 1
     },
     {
       "id": 10,
@@ -119,12 +119,12 @@
         "Velocidad": "3600MHz",
         "Latencia": "CL16",
         "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
-        "Detalle": "Iluminación RGB personalizable con sincronización de efectos a través de software.",
-        "cantidad": 1
+        "Detalle": "Iluminación RGB personalizable con sincronización de efectos a través de software."
       },
       "img": "https://www.fullh4rd.com.ar/img/productos/4/memoria-16gb-2x8gb-ddr4-3600-gskill-trident-z-rgb-cl19-0.jpg",
       "precio": 13000,
-      "categoria": "memoria ram"
+      "categoria": "memoria ram",
+      "cantidad": 1
     },
     {
       "id": 11,
@@ -135,12 +135,12 @@
         "Velocidad": "2666MHz",
         "Latencia": "CL16",
         "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
-        "Detalle": "Diseño de perfil bajo ideal para sistemas con espacio limitado.",
-        "cantidad": 1
+        "Detalle": "Diseño de perfil bajo ideal para sistemas con espacio limitado."
       },
       "img": "https://media.kingston.com/kingston/features/ktc-features-memory-beast-ddr4.jpg",
       "precio": 22000,
-      "categoria": "memoria ram"
+      "categoria": "memoria ram",
+      "cantidad": 1
     },
     {
       "id": 12,
@@ -151,12 +151,12 @@
         "Velocidad": "3200MHz",
         "Latencia": "CL16",
         "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
-        "Detalle": "Iluminación RGB personalizable y compatible con software de control RGB.",
-        "cantidad": 1
+        "Detalle": "Iluminación RGB personalizable y compatible con software de control RGB."
       },
       "img": "https://www.deffo.com.ar/wp-content/uploads/2021/05/BL8GxxC16U4BL-1.jpg",
       "precio": 17000,
-      "categoria": "memoria ram"
+      "categoria": "memoria ram",
+      "cantidad": 1
     },
     {
       "id": 13,
@@ -167,12 +167,12 @@
         "Velocidad": "3000MHz",
         "Latencia": "CL16",
         "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
-        "Detalle": "Disipador de calor de aluminio para una mejor gestión térmica.",
-        "cantidad": 1
+        "Detalle": "Disipador de calor de aluminio para una mejor gestión térmica."
       },
       "img": "https://shiny-core.com/wp-content/uploads/2022/05/RAM-DDR4-TEAMGROUP-T-FORCE-VULCAN-Z-GRAY.jpg",
       "precio": 11000,
-      "categoria": "memoria ram"
+      "categoria": "memoria ram",
+      "cantidad": 1
     },
     {
       "id": 14,
@@ -183,12 +183,12 @@
         "Velocidad": "3600MHz",
         "Latencia": "CL18",
         "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
-        "Detalle": "Diseño elegante con disipador de calor para un rendimiento confiable.",
-        "cantidad": 1
+        "Detalle": "Diseño elegante con disipador de calor para un rendimiento confiable."
       },
       "img": "https://www.deffo.com.ar/wp-content/uploads/2020/08/Viper-Steel-2.jpg",
       "precio": 16600,
-      "categoria": "memoria ram"
+      "categoria": "memoria ram",
+      "cantidad": 1
     },
     {
       "id": 15,
@@ -199,12 +199,12 @@
         "Velocidad": "3200MHz",
         "Latencia": "CL16",
         "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
-        "Detalle": "Iluminación RGB configurable con software del fabricante.",
-        "cantidad": 1
+        "Detalle": "Iluminación RGB configurable con software del fabricante."
       },
       "img": "https://www.deffo.com.ar/wp-content/uploads/2021/04/XPG-Spectrix-D41-1.jpg",
       "precio": 23878,
-      "categoria": "memoria ram"
+      "categoria": "memoria ram",
+      "cantidad": 1
     },
     {
       "id": 16,
@@ -215,12 +215,12 @@
         "Velocidad": "3200MHz",
         "Latencia": "CL16",
         "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
-        "Detalle": "Disipador de calor de aluminio de alta calidad con iluminación RGB personalizable.",
-        "cantidad": 1
+        "Detalle": "Disipador de calor de aluminio de alta calidad con iluminación RGB personalizable."
       },
       "img": "https://app.contabilium.com/files/explorer/7026/Productos-Servicios/concepto-7515670.jpg",
       "precio": 304000,
-      "categoria": "memoria ram"
+      "categoria": "memoria ram",
+      "cantidad": 1
     },
 
     {
@@ -505,12 +505,12 @@
         "capacidad": "1TB",
         "interfaz": "M.2 NVMe",
         "velocidad_lectura": "3500 MB/s",
-        "velocidad_escritura": "2500 MB/s",
-        "cantidad": 1
+        "velocidad_escritura": "2500 MB/s"
       },
       "img": "https://tienda.starware.com.ar/wp-content/uploads/2020/01/disco-solido-ssd-nvme-m2-samsung-970-evo-plus-250gb-1755-1411-2.jpg",
       "precio": 41000,
-      "categoria": "disco"
+      "categoria": "disco",
+      "cantidad": 1
     },
     {
       "id": 34,
@@ -519,12 +519,12 @@
         "tipo": "HDD",
         "capacidad": "2TB",
         "interfaz": "SATA 6Gb/s",
-        "velocidad_rotacion": "5400 RPM",
-        "cantidad": 1
+        "velocidad_rotacion": "5400 RPM"
       },
       "img": "https://devercomp.pe/wp-content/uploads/2020/12/1-121.jpg",
       "precio": 47677,
-      "categoria": "disco"
+      "categoria": "disco",
+      "cantidad": 1
     },
     {
       "id": 35,
@@ -534,12 +534,12 @@
         "capacidad": "500GB",
         "interfaz": "SATA 6Gb/s",
         "velocidad_lectura": "560 MB/s",
-        "velocidad_escritura": "510 MB/s",
-        "cantidad": 1
+        "velocidad_escritura": "510 MB/s"
       },
       "img": "https://mla-s1-p.mlstatic.com/720954-MLA40819537056_022020-F.jpg",
       "precio": 54987,
-      "categoria": "disco"
+      "categoria": "disco",
+      "cantidad": 1
     },
     {
       "id": 36,
@@ -548,12 +548,12 @@
         "tipo": "HDD",
         "capacidad": "4TB",
         "interfaz": "SATA 6Gb/s",
-        "velocidad_rotacion": "5400 RPM",
-        "cantidad": 1
+        "velocidad_rotacion": "5400 RPM"
       },
       "img": "https://ae01.alicdn.com/kf/HTB1bMlxzHGYBuNjy0Foq6AiBFXar/Seagate-disco-duro-para-PC-de-escritorio-BarraCuda-Original-de-4TB-3-5-pulgadas-cach-interno.jpg",
       "precio": 30000,
-      "categoria": "disco"
+      "categoria": "disco",
+      "cantidad": 1
     },
     {
       "id": 37,
@@ -563,12 +563,12 @@
         "capacidad": "1TB",
         "interfaz": "M.2 NVMe",
         "velocidad_lectura": "3500 MB/s",
-        "velocidad_escritura": "3000 MB/s",
-        "cantidad": 1
+        "velocidad_escritura": "3000 MB/s"
       },
       "img": "https://www.electronicamente.com/201790-medium_default/disco-ssd-m2-nvme-256gb-adata-xpg-sx8200-pro-2280-asx8200pnp-256gt-c.jpg",
       "precio": 417645,
-      "categoria": "disco"
+      "categoria": "disco",
+      "cantidad": 1
     },
     {
       "id": 38,
@@ -577,12 +577,12 @@
         "tipo": "HDD",
         "capacidad": "6TB",
         "interfaz": "SATA 6Gb/s",
-        "velocidad_rotacion": "7200 RPM",
-        "cantidad": 1
+        "velocidad_rotacion": "7200 RPM"
       },
       "img": "https://images-na.ssl-images-amazon.com/images/I/71Mh0J8FoeL._AC_UL600_SR600,600_.jpg",
       "precio": 54345,
-      "categoria": "disco"
+      "categoria": "disco",
+      "cantidad": 1
     },
     {
       "id": 39,
@@ -592,12 +592,12 @@
         "capacidad": "250GB",
         "interfaz": "M.2 NVMe",
         "velocidad_lectura": "2000 MB/s",
-        "velocidad_escritura": "1100 MB/s",
-        "cantidad": 1
+        "velocidad_escritura": "1100 MB/s"
       },
       "img": "https://media.kingston.com/kingston/press/A2000_press_release_455x284.jpg",
       "precio": 76453,
-      "categoria": "disco"
+      "categoria": "disco",
+      "cantidad": 1
     },
     {
       "id": 40,
@@ -606,12 +606,12 @@
         "tipo": "SSHD",
         "capacidad": "2TB",
         "interfaz": "SATA 6Gb/s",
-        "velocidad_rotacion": "5400 RPM",
-        "cantidad": 1
+        "velocidad_rotacion": "5400 RPM"
       },
       "img": "https://m.media-amazon.com/images/I/517Q8c6M9NL._AC_.jpg",
       "precio": 43265,
-      "categoria": "disco"
+      "categoria": "disco",
+      "cantidad": 1
     },
 
     {

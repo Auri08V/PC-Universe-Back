@@ -15,7 +15,8 @@ const loadDB = async () => {
                     img: el.img,
                     precio: parseInt(el.precio),
                     stock: 100,
-                    categoria: el.categoria
+                    categoria: el.categoria,
+                    cantidad: el.hasOwnProperty('cantidad') ? el.cantidad : 0,
                 };
             });
             for (let i = 0; i < dataApiC.length; i++) {

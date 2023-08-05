@@ -30,6 +30,10 @@ module.exports = (sequelize) => {
     categoria: {
       type: DataTypes.STRING,
       allowNull: false
+    },
+    cantidad: {
+      type: DataTypes.INTEGER,
+      allowNull: true
     }
   });
 
