@@ -5,21 +5,22 @@ const { getAllData, getDataByName } = require('../handlers/componentesHandlers')
 const { getAllComponentes } = require('../Controllers/componentesController');
 
 const { filterController } = require('../middlewares/filteredProducts');
+const postUsers = require('../handlers/postUsers');
 const componentesRouter = Router();
 
 componentesRouter.get("/", async (req, res) => {
-    const page = parseInt(req.query.page) || 1; 
-    const itemsPerPage = 8; 
-    
+    const page = parseInt(req.query.page) || 1;
+    const itemsPerPage = 8;
+
     try {
         const allComponentes = await getAllComponentes(page, itemsPerPage);
 
-        
+
         const nextPage = page + 1;
-        
-        
+
+
         const prevPage = Math.max(page - 1, 1);
-        
+
         res.status(200).json({
             currentPage: page,
             nextPage: nextPage,
@@ -40,7 +41,7 @@ componentesRouter.get('/name', async (req, res) => {
 
 componentesRouter.get('/filter', filterController);
 componentesRouter.get("/:id", async (req, res) => {
-    const id  = req.params.id
+    const id = req.params.id
     const allComponentes = await getAllComponentes()
     try {
         if (id) {
@@ -51,6 +52,7 @@ componentesRouter.get("/:id", async (req, res) => {
         return res.status(404).send(error.message)
     }
 });
+componentesRouter.post('/users', postUsers);
 
 
 module.exports = componentesRouter;
