@@ -93,7 +93,7 @@
       "precio": 16000,
       "categoria": "gabinete"
     },
-  
+
     {
       "id": 9,
       "modelo": "Corsair Vengeance LPX",
@@ -103,7 +103,8 @@
         "Velocidad": "3200MHz",
         "Latencia": "CL16",
         "Tipo de módulo": "UDIMM (Unbuffered DIMM)",
-        "Detalle": "Disipador de calor de aluminio para una mejor disipación del calor y mayor rendimiento."
+        "Detalle": "Disipador de calor de aluminio para una mejor disipación del calor y mayor rendimiento.",
+        "cantidad": 1
       },
       "img": "https://www.fullh4rd.com.ar/img/productos/4/memoria-8gb-ddr4-2666-corsair-vengeance-lpx-0.jpg",
       "precio": 2000,
@@ -118,7 +119,8 @@
         "Velocidad": "3600MHz",
         "Latencia": "CL16",
         "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
-        "Detalle": "Iluminación RGB personalizable con sincronización de efectos a través de software."
+        "Detalle": "Iluminación RGB personalizable con sincronización de efectos a través de software.",
+        "cantidad": 1
       },
       "img": "https://www.fullh4rd.com.ar/img/productos/4/memoria-16gb-2x8gb-ddr4-3600-gskill-trident-z-rgb-cl19-0.jpg",
       "precio": 13000,
@@ -133,7 +135,8 @@
         "Velocidad": "2666MHz",
         "Latencia": "CL16",
         "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
-        "Detalle": "Diseño de perfil bajo ideal para sistemas con espacio limitado."
+        "Detalle": "Diseño de perfil bajo ideal para sistemas con espacio limitado.",
+        "cantidad": 1
       },
       "img": "https://media.kingston.com/kingston/features/ktc-features-memory-beast-ddr4.jpg",
       "precio": 22000,
@@ -148,7 +151,8 @@
         "Velocidad": "3200MHz",
         "Latencia": "CL16",
         "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
-        "Detalle": "Iluminación RGB personalizable y compatible con software de control RGB."
+        "Detalle": "Iluminación RGB personalizable y compatible con software de control RGB.",
+        "cantidad": 1
       },
       "img": "https://www.deffo.com.ar/wp-content/uploads/2021/05/BL8GxxC16U4BL-1.jpg",
       "precio": 17000,
@@ -163,7 +167,8 @@
         "Velocidad": "3000MHz",
         "Latencia": "CL16",
         "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
-        "Detalle": "Disipador de calor de aluminio para una mejor gestión térmica."
+        "Detalle": "Disipador de calor de aluminio para una mejor gestión térmica.",
+        "cantidad": 1
       },
       "img": "https://shiny-core.com/wp-content/uploads/2022/05/RAM-DDR4-TEAMGROUP-T-FORCE-VULCAN-Z-GRAY.jpg",
       "precio": 11000,
@@ -178,7 +183,8 @@
         "Velocidad": "3600MHz",
         "Latencia": "CL18",
         "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
-        "Detalle": "Diseño elegante con disipador de calor para un rendimiento confiable."
+        "Detalle": "Diseño elegante con disipador de calor para un rendimiento confiable.",
+        "cantidad": 1
       },
       "img": "https://www.deffo.com.ar/wp-content/uploads/2020/08/Viper-Steel-2.jpg",
       "precio": 16600,
@@ -193,7 +199,8 @@
         "Velocidad": "3200MHz",
         "Latencia": "CL16",
         "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
-        "Detalle": "Iluminación RGB configurable con software del fabricante."
+        "Detalle": "Iluminación RGB configurable con software del fabricante.",
+        "cantidad": 1
       },
       "img": "https://www.deffo.com.ar/wp-content/uploads/2021/04/XPG-Spectrix-D41-1.jpg",
       "precio": 23878,
@@ -208,14 +215,14 @@
         "Velocidad": "3200MHz",
         "Latencia": "CL16",
         "Tipo de módulo": "DIMM (Dual In-Line Memory Module)",
-        "Detalle": "Disipador de calor de aluminio de alta calidad con iluminación RGB personalizable."
+        "Detalle": "Disipador de calor de aluminio de alta calidad con iluminación RGB personalizable.",
+        "cantidad": 1
       },
       "img": "https://app.contabilium.com/files/explorer/7026/Productos-Servicios/concepto-7515670.jpg",
       "precio": 304000,
       "categoria": "memoria ram"
     },
-  
- 
+
     {
       "id": 17,
       "modelo": "NVIDIA GeForce RTX 3090",
@@ -226,7 +233,8 @@
         "Núcleos CUDA": "10496",
         "Ray Tracing y DLSS": "Sí",
         "Soporte de Resolución": "8K",
-        "Conexiones": "HDMI 2.1, DisplayPort 1.4a"
+        "Conexiones": "HDMI 2.1, DisplayPort 1.4a",
+        "pci_express": "PCIe 4.0"
       },
       "img": "https://m.media-amazon.com/images/I/61wbV8oqAbL.jpg",
       "precio": 400000,
@@ -243,9 +251,10 @@
         "Núcleos de Cálculo": "5120",
         "Ray Tracing y FidelityFX Super Resolution": "Sí",
         "Soporte de Resolución": "4K",
-        "Conexiones": "HDMI 2.1, DisplayPort 1.4"
+        "Conexiones": "HDMI 2.1, DisplayPort 1.4",
+        "pci_express": "PCIe 4.0"
       },
-      "img": "https://m.media-amazon.com/images/I/4178P0YUeJL._AC_SX355_.jpg",
+      "img": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/1664/innergigabyteimages/kf-img.png",
       "precio": 70000,
       "categoria": "placa grafica"
     },
@@ -260,7 +269,8 @@
         "Núcleos CUDA": "8704",
         "Ray Tracing y DLSS": "Sí",
         "Soporte de Resolución": "4K",
-        "Conexiones": "HDMI 2.1, DisplayPort 1.4a"
+        "Conexiones": "HDMI 2.1, DisplayPort 1.4a",
+        "pci_express": "PCIe x16 4.0"
       },
       "img": "https://ae04.alicdn.com/kf/S9da4ae1d57164da6aa85a838ec225ad2N.jpg",
       "precio": 390000,
@@ -277,9 +287,10 @@
         "Núcleos de Cálculo": "4608",
         "Ray Tracing y FidelityFX Super Resolution": "Sí",
         "Soporte de Resolución": "4K",
-        "Conexiones": "HDMI 2.1, DisplayPort 1.4"
+        "Conexiones": "HDMI 2.1, DisplayPort 1.4",
+        "pci_express": "PCIe x16 4.0"
       },
-      "img": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/1664/innergigabyteimages/kf-img.png",
+      "img": "https://media.ldlc.com/r1600/ld/products/00/05/83/12/LD0005831234_1.jpg",
       "precio": 370000,
       "categoria": "placa grafica"
     },
@@ -294,9 +305,10 @@
         "Núcleos CUDA": "4864",
         "Ray Tracing y DLSS": "Sí",
         "Soporte de Resolución": "1440p",
-        "Conexiones": "HDMI 2.1, DisplayPort 1.4a"
+        "Conexiones": "HDMI 2.1, DisplayPort 1.4a",
+        "pci_express": "PCIe 4.0"
       },
-      "img": "https://www.fullh4rd.com.ar/img/productos/3/video-geforce-rtx-3060-ti-8gb-pny-uprising-dual-lhr-2.jpg",
+      "img": "https://tpucdn.com/gpu-specs/images/c/3681-front.jpg",
       "precio": 250000,
       "categoria": "placa grafica"
     },
@@ -311,7 +323,8 @@
         "Núcleos de Cálculo": "2560",
         "Ray Tracing y FidelityFX Super Resolution": " Sí",
         "Soporte de Resolución": "1440p",
-        "Conexiones": "HDMI 2.1, DisplayPort 1.4"
+        "Conexiones": "HDMI 2.1, DisplayPort 1.4",
+        "pci_express": "PCIe 4.0"
       },
       "img": "https://tpucdn.com/gpu-specs/images/c/3695-bottom.jpg",
       "precio": 289099,
@@ -328,7 +341,8 @@
         "Núcleos CUDA": "3584",
         "Ray Tracing y DLSS": "Sí",
         "Soporte de Resolución": "1080p",
-        "Conexiones": "HDMI 2.1, DisplayPort 1.4a"
+        "Conexiones": "HDMI 2.1, DisplayPort 1.4a",
+        "pci_express": "PCIe 4.0"
       },
       "img": "https://images.hothardware.com/contentimages/article/3074/content/small_nvidia-geforce-rtx-3060-angle-1.JPG",
       "precio": 2,
@@ -345,7 +359,8 @@
         "Núcleos de Cálculo": "2048",
         "Ray Tracing y FidelityFX Super Resolution": "Sí",
         "Soporte de Resolución": "1080p",
-        "Conexiones": "HDMI 2.1, DisplayPort 1.4"
+        "Conexiones": "HDMI 2.1, DisplayPort 1.4",
+        "pci_express": "PCIe 4.0"
       },
       "img": "https://www.amd.com/system/files/2021-07/910022-amd-radeon-6600XT-angle1260x709_0.png",
       "precio": 189000,
@@ -381,7 +396,7 @@
         "hdr_compatible": "no"
       },
 
-      "img": "https://oechsle.vteximg.com.br/arquivos/ids/9847058-1000-1000/imageUrl_2.jpg?v=637937211002570000",
+      "img": "https://manuals.plus/wp-content/uploads/2020/12/Asus-VG279-1.png",
       "precio": 90000,
       "categoria": "monitor"
     },
@@ -397,7 +412,7 @@
         "conectividad": ["HDMI", "DisplayPort", "USB-C"],
         "hdr_compatible": "si"
       },
-      "img": "https://i.rtings.com/assets/products/fHegYHmI/lg-34wk95u-w/design-medium.jpg",
+      "img": "https://www.lg.com/au/images/it-monitors/md06018056/gallery/medium01.jpg",
       "precio": 79800,
       "categoria": "monitor"
     },
@@ -429,7 +444,7 @@
         "conectividad": ["HDMI", "DisplayPort", "USB 3.0"],
         "hdr_compatible": "si"
       },
-      "img": "https://promart.vteximg.com.br/arquivos/ids/7222373-1000-1000/image-1.jpg?v=638234772286400000",
+      "img": "https://img.overclockers.co.uk/images/MO-242-SA/30d8779f1cecc412eeba50866ebe9054.jpg",
       "precio": 73550,
       "categoria": "monitor"
     },
@@ -445,7 +460,7 @@
         "conectividad": ["HDMI", "DisplayPort", "USB-C"],
         "hdr_compatible": "no"
       },
-      "img": "https://plazavea.vteximg.com.br/arquivos/ids/25966806-300-300/image-f495101d7422430e9bacb8250eb50c8e.jpg?v=638149522312300000",
+      "img": "https://videogeeksar.com/wp-content/uploads/2020/01/BenQ-PD2700U-DesignVue-Designer-27-IPS-Monitor.jpg",
       "precio": 87000,
       "categoria": "monitor"
     },
@@ -461,7 +476,7 @@
         "conectividad": ["HDMI", "DisplayPort", "VGA"],
         "hdr_compatible": "no"
       },
-      "img": "https://oechsle.vteximg.com.br/arquivos/ids/15423777-1500-1500/image-0.jpg?v=638237333114600000",
+      "img": "https://www.viewsonic.com/vsAssetFile/es/img/slides/0lcd/VX2458-mhd/VX2458-mhd_F02.jpg",
       "precio": 56000,
       "categoria": "monitor"
     },
@@ -481,8 +496,7 @@
       "precio": 38900,
       "categoria": "monitor"
     },
-  
- 
+
     {
       "id": 33,
       "modelo": "Samsung 970 EVO",
@@ -491,9 +505,10 @@
         "capacidad": "1TB",
         "interfaz": "M.2 NVMe",
         "velocidad_lectura": "3500 MB/s",
-        "velocidad_escritura": "2500 MB/s"
+        "velocidad_escritura": "2500 MB/s",
+        "cantidad": 1
       },
-      "img": "https://promart.vteximg.com.br/arquivos/ids/6634255-1000-1000/image-6b45bae7780e4b55ad8b3db564fa30a2.jpg?v=638050077146000000",
+      "img": "https://tienda.starware.com.ar/wp-content/uploads/2020/01/disco-solido-ssd-nvme-m2-samsung-970-evo-plus-250gb-1755-1411-2.jpg",
       "precio": 41000,
       "categoria": "disco"
     },
@@ -504,7 +519,8 @@
         "tipo": "HDD",
         "capacidad": "2TB",
         "interfaz": "SATA 6Gb/s",
-        "velocidad_rotacion": "5400 RPM"
+        "velocidad_rotacion": "5400 RPM",
+        "cantidad": 1
       },
       "img": "https://devercomp.pe/wp-content/uploads/2020/12/1-121.jpg",
       "precio": 47677,
@@ -518,9 +534,10 @@
         "capacidad": "500GB",
         "interfaz": "SATA 6Gb/s",
         "velocidad_lectura": "560 MB/s",
-        "velocidad_escritura": "510 MB/s"
+        "velocidad_escritura": "510 MB/s",
+        "cantidad": 1
       },
-      "img": "https://falabella.scene7.com/is/image/FalabellaPE/113971024_1?wid=800&hei=800&qlt=70",
+      "img": "https://mla-s1-p.mlstatic.com/720954-MLA40819537056_022020-F.jpg",
       "precio": 54987,
       "categoria": "disco"
     },
@@ -531,7 +548,8 @@
         "tipo": "HDD",
         "capacidad": "4TB",
         "interfaz": "SATA 6Gb/s",
-        "velocidad_rotacion": "5400 RPM"
+        "velocidad_rotacion": "5400 RPM",
+        "cantidad": 1
       },
       "img": "https://ae01.alicdn.com/kf/HTB1bMlxzHGYBuNjy0Foq6AiBFXar/Seagate-disco-duro-para-PC-de-escritorio-BarraCuda-Original-de-4TB-3-5-pulgadas-cach-interno.jpg",
       "precio": 30000,
@@ -545,9 +563,10 @@
         "capacidad": "1TB",
         "interfaz": "M.2 NVMe",
         "velocidad_lectura": "3500 MB/s",
-        "velocidad_escritura": "3000 MB/s"
+        "velocidad_escritura": "3000 MB/s",
+        "cantidad": 1
       },
-      "img": "https://m.media-amazon.com/images/I/71Q4ukBjtRL._AC_SL1500_.jpg",
+      "img": "https://www.electronicamente.com/201790-medium_default/disco-ssd-m2-nvme-256gb-adata-xpg-sx8200-pro-2280-asx8200pnp-256gt-c.jpg",
       "precio": 417645,
       "categoria": "disco"
     },
@@ -558,7 +577,8 @@
         "tipo": "HDD",
         "capacidad": "6TB",
         "interfaz": "SATA 6Gb/s",
-        "velocidad_rotacion": "7200 RPM"
+        "velocidad_rotacion": "7200 RPM",
+        "cantidad": 1
       },
       "img": "https://images-na.ssl-images-amazon.com/images/I/71Mh0J8FoeL._AC_UL600_SR600,600_.jpg",
       "precio": 54345,
@@ -572,7 +592,8 @@
         "capacidad": "250GB",
         "interfaz": "M.2 NVMe",
         "velocidad_lectura": "2000 MB/s",
-        "velocidad_escritura": "1100 MB/s"
+        "velocidad_escritura": "1100 MB/s",
+        "cantidad": 1
       },
       "img": "https://media.kingston.com/kingston/press/A2000_press_release_455x284.jpg",
       "precio": 76453,
@@ -585,13 +606,14 @@
         "tipo": "SSHD",
         "capacidad": "2TB",
         "interfaz": "SATA 6Gb/s",
-        "velocidad_rotacion": "5400 RPM"
+        "velocidad_rotacion": "5400 RPM",
+        "cantidad": 1
       },
       "img": "https://m.media-amazon.com/images/I/517Q8c6M9NL._AC_.jpg",
       "precio": 43265,
       "categoria": "disco"
     },
-  
+
     {
       "id": 41,
       "modelo": "EVGA Supernova 750 G5",
@@ -626,7 +648,7 @@
           "peripheral": "4 x 4 pines"
         }
       },
-      "img": "https://cdn.mos.cms.futurecdn.net/9xcZipTCuEsjcmtE5kcpP7.jpg",
+      "img": "https://mla-s1-p.mlstatic.com/896876-MLA45978614530_052021-F.jpg",
       "precio": 12432,
       "categoria": "fuente de poder"
     },
@@ -683,7 +705,7 @@
           "peripheral": "4 x 4 pines"
         }
       },
-      "img": "https://nzxt.com/assets/cms/34299/1652147035-power_c_series_gold_c850-vents-up-right.png?auto=format&fit=crop&h=1000&w=1000",
+      "img": "https://techbuysv.com/wp-content/uploads/2022/05/nzxt-atx-850w-c850-80-plus-gold-modular-np-c850m-eu-power-supply.jpg",
       "precio": 54234,
       "categoria": "fuente de poder"
     },
@@ -700,7 +722,7 @@
         "socket": "LGA1200",
         "fabricante": "Intel"
       },
-      "img": "https://s3-sa-east-1.amazonaws.com/saasargentina/Uz8Y5a3wWp9aQfPfHyjW/img",
+      "img": "https://www.venex.com.ar/products_images/1625487702_0413607bi.jpg",
       "precio": 76543,
       "categoria": "procesador"
     },
@@ -716,7 +738,7 @@
         "socket": "LGA1200",
         "fabricante": "Intel"
       },
-      "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/599/423/products/71p3chrzgnl11-947bf647ae6fd33d7816673303367512-640-0.jpg",
+      "img": "https://www.venex.com.ar/products_images/1662383748_intel_i7_11va.jpg",
       "precio": 63232,
       "categoria": "procesador"
     },
@@ -832,7 +854,7 @@
       "precio": 87465,
       "categoria": "procesador"
     },
- 
+
     {
       "id": 55,
       "modelo": "ASUS ROG Crosshair VIII Formula",
@@ -845,7 +867,7 @@
         "usb": "USB 3.2 Gen 2",
         "formato": "ATX"
       },
-      "img": "https://elchapuzasinformatico.com/wp-content/uploads/2019/07/Asus-ROG-Crosshair-VIII-Formula-Oficial.jpg",
+      "img": "https://www.fullh4rd.com.ar/img/productos/2/mother-asus-x570-rog-crosshair-viii-hero-wifi-0.jpg",
       "precio": 54123,
       "categoria": "placa madre"
     },
@@ -861,7 +883,7 @@
         "usb": "USB 3.2 Gen 2",
         "formato": "ATX"
       },
-      "img": "https://www.deffo.com.ar/wp-content/uploads/2022/03/B550-AORUS-PRO-AX-1.webp",
+      "img": "https://www.precio-calidad.com.ar/wp-content/uploads/2021/12/B550-AORUS-PRO-AC-3.jpg",
       "precio": 123456,
       "categoria": "placa madre"
     },
@@ -894,7 +916,7 @@
         "usb": "USB 3.2 Gen 2",
         "formato": "mATX"
       },
-      "img": "https://images10.newegg.com/BizIntell/item/13/157/13-157-939/B550-PG-Velocita_062420.jpg",
+      "img": "https://www.asrock.com/mb/photo/B550M%20Pro4(M1).png",
       "precio": 65442,
       "categoria": "placa madre"
     },
@@ -910,7 +932,7 @@
         "usb": "USB 3.2 Gen 2",
         "formato": "mITX"
       },
-      "img": "https://www.techbuy.com.au/images/large/47/P476721.jpg",
+      "img": "https://zdomu.sk/444475-large_default/gigabyte-b550i-aorus-pro-ax-rev-10.jpg",
       "precio": 23435,
       "categoria": "placa madre"
     },
@@ -926,7 +948,7 @@
         "usb": "USB 3.2 Gen 2",
         "formato": "ATX"
       },
-      "img": "https://www.example.com/imagen_asus_rog_maximus_xiii_hero.jpg",
+      "img": "https://www.deffo.com.ar/wp-content/uploads/2021/09/ROG-Maximus-XIII-Hero-9.jpg",
       "precio": 543456,
       "categoria": "placa madre"
     },
@@ -942,7 +964,7 @@
         "usb": "USB 3.2 Gen 2",
         "formato": "ATX"
       },
-      "img": "https://www.example.com/imagen_gigabyte_z590_aorus_master.jpg",
+      "img": "https://virtualsky.com.co/wp-content/uploads/2022/11/gigabyte-placa-base-z590-aorus-master-4.jpg",
       "precio": 43567,
       "categoria": "placa madre"
     },
@@ -958,7 +980,7 @@
         "usb": "USB 3.2 Gen 2",
         "formato": "ATX"
       },
-      "img": "https://www.example.com/imagen_msi_mpg_z590_gaming_edge_wifi.jpg",
+      "img": "https://asset.msi.com/resize/image/global/product/product_16123508161dad7b9b456fd5531f59275c56921fad.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
       "precio": 54345,
       "categoria": "placa madre"
     },
@@ -974,7 +996,7 @@
         "usb": "USB 3.2 Gen 2",
         "formato": "ATX"
       },
-      "img": "https://www.example.com/imagen_asrock_z590_extreme.jpg",
+      "img": "https://c1.neweggimages.com/ProductImageCompressAll1280/13-157-983-V01.jpg",
       "precio": 65445,
       "categoria": "placa madre"
     },
@@ -990,11 +1012,11 @@
         "usb": "USB 3.2 Gen 2",
         "formato": "ATX"
       },
-      "img": "https://www.example.com/imagen_gigabyte_z690_aorus_master.jpg",
+      "img": "https://mla-s1-p.mlstatic.com/658535-MLA48169781222_112021-F.jpg",
       "precio": 43456,
       "categoria": "placa madre"
     },
- 
+
     {
       "id": 65,
       "modelo": "Corsair Hydro Series H100i RGB Platinum",
@@ -1068,7 +1090,7 @@
       },
       "precio": 38469,
       "categoria": "refrigeracion",
-      "img": "https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F589%2FMARKETPLACE%20INTERNACIONAL%2F41VulWus2zL_223129648598_12.jpeg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=9be0b71bbf740339fe652b85f6820ad8"
+      "img": "https://m.media-amazon.com/images/I/81in8yGd6yL._AC_UF1000,1000_QL80_.jpg"
     },
     {
       "id": 70,
@@ -1113,14 +1135,14 @@
       },
       "precio": 3499,
       "categoria": "refrigeracion",
-      "img": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPUAirCoolers/GAMMAXX_400_Blue/Overview/01.png?fm=webp&q=60"
+      "img": "https://mla-s1-p.mlstatic.com/887689-MLA53808765579_022023-F.jpg"
     }
   ],
-  "perifericos":[
+  "perifericos": [
     {
       "id": 73,
       "tipo": "Teclado",
-      "modelo": "Logitech G Pro X Mechanical Gaming Keyboard",
+      "modelo": "Logitech G Pro X Mechanical Keyboard",
       "especificaciones": {
         "teclas_mecanicas": "si",
         "teclas_personalizables": "si",
@@ -1129,7 +1151,7 @@
       },
       "precio": 40800,
       "categoria": "periferico",
-      "img": "https://assets.hardwarezone.com/img/2019/10/logitech-g-pro-x-keyboard.jpg"
+      "img": "https://www.logitechstore.com.br/media/catalog/product/p/r/prox-00.png"
     },
     {
       "id": 74,
@@ -1143,7 +1165,7 @@
       },
       "precio": 6999,
       "categoria": "periferico",
-      "img": "https://cyccomputer.pe/32517-large_default/mouse-razer-deathadder-v2-focus-chroma-20000-dpi-black-usb-pnrz01-03210100-r3u1.jpg"
+      "img": "https://cellplay.com.ar/img/Public/producto-137502-0.jpg"
     },
     {
       "id": 75,
@@ -1157,7 +1179,7 @@
       },
       "precio": 40000,
       "categoria": "periferico",
-      "img": "https://cdn.gidat.pe/images/25814edb-4a7a-4c1b-a068-d0d4aba4f5d2/auriculares-hyperx-cloud-ii-micrfono-conector-35mm-negro-rojo.jpg?fm=jpg&q=80&fit=max&crop=800%2C800%2C0%2C0&w=800&h=800"
+      "img": "https://www.fullh4rd.com.ar/img/productos/28/auriculares-hp-hyperx-cloud-ii-wireless-71-blackred-4p5k4a-0.jpg"
     },
     {
       "id": 76,
@@ -1183,7 +1205,7 @@
       },
       "precio": 12000,
       "categoria": "periferico",
-      "img": "https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F934%2FCONSUMO%20MASIVO%2FWEBAM%2F920-1.jpeg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=a5d6d3c7ed0f012c067d741d82b78f5b"
+      "img": "https://m.media-amazon.com/images/I/71iNwni9TsL._AC_UF894,1000_QL80_.jpg"
     },
     {
       "id": 78,
