@@ -1,8 +1,18 @@
 const { Op } = require("sequelize");
 // const { getDbAll } = require("./getDbComponentes");
-const {Componentes} = require ("../db")
+const {Componentes, Perifericos} = require ("../db")
 const { getAllData } = require("./getApiComponentes");
 
+const getAllComponentesT = async () => {
+  try {
+    const apiComponentes = await getAllData();
+    return apiComponentes;
+  } catch (error) {
+    console.error("Error al obtener todos los componentes:", error);
+    console.error("Error en la ruta componentesController.js");
+    return [];
+  }
+};
 
 const getAllComponentes = async (page = 1, itemsPerPage = 8) => {
   try {
@@ -52,8 +62,48 @@ const getDataByIdController = async (req, res) => {
   }
 }
 
+const postComponentes = async (modelo, especificaciones, img, precio, categoria, perifericos, createInDb = true) => {
+  const dbResponse = await Componentes.findAll({
+    where: {
+        name: {
+          [Op.iLike]: `%${modelo}%`,
+        },
+    },
+  });
+
+    if (dbResponse.length) {
+        throw new Error("Ya existe un componente con ese nombre");
+    }
+
+    const newComponente = await Componentes.create({
+        modelo,
+        especificaciones,
+        img,
+        precio,
+        categoria,
+        createInDb 
+    });
+
+    if (perifericos && perifericos.length > 0) {
+
+        const perifericosFound = await Perifericos.findAll({
+            where: {
+                id: perifericos,
+            },
+        });
+
+        if (perifericosFound.length !== perifericos.length) {
+            throw new Error("Alguno de los perifericos seleccionados no existe");
+        }
+
+        await newComponente.setPerifericos(perifericosFound);
+    }
+
+    return newComponente;
+};
 module.exports = {
   getAllComponentes,
   getDataByNameController,
   getDataByIdController,
+  getAllComponentesT,
 };
