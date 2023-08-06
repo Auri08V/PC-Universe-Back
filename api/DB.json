@@ -543,15 +543,16 @@
     },
     {
       "id": 36,
-      "modelo": "Seagate BarraCuda",
+      "modelo": "Samsung 980 PRO 1TB",
       "especificaciones": {
-        "tipo": "HDD",
-        "capacidad": "4TB",
-        "interfaz": "SATA 6Gb/s",
-        "velocidad_rotacion": "5400 RPM"
+        "capacidad": "1TB",
+        "interfaz": "M.2 NVMe",
+        "velocidad_lectura": "7000 MB/s",
+        "velocidad_escritura": "5000 MB/s",
+        "tipo": "SSD"
       },
-      "img": "https://ae01.alicdn.com/kf/HTB1bMlxzHGYBuNjy0Foq6AiBFXar/Seagate-disco-duro-para-PC-de-escritorio-BarraCuda-Original-de-4TB-3-5-pulgadas-cach-interno.jpg",
-      "precio": 30000,
+      "img": "https://mla-s1-p.mlstatic.com/711629-MLA45883575057_052021-F.jpg",
+      "precio": 16000,
       "categoria": "disco",
       "cantidad": 1
     },
