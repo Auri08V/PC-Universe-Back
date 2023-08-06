@@ -9,6 +9,7 @@ const getApiComponentes = async () => {
       precio: elemento.precio,
       img: elemento.img,
       categoria: elemento.categoria,
+      cantidad: elemento.hasOwnProperty('cantidad') ? elemento.cantidad : 0,
     };
   });
   return infoComponentes;

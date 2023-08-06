@@ -2,13 +2,10 @@ require('dotenv').config();
 const { Sequelize } = require('sequelize');
 const fs = require('fs');
 const path = require('path');
-const {
-  DB_USER, DB_PASSWORD, DB_HOST,
-} = process.env;
 
-const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/pcuniverse`, {
-  logging: false, 
-  native: false, 
+const sequelize = new Sequelize(`postgres://postgres:45075@localhost/pcuniverse`, {
+  logging: false,
+  native: false,
 });
 const basename = path.basename(__filename);
 
@@ -29,21 +26,19 @@ let capsEntries = entries.map((entry) => [entry[0][0].toUpperCase() + entry[0].s
 sequelize.models = Object.fromEntries(capsEntries);
 
 
-const { Componentes, Perifericos, PcFinal } = sequelize.models;
+const { Componentes, Perifericos, PcFinal, Users } = sequelize.models;
 
 
-// PcFinal.hasMany(Componentes, { foreignKey: 'pcFinalId' });
-// Componentes.belongsTo(PcFinal, { foreignKey: 'pcFinalId' });
-
-// PcFinal.hasMany(Perifericos, { foreignKey: 'pcFinalPerifericoId' });
-// Perifericos.belongsTo(PcFinal, { foreignKey: 'pcFinalPerifericoId' });
 PcFinal.hasMany(Componentes, { foreignKey: 'pc_final_id' });
 Componentes.belongsTo(PcFinal, { foreignKey: 'pc_final_id' });
 
 PcFinal.hasMany(Perifericos, { foreignKey: 'pc_final_periferico_id' });
 Perifericos.belongsTo(PcFinal, { foreignKey: 'pc_final_periferico_id' });
 
+Users.hasOne(PcFinal, { foreignKey: 'User_id' });
+PcFinal.belongsTo(Users, { foreignKey: 'User_id' });
+
 module.exports = {
-  ...sequelize.models, 
-  conn: sequelize,     
+  ...sequelize.models,
+  conn: sequelize,
 };
