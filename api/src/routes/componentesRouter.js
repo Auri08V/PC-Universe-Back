@@ -6,14 +6,16 @@ const postUsers = require('../handlers/postUsers');
 
 const { getAllComponentes, getAllComponentesT } = require('../Controllers/componentesController');
 
+const postPC = require('../handlers/postPC');
+
 const { filterController } = require('../middlewares/filteredProducts');
 const componentesRouter = Router();
 
 componentesRouter.get("/", getAllData);
 
 componentesRouter.get("/paginado", async (req, res) => {
-    const page = parseInt(req.query.page) || 1; 
-    const itemsPerPage = 8; 
+    const page = parseInt(req.query.page) || 1;
+    const itemsPerPage = 8;
 
     try {
         const allComponentes = await getAllComponentes(page, itemsPerPage);
@@ -44,8 +46,8 @@ componentesRouter.get('/name', async (req, res) => {
 
 componentesRouter.get('/filter', filterController);
 componentesRouter.get("/:id", async (req, res) => {
-    const id  = req.params.id
-    const allComponentes = await getAllComponentes()
+    const id = req.params.id
+    const allComponentes = await getAllComponentesT()
     try {
         if (id) {
             const componenteId = allComponentes.find(componente => componente.id == (id))
@@ -56,6 +58,8 @@ componentesRouter.get("/:id", async (req, res) => {
     }
 });
 componentesRouter.post('/users', postUsers);
+
+componentesRouter.post('/pc', postPC);
 
 
 module.exports = componentesRouter;
