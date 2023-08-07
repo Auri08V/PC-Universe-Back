@@ -7,16 +7,13 @@ module.exports = (sequelize) => {
       autoIncrement: true,
       allowNull: false,
     },
-    nombre: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
-      especificaiones: {
-        type: DataTypes.TEXT,
-        allowNull: true,
-      },
-      precio_total: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-      },
-})}
+    especificaiones: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+    },
+    precio_total: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
+  })
+}
