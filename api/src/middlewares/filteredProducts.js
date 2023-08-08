@@ -100,7 +100,24 @@ const filterController = async (req, res) => {
       filteredProducts = sortedProducts;
     }
 
-    // Ordenar por novedad (fecha)
+ 
+
+    if (filteredProducts.length === 0) {
+      return res.status(404).json({
+        msg: "No se encontraron productos para los filtros seleccionados.",
+      });
+    }
+
+    res.status(200).json(filteredProducts);
+  } catch (error) {
+    res.status(400).json({ msg: error.message });
+  }
+};
+
+module.exports = {filterController}   
+
+
+// Ordenar por novedad (fecha)
 
     // if (sortBy === "date") {
     //   let sortedProducts = [];
@@ -129,17 +146,3 @@ const filterController = async (req, res) => {
 
     //   filteredProducts = sortedProducts;
     // }
-
-    if (filteredProducts.length === 0) {
-      return res.status(404).json({
-        msg: "No se encontraron productos para los filtros seleccionados.",
-      });
-    }
-
-    res.status(200).json(filteredProducts);
-  } catch (error) {
-    res.status(400).json({ msg: error.message });
-  }
-};
-
-module.exports = {filterController}

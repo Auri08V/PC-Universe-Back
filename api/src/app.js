@@ -1,14 +1,16 @@
 const express = require("express");
 const morgan = require("morgan");
-const routes = require("./routes/index");
 const cors = require("cors")
-
+const  createComponenteRoute  = require("./routes/getDataRoutes");
+const postDataRouter = require("./routes/postDataRouter")
 const server = express();
 
 server.use(cors())
 server.use(express.json())
-server.use(routes);
 server.use(morgan("dev"));
+
+server.use("/", createComponenteRoute);
+server.use("/post",postDataRouter)
 
 server.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
