@@ -1,12 +1,14 @@
 const { Router } = require("express");
-const { getAllDataControllers } = require("../Controllers/getControllers/getAllDataControllers");
+const {
+  getAllDataControllers,
+} = require("../Controllers/getControllers/getAllDataControllers");
+const {
+  getDataByIdController,
+} = require("../Controllers/getControllers/getDataByIdControllers");
 
-const createComponenteRoute = () => {
-  const router = Router();
-  router.get("/", getAllDataControllers);
-  return router;
-};
+const createComponenteRoute = Router();
 
-module.exports = {
-  createComponenteRoute,
-};
+createComponenteRoute.get("/", getAllDataControllers);
+createComponenteRoute.get("/:id", getDataByIdController);
+
+module.exports = createComponenteRoute;
