@@ -8,14 +8,11 @@ const postUsers = require('../Controllers/postControllers/postUsers');
 const postPC = require('../Controllers/postControllers/postPC');
 
 
-
-
-
 const postDataRouter = Router();
 
 postDataRouter.post('/users', postUsers);
 
-postDataRouter.post('/pc', postPC);
+postDataRouter.post('/postpc', postPC);
 
 
 module.exports = postDataRouter;
