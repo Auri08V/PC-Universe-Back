@@ -1,5 +1,3 @@
-const fs = require('fs');
-const axios = require('axios');
 const { Componentes, Perifericos } = require('./src/db');
 const loadDB = async () => {
     const DBcomponents = await Componentes.findAll();
