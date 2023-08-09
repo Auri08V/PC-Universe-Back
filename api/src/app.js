@@ -4,6 +4,7 @@ const cors = require("cors")
 const createComponenteRoute = require("./routes/getDataRoutes");
 const postDataRouter = require("./routes/postDataRouter")
 const pcfinal = require('./routes/getPcRoutes');
+const getbyname = require('./routes/componentesRouter');
 
 const server = express();
 
@@ -13,6 +14,7 @@ server.use(express.json())
 server.use(morgan("dev"));
 
 server.use("/", pcfinal);
+server.use("/", getbyname);
 server.use("/", createComponenteRoute);
 server.use("/", postDataRouter)
 
