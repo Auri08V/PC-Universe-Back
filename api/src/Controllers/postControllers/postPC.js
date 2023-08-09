@@ -2,7 +2,7 @@ const { PcFinal } = require('../../db');
 
 const postPC = async (req, res) => {
     try {
-        const { precio_total, componentes } = req.body;
+        const { precio_total, componentes, perifericos } = req.body;
 
         const componenteIds = [];
         const modelos = [];
@@ -15,6 +15,7 @@ const postPC = async (req, res) => {
             imgs.push(componente.img);
             precios.push(componente.precio);
         }
+
 
         const pcFinal = await PcFinal.create({
             precio_total,

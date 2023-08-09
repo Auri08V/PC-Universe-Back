@@ -116,33 +116,3 @@ const filterController = async (req, res) => {
 
 module.exports = {filterController}   
 
-
-// Ordenar por novedad (fecha)
-
-    // if (sortBy === "date") {
-    //   let sortedProducts = [];
-
-    //   if (filteredProducts.length > 0) {
-    //     // Si se aplicó algún filtro de categoría, ordenar por novedad los productos filtrados
-    //     sortedProducts = filteredProducts.sort((a, b) => {
-    //       const dateA = new Date(a.createdAt);
-    //       const dateB = new Date(b.createdAt);
-    //       return dateB - dateA; // Ordenar de forma descendente (de más reciente a más antiguo)
-    //     });
-    //   } else {
-    //     // Si no se aplicó ningún filtro de categoría, ordenar por novedad todos los productos
-    //     const allProducts = await Product.findAll();
-    //     sortedProducts = allProducts.sort((a, b) => {
-    //       const dateA = new Date(a.createdAt);
-    //       const dateB = new Date(b.createdAt);
-    //       return dateB - dateA; // Ordenar de forma descendente (de más reciente a más antiguo)
-    //     });
-    //   }
-
-    //   if (sortOrder === "asc") {
-    //     // Si se desea orden ascendente, invertir el orden del array
-    //     sortedProducts.reverse();
-    //   }
-
-    //   filteredProducts = sortedProducts;
-    // }
