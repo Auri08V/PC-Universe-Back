@@ -1,4 +1,4 @@
-const { PcFinal, Componentes, Perifericos } = require('../../db');
+const { PcFinal } = require('../../db');
 
 const postPC = async (req, res) => {
     try {
@@ -24,10 +24,10 @@ const postPC = async (req, res) => {
             precio: precios,
         });
 
-        return res.status(201).json({ success: true, message: "PcFinal creada exitosamente." });
+        return res.status(201).json({ success: true, message: "Pc creada exitosamente." });
     } catch (error) {
-        console.error("Error al crear la PcFinal:", error);
-        return res.status(500).json({ success: false, message: "Error al crear la PcFinal." });
+        console.error("Error al crear la Pc:", error);
+        return res.status(500).json({ success: false, message: "Error al crear la Pc." });
     }
 };
 module.exports = postPC;
