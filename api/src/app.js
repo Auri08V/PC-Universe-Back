@@ -1,17 +1,26 @@
 const express = require("express");
 const morgan = require("morgan");
-const cors = require("cors")
-const  createComponenteRoute  = require("./routes/getDataRoutes");
-const postDataRouter = require("./routes/postDataRouter")
+const cors = require("cors");
+const createComponenteRoute = require("./routes/getDataRoutes");
+const postDataRouter = require("./routes/postDataRouter");
+const routeByName = require("./routes/getDataByNameRoute")
+const dataFilterRouter = require ("./routes/dataFilterRoute")
+const componentesRouter = require ("./routes/dataByIdRouter")
+const allDataRouter = require ("./routes/allData")
+
 const server = express();
 
-server.use(cors())
-server.use(express.json())
+
+server.use(cors());
+server.use(express.json());
 server.use(morgan("dev"));
 
-server.use("/", createComponenteRoute);
-server.use("/post",postDataRouter)
-
+server.use("/productos", createComponenteRoute);
+server.use("/post", postDataRouter);
+server.use("/name",routeByName)
+server.use("/filter",dataFilterRouter)
+server.use("/producto",componentesRouter)
+server.use("/",allDataRouter)
 server.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Credentials", "true");

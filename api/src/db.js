@@ -31,6 +31,8 @@ sequelize.models = Object.fromEntries(capsEntries);
 
 const { Componentes, Perifericos, PcFinal, Users } = sequelize.models;
 
+Perifericos.hasMany(Componentes, { foreignKey: 'periferico_id' });
+Componentes.belongsTo(Perifericos, { foreignKey: 'periferico_id' });
 
 PcFinal.hasMany(Componentes, { foreignKey: 'pc_final_id' });
 Componentes.belongsTo(PcFinal, { foreignKey: 'pc_final_id' });
