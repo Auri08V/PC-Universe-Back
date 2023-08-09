@@ -1,5 +1,3 @@
-
-
 const { Router } = require('express');
 
 const postUsers = require('../Controllers/postControllers/postUsers');
