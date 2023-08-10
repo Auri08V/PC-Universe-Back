@@ -1,7 +1,7 @@
 const { PcFinal } = require('../../db');
 
 const deletePc = async (req, res) => {
-    const { id } = req.params.id;
+    const { id } = req.params;
     try {
         const pc = await PcFinal.findByPk(id);
         if (!pc) {
