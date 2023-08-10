@@ -8,6 +8,10 @@ const createOrder = async (req, res) => {
         });
         let preference = {
             items: [],
+            back_urls: {
+                success: "http://localhost:3001/payment/success",
+                failure: "http://localhost:3001/payment/failure",
+            },
         };
         componentes.forEach((componente) => {
             const { modelo, precio } = componente;
