@@ -25,10 +25,10 @@ const postPC = async (req, res) => {
             precio: precios,
         });
 
-        return res.status(201).json({ success: true, message: "Pc creada exitosamente." });
+        return res.status(201).json({ success: true, message: "PC created successfull." });
     } catch (error) {
-        console.error("Error al crear la Pc:", error);
-        return res.status(500).json({ success: false, message: "Error al crear la Pc." });
+        console.error("Error creating the PC:", error);
+        return res.status(500).json({ success: false, message: "Error creating the PC." });
     }
 };
 module.exports = postPC;
