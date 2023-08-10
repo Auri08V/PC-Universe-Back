@@ -8,6 +8,7 @@ const dataFilterRouter = require("./routes/dataFilterRoute");
 const componentesRouter = require("./routes/dataByIdRouter");
 const pcfinal = require('./routes/getPcRouter');
 const payment = require('./routes/paymentRoutes');
+const deletePcRoute = require("./routes/deletePcRoute");
 const server = express();
 
 server.use(cors());
@@ -17,11 +18,13 @@ server.use(morgan("dev"));
 
 server.use("/", payment);
 server.use("/", pcfinal);
+server.use("/", deletePcRoute);
 server.use("/productos", createComponenteRoute);
-server.use("/", postDataRouter)
-server.use("/name", routeByName)
-server.use("/filter", dataFilterRouter)
-server.use("/producto", componentesRouter)
+server.use("/", postDataRouter);
+server.use("/name", routeByName);
+server.use("/filter", dataFilterRouter);
+server.use("/producto", componentesRouter);
+
 server.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Credentials", "true");

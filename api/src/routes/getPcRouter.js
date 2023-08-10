@@ -3,7 +3,7 @@ const { Router } = require('express');
 
 const pcfinal = Router();
 
-const getPC = require('../Controllers/getControllers/getPc');
+const getPC = require('../Controllers/getControllers/getPC');
 
 pcfinal.get("/pc", getPC);
 
