@@ -18,9 +18,9 @@ const createOrder = async (req, res) => {
         let preference = {
             items,
             back_urls: {
-                success: "http://localhost:5173/productos",
-                failure: "http://localhost:5173/productos",
-                pending: "http://localhost:5173/productos"
+                success: "http://localhost:5173/componentes",
+                failure: "http://localhost:5173/componentes",
+                pending: "http://localhost:5173/componentes"
             },
             auto_return: "approved",
         };
