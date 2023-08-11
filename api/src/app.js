@@ -11,6 +11,7 @@ const pcfinal = require('./routes/getPcRouter');
 const deletePcRoute = require("./routes/deletePcRoute");
 const payment = require('./routes/paymentRoutes');
 const getAllP = require('./routes/getAllProductsRoute');
+const reviewRouter = require("./routes/reviewsRouter");
 const server = express();
 
 mercadopago.configure({
@@ -31,6 +32,7 @@ server.use("/", postDataRouter);
 server.use("/name", routeByName);
 server.use("/filter", dataFilterRouter);
 server.use("/producto", componentesRouter);
+server.use("/review", reviewRouter)
 
 server.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
