@@ -1,37 +1,38 @@
 const mercadopago = require('mercadopago');
 
 const createOrder = async (req, res) => {
-    const { componentes } = req.body;
     try {
-        mercadopago.configure({
-            access_token: "TEST-2880484440735966-080916-e48fb7bf4c9ee3c40cf62f317ad08397-1446661070",
-        });
+        const { componentes } = req.body;
+        console.log(componentes);
+
+        if (!componentes || componentes.length === 0) {
+            return res.status(404).json({ error: "La data no llegó correctamente" });
+        }
+
+        const items = componentes.map(item => ({
+            title: item.title,
+            unit_price: item.unit_price,
+            quantity: item.quantity,
+        }));
+
         let preference = {
-            items: [],
+            items,
             back_urls: {
-                success: "http://localhost:3001/payment/success",
-                failure: "http://localhost:3001/payment/failure",
+                success: "http://localhost:5173/productos",
+                failure: "http://localhost:5173/productos",
+                pending: "http://localhost:5173/productos"
             },
+            auto_return: "approved",
         };
-        componentes.forEach((componente) => {
-            const { modelo, precio } = componente;
-            const cantidad = componentes.filter(comp => comp.modelo === modelo).length;
-            const item = {
-                title: modelo,
-                unit_price: precio * cantidad,
-                quantity: cantidad
-            };
-            preference.items.push(item);
-        });
+
         const response = await mercadopago.preferences.create(preference);
-        const { id } = response.body;
+        res.json({ id: response.body.id });
+        console.log(response.body.id)
 
-        res.status(200).json({ preferenceId: id });
     } catch (error) {
-        res.status(500).json({ error: 'Error creating the payment order' });
+        console.log(error);
+        res.status(500).json({ error: "Ha ocurrido un error en el servidor" });
     }
-
-
-};
+}
 
 module.exports = createOrder;
