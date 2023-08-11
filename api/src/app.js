@@ -13,13 +13,16 @@ const payment = require('./routes/paymentRoutes');
 const getAllP = require('./routes/getAllProductsRoute');
 const server = express();
 
+mercadopago.configure({
+  access_token: "TEST-2880484440735966-080916-e48fb7bf4c9ee3c40cf62f317ad08397-1446661070",
+});
 
 server.use(cors());
 server.use(express.json());
 server.use(morgan("dev"));
 
 
-server.use("/payment", payment);
+server.use("/", payment);
 server.use("/allproducts", getAllP);
 server.use("/", pcfinal);
 server.use("/", deletePcRoute);
