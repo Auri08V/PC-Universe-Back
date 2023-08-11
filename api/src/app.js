@@ -1,22 +1,26 @@
 const express = require("express");
 const morgan = require("morgan");
 const cors = require("cors");
+const mercadopago = require("mercadopago");
 const createComponenteRoute = require("./routes/getDataRoutes");
 const postDataRouter = require("./routes/postDataRouter");
 const routeByName = require("./routes/getDataByNameRoute");
 const dataFilterRouter = require("./routes/dataFilterRoute");
 const componentesRouter = require("./routes/dataByIdRouter");
 const pcfinal = require('./routes/getPcRouter');
-const payment = require('./routes/paymentRoutes');
 const deletePcRoute = require("./routes/deletePcRoute");
+const payment = require('./routes/paymentRoutes');
+const getAllP = require('./routes/getAllProductsRoute');
 const server = express();
+
 
 server.use(cors());
 server.use(express.json());
 server.use(morgan("dev"));
 
 
-server.use("/", payment);
+server.use("/payment", payment);
+server.use("/allproducts", getAllP);
 server.use("/", pcfinal);
 server.use("/", deletePcRoute);
 server.use("/productos", createComponenteRoute);

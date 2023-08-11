@@ -12,6 +12,10 @@ module.exports = (sequelize) => {
       type: DataTypes.ARRAY(DataTypes.INTEGER),
       allowNull: false,
     },
+    categorias: {
+      type: DataTypes.ARRAY(DataTypes.STRING),
+      allowNull: false,
+    },
     modelo: {
       type: DataTypes.ARRAY(DataTypes.STRING),
       allowNull: false,
