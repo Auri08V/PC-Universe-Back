@@ -1,34 +1,24 @@
-const { Perifericos, Componentes, PcFinal, Reviews, Users } = require("../db");
+const { Perifericos, Componentes, Reviews, Users } = require("../db");
 
-const createReviewService = async (rating, perifericoId, componenteId, pcFinalId, userId) => {
+const createReviewService = async (rating, perifericoId, componenteId, userId) => {
     try {
-        const [review, created] = await Reviews.findOrCreate({
-            where: { rating },
-            defaults: {}
-        });
+        const componentes = await Componentes.findByPk(componenteId)
+        const perifericos = await Perifericos.findByPk(perifericoId)
+        const users = await Users.findByPk(userId)
 
-        if (created) {
-            const [user, componentes, perifericos, pcFinal] = await Promise.all([
-                Users.findByPk(userId),
-                Componentes.findByPk(componenteId),
-                Perifericos.findByPk(perifericoId),
-                PcFinal.findByPk(pcFinalId)
-            ]);
+        const review = await Reviews.create({
+            rating,
 
-            if (user) await review.setUser(user);
-            if (componentes) await review.setComponentes(componentes);
-            if (perifericos) await review.setPerifericos(perifericos);
-            if (pcFinal) await review.setPcFinal(pcFinal);
+        })
 
-            return review;
-        } else {
-            console.log("La reseña ya existe");
-            return null;
-        }
+        await review.setUser(users)
+        await review.setComponente(componentes)
+        await review.setPeriferico(perifericos)
+        return review
     } catch (error) {
-        console.error("Error al crear una review", error);
-        return null;
+        console.error("Error en servicesReview", error)
     }
-};
+}
 
 module.exports = { createReviewService };
+

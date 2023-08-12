@@ -28,13 +28,23 @@ sequelize.models = Object.fromEntries(capsEntries);
 
 const { Componentes, Perifericos, PcFinal, Users, Reviews } = sequelize.models;
 
-sequelize.models.PcFinal.hasMany(sequelize.models.Reviews);
-sequelize.models.Componentes.hasMany(sequelize.models.Reviews);
-sequelize.models.Perifericos.hasMany(sequelize.models.Reviews);
-sequelize.models.Users.hasMany(sequelize.models.Reviews);
+
 
 Perifericos.hasMany(Componentes, { foreignKey: 'periferico_id' });
 Componentes.belongsTo(Perifericos, { foreignKey: 'periferico_id' });
+
+//Perifericos y review//
+Perifericos.hasMany(Reviews, { foreignKey: 'reviewsPerifericosId' });
+Reviews.belongsTo(Perifericos, { foreignKey: 'reviewsPerifericosId' });
+
+//Componentes y reviews//
+Componentes.hasMany(Reviews, { foreignKey: 'reviewsComponentesId' });
+Reviews.belongsTo(Componentes, { foreignKey: 'reviewsComponentesId' });
+
+//User y reviews//
+Users.hasMany(Reviews, { foreignKey: 'reviewsUserId' });
+Reviews.belongsTo(Users, { foreignKey: 'reviewsUserId' });
+
 
 PcFinal.hasMany(Componentes, { foreignKey: 'pc_final_id' });
 Componentes.belongsTo(PcFinal, { foreignKey: 'pc_final_id' });
