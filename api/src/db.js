@@ -26,9 +26,18 @@ let capsEntries = entries.map((entry) => [entry[0][0].toUpperCase() + entry[0].s
 sequelize.models = Object.fromEntries(capsEntries);
 
 
-const { Componentes, Perifericos, PcFinal, Users, Reviews } = sequelize.models;
+const { Componentes, Perifericos, PcFinal, Users, Reviews, Comentarios } = sequelize.models;
+
+Perifericos.hasMany(Comentarios, { foreignKey: 'comentariosPerifericosId' });
+Comentarios.belongsTo(Perifericos, { foreignKey: 'comentariosPerifericosId' });
+
+//Componentes y reviews//
+Componentes.hasMany(Comentarios, { foreignKey: 'comentariosComponentesId' });
+Comentarios.belongsTo(Componentes, { foreignKey: 'comentariosComponentesId' });
 
 
+Users.hasMany(Comentarios, { foreignKey: 'comentsUserId' });
+Comentarios.belongsTo(Users, { foreignKey: 'comentsUserId' });
 
 Perifericos.hasMany(Componentes, { foreignKey: 'periferico_id' });
 Componentes.belongsTo(Perifericos, { foreignKey: 'periferico_id' });
