@@ -3,9 +3,9 @@ const validator = require('validator');
 const bcrypt = require('bcrypt');
 
 const postUsers = async (req, res) => {
-    const { name, last_name, email, password, nick_name, city, postal_code, date_of_birth } = req.body;
+    const { name, last_name, email, password, city, postal_code, date_of_birth } = req.body;
     try {
-        if (!name || !last_name || !email || !password || !nick_name || !city || !postal_code || !date_of_birth) {
+        if (!name || !last_name || !email || !password || !city || !postal_code || !date_of_birth) {
             return res.status(404).json({ error: "missing data" })
         };
         const existingUser = await Users.findOne({ where: { email } });
@@ -26,10 +26,6 @@ const postUsers = async (req, res) => {
         if (!validator.isLength(name, { min: 4, max: 15 })) {
             return res.status(400).json({ error: "Name must be between 4 and 15 characters long" });
         }
-        // Validar longitud del nick_name
-        if (!validator.isLength(nick_name, { min: 1, max: 15 })) {
-            return res.status(400).json({ error: "El nick_name debe tener entre 1 y 15 caracteres" });
-        }
 
         // Validar longitud del last_name
         if (!validator.isLength(last_name, { min: 1, max: 255 })) {
@@ -46,14 +42,10 @@ const postUsers = async (req, res) => {
             return res.status(400).json({ error: "El postal_code debe tener entre 1 y 10 caracteres" });
         }
 
-        // Validar formato de la fecha de nacimiento
-        if (!validator.isDate(date_of_birth)) {
-            return res.status(400).json({ error: "Fecha de nacimiento inválida" });
-        }
         const hashedPass = await bcrypt.hash(password, 10);
 
-        await Users.create({ nick_name, name, last_name, email, password: hashedPass, city, postal_code, date_of_birth });
-        res.status(200).json({ message: "user created successfully!" })
+        const response = await Users.create({ name, last_name, email, password: hashedPass, city, postal_code, date_of_birth });
+        res.status(200).json(response)
     } catch (error) {
         res.status(500).json({ error: error.message });
     }

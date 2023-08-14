@@ -9,15 +9,11 @@ module.exports = (sequelize) => {
             autoIncrement: true,
             allowNull: false,
         },
-        nick_name:{
-            type: DataTypes.STRING(15),
-            allowNull: false
-        },
         name: {
             type: DataTypes.STRING,
             allowNull: false
         },
-        last_name:{
+        last_name: {
             type: DataTypes.STRING,
             allowNull: false
         },
@@ -30,18 +26,18 @@ module.exports = (sequelize) => {
         password: {
             type: DataTypes.TEXT,
             allowNull: false,
-             },
-        city:{
+        },
+        city: {
             type: DataTypes.STRING,
             allowNull: false
         },
-        postal_code:{
-            type:DataTypes.INTEGER,
-            allowNull:false
+        postal_code: {
+            type: DataTypes.INTEGER,
+            allowNull: false
         },
-        date_of_birth:{
-            type : DataTypes.DATEONLY,
-            allowNull:false,
+        date_of_birth: {
+            type: DataTypes.STRING,
+            allowNull: false,
         }
     });
 };
