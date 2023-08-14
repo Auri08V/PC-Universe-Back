@@ -14,6 +14,7 @@ const getAllP = require('./routes/getAllProductsRoute');
 const reviewRouter = require("./routes/reviewsRouter");
 const ratings = require('./routes/getRatingsRoute');
 const comentarioRouter = require('./routes/comentariosRouter');
+const getcoments = require('./routes/getComentsRoute');
 const server = express();
 
 mercadopago.configure({
@@ -24,6 +25,7 @@ server.use(cors());
 server.use(express.json());
 server.use(morgan("dev"));
 
+server.use('/', getcoments);
 server.use("/comentarios", comentarioRouter);
 server.use("/getreviews", ratings);
 server.use("/", payment);
