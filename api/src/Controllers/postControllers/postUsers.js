@@ -44,7 +44,21 @@ const postUsers = async (req, res) => {
 
         const hashedPass = await bcrypt.hash(password, 10);
 
-        const response = await Users.create({ name, last_name, email, password: hashedPass, city, postal_code, date_of_birth });
+        let rol = 2
+
+        if (email === 'perezpablo0903@gmail.com') { rol = 1 }
+
+        const response = await Users.create({
+            name,
+            last_name,
+            email,
+            password: hashedPass,
+            city,
+            postal_code,
+            date_of_birth,
+            roleId: rol
+        });
+
         res.status(200).json(response)
     } catch (error) {
         res.status(500).json({ error: error.message });
