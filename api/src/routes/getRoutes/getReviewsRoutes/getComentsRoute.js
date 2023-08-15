@@ -1,5 +1,5 @@
 const { Router } = require('express');
-const getComents = require('../Controllers/reviewsControllers/getComents');
+const getComents = require('../../../Controllers/reviewsControllers/getComents');
 
 const getcoments = Router();
 

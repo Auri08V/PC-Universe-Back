@@ -1,8 +1,8 @@
-const { getAllComponentesT } = require("../Controllers/componentesController");
+const { getAllComponentesT } = require("../../../Controllers/componentesController");
 
 const { Router } = require("express");
 const componentesRouter = Router();
-componentesRouter.get("/:id", async (req, res) => {
+componentesRouter.get("/producto/:id", async (req, res) => {
   const id = req.params.id;
   const allComponentes = await getAllComponentesT();
   try {
