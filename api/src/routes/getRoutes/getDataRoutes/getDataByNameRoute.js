@@ -2,11 +2,11 @@ const { Router } = require('express');
 
 const {
     getDataByName,
-} = require("../Controllers/getControllers/getDataByNameControllers");
+} = require("../../../Controllers/getControllers/getDataByNameControllers");
 
 const routeByName = Router()
 
 
-routeByName.get("/", getDataByName);
+routeByName.get("/name", getDataByName);
 
 module.exports = routeByName;

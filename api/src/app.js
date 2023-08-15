@@ -2,20 +2,21 @@ const express = require("express");
 const morgan = require("morgan");
 const cors = require("cors");
 const mercadopago = require("mercadopago");
-const createComponenteRoute = require("./routes/getDataRoutes");
-const postDataRouter = require("./routes/postDataRouter");
-const routeByName = require("./routes/getDataByNameRoute");
-const dataFilterRouter = require("./routes/dataFilterRoute");
-const componentesRouter = require("./routes/dataByIdRouter");
-const pcfinal = require('./routes/getPcRouter');
-const deletePcRoute = require("./routes/deletePcRoute");
-const payment = require('./routes/paymentRoutes');
-const getAllP = require('./routes/getAllProductsRoute');
-const reviewRouter = require("./routes/reviewsRouter");
-const ratings = require('./routes/getRatingsRoute');
-const comentarioRouter = require('./routes/comentariosRouter');
-const getcoments = require('./routes/getComentsRoute');
-const postuser = require('./routes/postUserRoute');
+const createComponenteRoute = require("./routes/getRoutes/getDataRoutes/getDataRoutes");
+const postpcR = require("./routes/postRoutes/postDataRoutes/postDataRouter");
+const routeByName = require("./routes/getRoutes/getDataRoutes/getDataByNameRoute");
+const dataFilterRouter = require("./routes/getRoutes/getDataRoutes/dataFilterRoute");
+const componentesRouter = require("./routes/getRoutes/getDataRoutes/dataByIdRouter");
+const pcfinal = require('./routes/getRoutes/getDataRoutes/getPcRouter');
+const deletePcRoute = require("./routes/deleteRoutes/deletePcRoute");
+const payment = require('./routes/getRoutes/paymentRoutes');
+const getAllP = require('./routes/getRoutes/getDataRoutes/getAllProductsRoute');
+const reviewRouter = require("./routes/postRoutes/postReviewsRoutes/reviewsRouter");
+const ratings = require('./routes/getRoutes/getReviewsRoutes/getRatingsRoute');
+const comentarioRouter = require('./routes/postRoutes/postReviewsRoutes/comentariosRouter');
+const getcoments = require('./routes/getRoutes/getReviewsRoutes/getComentsRoute');
+const postuser = require('./routes/postRoutes/usersRoutes/postUserRoute');
+const loginR = require('./routes/postRoutes/usersRoutes/loginRoute');
 const server = express();
 
 mercadopago.configure({
@@ -26,20 +27,21 @@ server.use(cors());
 server.use(express.json());
 server.use(morgan("dev"));
 
+server.use('/', loginR);
 server.use('/', postuser);
 server.use('/', getcoments);
-server.use("/comentarios", comentarioRouter);
-server.use("/getreviews", ratings);
+server.use("/", comentarioRouter);
+server.use("/", ratings);
 server.use("/", payment);
-server.use("/allproducts", getAllP);
+server.use("/", getAllP);
 server.use("/", pcfinal);
 server.use("/", deletePcRoute);
-server.use("/productos", createComponenteRoute);
-server.use("/", postDataRouter);
-server.use("/name", routeByName);
-server.use("/filter", dataFilterRouter);
-server.use("/producto", componentesRouter);
-server.use("/review", reviewRouter)
+server.use("/", createComponenteRoute);
+server.use("/", postpcR);
+server.use("/", routeByName);
+server.use("/", dataFilterRouter);
+server.use("/", componentesRouter);
+server.use("/", reviewRouter)
 
 server.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
