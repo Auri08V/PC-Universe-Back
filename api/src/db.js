@@ -2,8 +2,11 @@ require('dotenv').config();
 const { Sequelize } = require('sequelize');
 const fs = require('fs');
 const path = require('path');
+const {
+  DB_USER, DB_PASSWORD, DB_HOST,
+} = process.env;
 
-const sequelize = new Sequelize(`postgres://postgres:45075@localhost/pcuniverse`, {
+const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/pcuniverse`, {
   logging: false, // set to console.log to see the raw SQL queries
   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
 });
@@ -26,7 +29,9 @@ let capsEntries = entries.map((entry) => [entry[0][0].toUpperCase() + entry[0].s
 sequelize.models = Object.fromEntries(capsEntries);
 
 
-const { Componentes, Perifericos, PcFinal, Users, Reviews, Comentarios } = sequelize.models;
+const { Componentes, Perifericos, PcFinal, Users, Reviews, Comentarios, Roles } = sequelize.models;
+
+Users.belongsTo(Roles, { foreignKey: 'roleId' });
 
 Perifericos.hasMany(Comentarios, { foreignKey: 'comentariosPerifericosId' });
 Comentarios.belongsTo(Perifericos, { foreignKey: 'comentariosPerifericosId' });
