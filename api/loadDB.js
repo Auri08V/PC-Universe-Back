@@ -1,4 +1,4 @@
-const { Componentes, Perifericos } = require('./src/db');
+const { Componentes, Perifericos, Roles } = require('./src/db');
 const loadDB = async () => {
     const DBcomponents = await Componentes.findAll();
     const DBperifericos = await Perifericos.findAll();
@@ -41,6 +41,13 @@ const loadDB = async () => {
                     defaults: dataApiP[j],
                 });
             };
+
+            await Roles.sync({ force: true });
+            await Roles.bulkCreate([
+                { role: 'admin' },
+                { role: 'user' },
+
+            ]);
             console.log("the data has been successfully saved");
         } catch (err) {
             console.error("Error loading data:", err);
