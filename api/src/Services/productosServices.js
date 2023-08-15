@@ -17,6 +17,4 @@ const getAllComponents = async (page, pageSize) => {
   }
 };
 
-
-
 module.exports = { getAllComponents };

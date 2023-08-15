@@ -18,6 +18,8 @@ const comentarioRouter = require('./routes/postRoutes/postReviewsRoutes/comentar
 const getcoments = require('./routes/getRoutes/getReviewsRoutes/getComentsRoute');
 const postuser = require('./routes/postRoutes/usersRoutes/postUserRoute');
 const loginR = require('./routes/postRoutes/usersRoutes/loginRoute');
+const users = require('./routes/getRoutes/getUsersRoute');
+const stock = require('./routes/putRoutes/putStockRoute');
 const server = express();
 
 mercadopago.configure({
@@ -28,13 +30,15 @@ server.use(cors());
 server.use(express.json());
 server.use(morgan("dev"));
 
+server.use('/', stock);
+server.use('/', users);
 server.use('/', loginR);
 server.use('/', postuser);
 server.use('/', getcoments);
 server.use("/", comentarioRouter);
 server.use("/", ratings);
 server.use("/", payment);
-server.use("/", requireRole(1), getAllP);
+server.use("/", getAllP);
 server.use("/", pcfinal);
 server.use("/", deletePcRoute);
 server.use("/", createComponenteRoute);
