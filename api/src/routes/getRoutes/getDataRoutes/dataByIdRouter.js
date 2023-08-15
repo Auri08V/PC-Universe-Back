@@ -1,22 +1,9 @@
-const { getAllComponentesT } = require("../../../Controllers/componentesController");
+const Router = require("express")
 
-const { Router } = require("express");
+const getById = require("../../../Controllers/getControllers/getById");
+
 const componentesRouter = Router();
-componentesRouter.get("/producto/:id", async (req, res) => {
-  const id = req.params.id;
-  const allComponentes = await getAllComponentesT();
-  try {
-    if (id) {
-      const componenteId = allComponentes.find(
-        (componente) => componente.id == id
-      );
-      componenteId
-        ? res.status(200).send(componenteId)
-        : res.status(404).json("Componente not found");
-    }
-  } catch (error) {
-    return res.status(404).send(error.message);
-  }
-});
+
+componentesRouter.get("/producto/:id", getById)
 
 module.exports = componentesRouter;
