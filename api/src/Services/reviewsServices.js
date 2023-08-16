@@ -1,6 +1,6 @@
 const { Perifericos, Componentes, Reviews, Users } = require("../db");
 
-const createReviewService = async (rating, perifericoId, componenteId, userId) => {
+const createReviewService = async (rating, perifericoId, componenteId, userId,opinion) => {
     try {
         const componentes = await Componentes.findByPk(componenteId)
         const perifericos = await Perifericos.findByPk(perifericoId)
@@ -8,6 +8,7 @@ const createReviewService = async (rating, perifericoId, componenteId, userId) =
 
         const review = await Reviews.create({
             rating,
+            opinion
 
         })
 
