@@ -46,7 +46,7 @@ const postUsers = async (req, res) => {
 
         let rol = 2
 
-        if (email === 'perezpablo0903@gmail.com') { rol = 1 }
+        if (email === 'somospixis123@gmail.com') { rol = 1 }
 
         const response = await Users.create({
             name,
