@@ -1,4 +1,5 @@
 const mercadopago = require('mercadopago');
+const { PaymentRecords, Users } = require('../../db')
 
 const createOrder = async (req, res) => {
     try {
@@ -24,6 +25,14 @@ const createOrder = async (req, res) => {
             },
             auto_return: "approved",
         };
+
+        const { userId, amount } = req.body;
+        const paymentRecord = await PaymentRecords.create({ amount, products: componentes });
+
+        const user = await Users.findByPk(userId);
+        if (user) {
+            await user.setPaymentRecords(paymentRecord)
+        }
 
         const response = await mercadopago.preferences.create(preference);
         res.json({ id: response.body.id });
