@@ -17,4 +17,56 @@ const getAllComponents = async (page, pageSize) => {
   }
 };
 
-module.exports = { getAllComponents };
+
+const deleteProductService = async (id) => {
+  try {
+    const componente = await Componentes.findByPk(id);
+    const periferico = await Perifericos.findByPk(id);
+
+    if (componente) {
+      await componente.update({ ocultar: true });
+    }
+
+    if (periferico) {
+      await periferico.update({ ocultar: true });
+    }
+
+    return {
+      componente,
+      periferico,
+    };
+  } catch (error) {
+    console.log("Error al borrar un producto (services)", error);
+    throw error;
+  }
+};
+
+const reverDeleteProductService = async (id) => {
+  try {
+    const componente = await Componentes.findByPk(id);
+    const periferico = await Perifericos.findByPk(id);
+
+    if (componente) {
+      await componente.update({ ocultar: false });
+    }
+
+    if (periferico) {
+      await periferico.update({ ocultar: false });
+    }
+
+    return {
+      componente,
+      periferico,
+    };
+  } catch (error) {
+    console.log("Error al actualizar un producto (services)", error);
+    throw error;
+  }
+};
+
+
+
+
+
+
+module.exports = { getAllComponents,reverDeleteProductService,deleteProductService};
