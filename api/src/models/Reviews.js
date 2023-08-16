@@ -8,8 +8,14 @@ module.exports = (sequelize) => {
         },
 
         rating: {
-            type: DataTypes.ENUM("1", "2", "3", "4", "5")
+            type: DataTypes.INTEGER,
+            allowNull: false,
         },
+
+        opinion: {
+            type: DataTypes.STRING,
+            allowNull: false
+        }
 
     })
 };

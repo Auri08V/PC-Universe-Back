@@ -1,10 +1,10 @@
 const { createReviewService } = require("../../Services/reviewsServices");
 
 const createReviewController = async (req, res) => {
-    const { rating, userId, perifericoId, componenteId } = req.body;
+    const { rating, userId, perifericoId, componenteId,opinion } = req.body;
 
     try {
-        const review = await createReviewService(rating, perifericoId, componenteId, userId);
+        const review = await createReviewService(rating, perifericoId, componenteId, userId,opinion);
 
         if (review) {
             res.status(200).json(review);
