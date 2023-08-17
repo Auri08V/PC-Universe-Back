@@ -20,6 +20,7 @@ const loginR = require('./routes/postRoutes/usersRoutes/loginRoute');
 const users = require('./routes/getRoutes/getUsersRoute');
 const stock = require('./routes/putRoutes/putStockRoute');
 const role = require('./routes/putRoutes/putRoleRoute');
+const price = require('./routes/putRoutes/putPriceRoute');
 const server = express();
 
 mercadopago.configure({
@@ -30,7 +31,8 @@ server.use(cors());
 server.use(express.json());
 server.use(morgan("dev"));
 
-server.use('/', role)
+server.use('/', price);
+server.use('/', role);
 server.use('/', stock);
 server.use('/', users);
 server.use('/', loginR);
