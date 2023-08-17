@@ -18,7 +18,7 @@ const requireRole = (role) => async (req, res, next) => {
         if (user.roleId !== role) {
             return res.status(403).json({ message: 'Insufficient permissions' });
         }
-        req.user = user;
+        req.userId = decoded.userId;
         next();
     } catch (error) {
         res.status(500).json({ message: 'Token is not valid' });

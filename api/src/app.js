@@ -2,7 +2,6 @@ const express = require("express");
 const morgan = require("morgan");
 const cors = require("cors");
 const mercadopago = require("mercadopago");
-const requireRole = require('./middlewares/requireRole');
 const createComponenteRoute = require("./routes/getRoutes/getDataRoutes/getDataRoutes");
 const postpcR = require("./routes/postRoutes/postDataRoutes/postDataRouter");
 const routeByName = require("./routes/getRoutes/getDataRoutes/getDataByNameRoute");
@@ -31,7 +30,7 @@ server.use(cors());
 server.use(express.json());
 server.use(morgan("dev"));
 
-server.use('/', role);
+server.use('/', role)
 server.use('/', stock);
 server.use('/', users);
 server.use('/', loginR);
