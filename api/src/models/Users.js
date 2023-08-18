@@ -38,6 +38,10 @@ module.exports = (sequelize) => {
         date_of_birth: {
             type: DataTypes.STRING,
             allowNull: false,
+        },
+        payments: {
+            type: DataTypes.ARRAY(DataTypes.INTEGER),
+            allowNull: true
         }
     });
 };
