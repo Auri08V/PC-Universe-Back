@@ -36,10 +36,16 @@ const createOrder = async (req, res) => {
         if (!paymentRecord) {
             res.status(404).json({ error: "error al crear registro de pago" })
         }
+
         console.log(paymentRecord);
+
         const user = await Users.findByPk(userId);
         if (user) {
             await user.setPaymentRecords(paymentRecord)
+
+            await user.update({
+                payments: paymentRecord.id
+            });
         }
 
         const response = await mercadopago.preferences.create(preference);
