@@ -9,7 +9,8 @@ const dataFilterRouter = require("./routes/getRoutes/getDataRoutes/dataFilterRou
 const componentesRouter = require("./routes/getRoutes/getDataRoutes/dataByIdRouter");
 const pcfinal = require('./routes/getRoutes/getDataRoutes/getPcRouter');
 const deletePcRoute = require("./routes/deleteRoutes/deletePcRoute");
-const payment = require('./routes/getRoutes/paymentRoutes');
+const payment = require('./routes/getRoutes/paymentsRoutes/paymentRoutes');
+const getpayment = require('./routes/getRoutes/paymentsRoutes/getPRecordsRoute');
 const getAllP = require('./routes/getRoutes/getDataRoutes/getAllProductsRoute');
 const reviewRouter = require("./routes/postRoutes/postReviewsRoutes/reviewsRouter");
 const ratings = require('./routes/getRoutes/getReviewsRoutes/getRatingsRoute');
@@ -31,6 +32,7 @@ server.use(cors());
 server.use(express.json());
 server.use(morgan("dev"));
 
+server.use('/', getpayment);
 server.use('/', price);
 server.use('/', role);
 server.use('/', stock);
