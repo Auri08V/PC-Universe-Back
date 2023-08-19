@@ -6,6 +6,7 @@ module.exports = (sequelize) => {
       primaryKey: true,
       unique: true,
       allowNull: false,
+      autoIncrement: true,
     },
     tipo: {
       type: DataTypes.STRING,
@@ -34,6 +35,10 @@ module.exports = (sequelize) => {
     categoria: {
       type: DataTypes.STRING,
       allowNull: false
+    },
+    ocultar:{
+      type:DataTypes.BOOLEAN,
+      defaultValue: false,
     }
   });
 };
