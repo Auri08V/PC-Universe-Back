@@ -65,8 +65,53 @@ const reverDeleteProductService = async (id) => {
 };
 
 
+const createdComponentService = async (modelo, especificaciones, precio, stock, img, categoria, cantidad,) => {
+  try {
+
+    const minIdValue = 81;
+    const maxIdValue = 1000000
+    const randomId = Math.floor(Math.random() * (maxIdValue - minIdValue + 1)) + minIdValue;
+    const componente = await Componentes.create({
+      id: randomId,
+      modelo,
+      especificaciones,
+      precio,
+      stock,
+      img,
+      categoria,
+      cantidad,
+    });
+    return { componente };
+  } catch (error) {
+    console.error("Error al crear el componente(services)", error);
+    throw error;
+  }
+};
+
+const createdPerifericosService = async (modelo, especificaciones, precio, stock, img, categoria, cantidad, tipo) => {
+  try {
+    const minIdValue = 81;
+    const maxIdValue = 1000000;
+    const randomId = Math.floor(Math.random() * (maxIdValue - minIdValue + 1)) + minIdValue;
+    const periferico = await Perifericos.create({
+      id: randomId,
+      modelo,
+      especificaciones,
+      precio,
+      stock,
+      img,
+      categoria,
+      cantidad,
+      tipo,
+    })
+    return { periferico };
+
+  } catch (error) {
+    console.error("Error al crear el periferico(services)", error);
+    throw error;
+  }
+
+}
 
 
-
-
-module.exports = { getAllComponents,reverDeleteProductService,deleteProductService};
+module.exports = { getAllComponents, reverDeleteProductService, deleteProductService, createdComponentService, createdPerifericosService };

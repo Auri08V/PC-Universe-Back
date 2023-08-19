@@ -5,7 +5,9 @@ module.exports = (sequelize) => {
       type: DataTypes.INTEGER,
       primaryKey: true,
       unique: true,
-      allowNull: false,
+
+      autoIncrement: true,
+
     },
     modelo: {
       type: DataTypes.STRING,
@@ -34,6 +36,10 @@ module.exports = (sequelize) => {
     cantidad: {
       type: DataTypes.INTEGER,
       allowNull: true
+    },
+    ocultar:{
+      type:DataTypes.BOOLEAN,
+      defaultValue: false,
     }
   });
 

@@ -1,6 +1,8 @@
 const express = require("express");
 const morgan = require("morgan");
 const cors = require("cors");
+const fileUpload = require("express-fileupload")
+
 const mercadopago = require("mercadopago");
 const createComponenteRoute = require("./routes/getRoutes/getDataRoutes/getDataRoutes");
 const postpcR = require("./routes/postRoutes/postDataRoutes/postDataRouter");
@@ -20,6 +22,7 @@ const postuser = require('./routes/postRoutes/usersRoutes/postUserRoute');
 const loginR = require('./routes/postRoutes/usersRoutes/loginRoute');
 const users = require('./routes/getRoutes/getUsersRoute');
 const stock = require('./routes/putRoutes/putStockRoute');
+const newProduct = require("./routes/postRoutes/postDataRoutes/postNewProduct")
 const role = require('./routes/putRoutes/putRoleRoute');
 const price = require('./routes/putRoutes/putPriceRoute');
 const server = express();
@@ -30,6 +33,10 @@ mercadopago.configure({
 
 server.use(cors());
 server.use(express.json());
+server.use(fileUpload({
+  useTempFiles: true,
+  tempFileDir: '/uploads'
+}));
 server.use(morgan("dev"));
 
 server.use('/', getpayment);
@@ -52,6 +59,7 @@ server.use("/", routeByName);
 server.use("/", dataFilterRouter);
 server.use("/", componentesRouter);
 server.use("/", reviewRouter)
+server.use("/", newProduct)
 
 server.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
