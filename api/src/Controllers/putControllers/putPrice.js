@@ -46,14 +46,15 @@ const putPrice = async (req, res) => {
         No te pierdas esta increíble oportunidad para mejorar tu experiencia tecnológica al mejor precio. 😍
     </p>
 
-    <h2 style="color: #aa00ff;">💥 la oferta de la semana es del  ${item.modelo} 💥</h2>
-
-    <p style="font-size: 16px; color: #333; margin: 20px 0;">
-        ¿Qué hace que el ${item.modelo} sea una elección asombroso?
-    </p>
-    <p style="font-size: 16px; color: #333; margin: 20px 0;"> TAN SOLO MIRALO!🤩🤩</p>
-     
-    <img src="${item.img}"  width="400" height="300" style="display: block; margin: 0 auto; max-width: 100%; height: auto;">
+    <h2 style="font-size: 16px; color: #333; margin: 20px 0;">
+        ¿Qué hace que el ${item.modelo} sea una elección asombrosa?
+    </h2>
+    <h1 style="font-size: 16px; color: #aa00ff; margin: 20px 0;"> TAN SOLO MIRALO!🤩🤩</h1>
+    <div style="display: block; margin: 0 auto; text-align: center;">
+    <div style="border: 10px solid #aa00ff; border-radius: 20px; padding: 10px; display: inline-block;">
+        <img src="${item.img}" width="400" height="300" style="max-width: 100%; height: auto;">
+    </div>
+</div>
 
     <p style="font-size: 18px; color: #333; margin-top: 30px;">
 
@@ -64,11 +65,6 @@ const putPrice = async (req, res) => {
     <p style="font-size: 16px; color: #333;">
         ⏳ ¡No pierdas tiempo! ¡Esta oferta expira pronto! ⏳
     </p>
-
-    <p style="font-size: 18px; color: #aa00ff; margin-top: 30px;">
-        ¡Actualiza tu configuración y lleva tu experiencia tecnológica al máximo con el TurboMax 5000!
-    </p>
-
     <p style="font-size: 18px; color: #333; margin-top: 30px;">
         <strong>Compra ahora ➡️ <a href="http://127.0.0.1:5173/componentes/${item.id}" style="color: #aa00ff; text-decoration: none;">Enlace de Compra</a></strong>
     </p>
