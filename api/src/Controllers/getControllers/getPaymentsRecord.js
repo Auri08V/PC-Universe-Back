@@ -1,22 +1,36 @@
-const { PaymentRecords } = require('../../db');
+const { PaymentRecords, Users } = require('../../db');
 
 const getPaymentsRecord = async (req, res) => {
 
     try {
+        const payments = await PaymentRecords.findAll();
 
-        const response = await PaymentRecords.findAll();
+        if (!payments.length === 0) return res.status(404).json({ error: "Records not found" });
 
-        if (!response.length === 0) return res.status(404).json({ error: "Records not found" })
+        const userIds = payments.map(payment => payment.userId);
+        
+        const users = await Users.findAll({
+            where: {
+                id: userIds,
+            },
+        });
 
-        const amountTotal = response.reduce((total, record) => total + record.amount, 0);
+        const amountTotal = payments.reduce((total, record) => total + record.amount, 0);
 
-        const responseData = {
-            response,
-            amountTotal
-        }
+        const responseData = payments.map(payment => {
+            const user = users.find(user => user.id === payment.userId);
 
+            if (user && user.name) {
+                return {
+                    ...payment,
+                    userId: user.name,
+                };
+            } else {
+                return payment;
+            }
+        });
 
-        res.status(200).json(responseData)
+        res.status(200).json({ response: responseData, amountTotal });
     } catch (error) {
         res.status(500).json({ error: "Error in getPaymentsRecord.js" })
     }
