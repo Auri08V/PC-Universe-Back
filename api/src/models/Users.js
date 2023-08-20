@@ -11,11 +11,11 @@ module.exports = (sequelize) => {
         },
         name: {
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: true
         },
         last_name: {
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: true
         },
         email: {
             type: DataTypes.STRING,
@@ -29,18 +29,18 @@ module.exports = (sequelize) => {
         },
         city: {
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: true
         },
         postal_code: {
             type: DataTypes.INTEGER,
-            allowNull: false
+            allowNull: true
         },
         date_of_birth: {
             type: DataTypes.STRING,
-            allowNull: false,
+            allowNull: true,
         },
-        payments: {
-            type: DataTypes.ARRAY(DataTypes.INTEGER),
+        auth0: {
+            type: DataTypes.BOOLEAN,
             allowNull: true
         }
     });

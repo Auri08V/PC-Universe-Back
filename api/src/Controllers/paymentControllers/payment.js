@@ -3,8 +3,9 @@ const { PaymentRecords, Users } = require('../../db')
 
 const createOrder = async (req, res) => {
     try {
-        const { componentes, userId } = req.body;
+        const { componentes, user } = req.body;
         console.log(componentes);
+        console.log(user);
 
         if (!componentes || componentes.length === 0) {
             return res.status(404).json({ error: "La data no llegó correctamente" });
@@ -39,13 +40,14 @@ const createOrder = async (req, res) => {
 
         console.log(paymentRecord);
 
-        const user = await Users.findByPk(userId);
-        if (user) {
-            await user.setPaymentRecords(paymentRecord)
-
-            await user.update({
-                payments: paymentRecord.id
-            });
+        const findedUser = await Users.findOne({
+            where: {
+                email: user.email
+            }
+        });
+        console.log(findedUser);
+        if (findedUser) {
+            await findedUser.setPaymentRecords(paymentRecord)
         }
 
         const response = await mercadopago.preferences.create(preference);
