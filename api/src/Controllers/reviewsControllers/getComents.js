@@ -1,6 +1,6 @@
 const { Comentarios, } = require("../../db");
 
-const getAllComentearios = async (req, res) => {
+const getComents = async (req, res) => {
     const { commentPerifericoId, commentComponenteId } = req.query;
     try {
         let response
@@ -23,4 +23,4 @@ const getAllComentearios = async (req, res) => {
         res.status(400).json({ error: error.message })
     }
 };
-module.exports = getAllComentearios
+module.exports = getComents;

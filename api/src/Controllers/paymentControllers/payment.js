@@ -3,12 +3,18 @@ const { PaymentRecords, Users } = require('../../db')
 
 const createOrder = async (req, res) => {
     try {
-        const { componentes } = req.body;
+        const { componentes, userId } = req.body;
         console.log(componentes);
 
         if (!componentes || componentes.length === 0) {
             return res.status(404).json({ error: "La data no llegó correctamente" });
         }
+
+        const amount = componentes.reduce((total, item) => total + item.unit_price, 0);
+
+        const products = componentes.map(item => item.title);
+        console.log(products);
+        console.log(amount);
 
         const items = componentes.map(item => ({
             title: item.title,
@@ -26,12 +32,20 @@ const createOrder = async (req, res) => {
             auto_return: "approved",
         };
 
-        const { userId, amount } = req.body;
-        const paymentRecord = await PaymentRecords.create({ amount, products: componentes });
+        const paymentRecord = await PaymentRecords.create({ amount, products });
+        if (!paymentRecord) {
+            res.status(404).json({ error: "error al crear registro de pago" })
+        }
+
+        console.log(paymentRecord);
 
         const user = await Users.findByPk(userId);
         if (user) {
             await user.setPaymentRecords(paymentRecord)
+
+            await user.update({
+                payments: paymentRecord.id
+            });
         }
 
         const response = await mercadopago.preferences.create(preference);
@@ -40,7 +54,7 @@ const createOrder = async (req, res) => {
 
     } catch (error) {
         console.log(error);
-        res.status(500).json({ error: "Ha ocurrido un error en el servidor" });
+        res.status(500).json({ error: "Ha ocurrido un error en payment.js" });
     }
 }
 
