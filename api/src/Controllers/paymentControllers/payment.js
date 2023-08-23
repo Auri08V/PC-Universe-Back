@@ -26,9 +26,9 @@ const createOrder = async (req, res) => {
         let preference = {
             items,
             back_urls: {
-                success: "http://localhost:5173/componentes",
-                failure: "http://localhost:5173/componentes",
-                pending: "http://localhost:5173/componentes"
+                success: "https://64e613d3d133fb17d14c9c38--lucky-crumble-22fa62.netlify.app/",
+                failure: "https://64e613d3d133fb17d14c9c38--lucky-crumble-22fa62.netlify.app/",
+                pending: "https://64e613d3d133fb17d14c9c38--lucky-crumble-22fa62.netlify.app/"
             },
             auto_return: "approved",
         };
