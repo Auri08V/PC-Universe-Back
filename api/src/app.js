@@ -3,6 +3,8 @@ const morgan = require("morgan");
 const cors = require("cors");
 const fileUpload = require("express-fileupload")
 
+
+const  userAuth0 = require ("./routes/postRoutes/usersRoutes/userAuth0")
 const mercadopago = require("mercadopago");
 const createComponenteRoute = require("./routes/getRoutes/getDataRoutes/getDataRoutes");
 const postpcR = require("./routes/postRoutes/postDataRoutes/postDataRouter");
@@ -38,7 +40,7 @@ server.use(fileUpload({
   tempFileDir: '/uploads'
 }));
 server.use(morgan("dev"));
-
+server.use("/",userAuth0)
 server.use('/', getpayment);
 server.use('/', price);
 server.use('/', role);
