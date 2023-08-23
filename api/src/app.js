@@ -30,7 +30,7 @@ const price = require('./routes/putRoutes/putPriceRoute');
 const server = express();
 
 mercadopago.configure({
-  access_token: "TEST-2880484440735966-080916-e48fb7bf4c9ee3c40cf62f317ad08397-1446661070",
+  access_token: "APP_USR-71225160113338-082316-fa9e5dfa966ae6e9615a885aff7f5f34-300692055",
 });
 
 server.use(cors());

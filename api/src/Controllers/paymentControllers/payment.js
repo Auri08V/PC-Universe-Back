@@ -26,9 +26,9 @@ const createOrder = async (req, res) => {
         let preference = {
             items,
             back_urls: {
-                success: "https://64e613d3d133fb17d14c9c38--lucky-crumble-22fa62.netlify.app/",
-                failure: "https://64e613d3d133fb17d14c9c38--lucky-crumble-22fa62.netlify.app/",
-                pending: "https://64e613d3d133fb17d14c9c38--lucky-crumble-22fa62.netlify.app/"
+                success: "https://64e6720486de4d007837410b--glowing-cucurucho-f62754.netlify.app/",
+                failure: "https://64e6720486de4d007837410b--glowing-cucurucho-f62754.netlify.app/",
+                pending: "https://64e6720486de4d007837410b--glowing-cucurucho-f62754.netlify.app/"
             },
             auto_return: "approved",
         };
