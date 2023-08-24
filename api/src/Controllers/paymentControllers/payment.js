@@ -26,9 +26,9 @@ const createOrder = async (req, res) => {
         let preference = {
             items,
             back_urls: {
-                success: "https://64e6720486de4d007837410b--glowing-cucurucho-f62754.netlify.app/",
-                failure: "https://64e6720486de4d007837410b--glowing-cucurucho-f62754.netlify.app/",
-                pending: "https://64e6720486de4d007837410b--glowing-cucurucho-f62754.netlify.app/"
+                success: "https://pc-universe.vercel.app/",
+                failure: "https://pc-universe.vercel.app/",
+                pending: "https://pc-universe.vercel.app/"
             },
             auto_return: "approved",
         };
