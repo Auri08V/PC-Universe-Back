@@ -35,10 +35,7 @@ mercadopago.configure({
 
 server.use(cors());
 server.use(express.json());
-server.use(fileUpload({
-  useTempFiles: true,
-  tempFileDir: '/uploads'
-}));
+
 server.use(morgan("dev"));
 server.use("/",userAuth0)
 server.use('/', getpayment);
